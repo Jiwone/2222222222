@@ -1,0 +1,1116 @@
+@charset "utf-8";
+.lnbWrapV15 {float:left; z-index:50;}
+.lnbWrapV15 ul {width:100%; z-index:50;}
+.lnbWrapV15 ul li {position:relative; z-index:60;}
+.lnbWrapV15 ul li:hover {cursor:pointer; color:#000; background-color:#f2f2f2;}
+.lnbWrapV15 ul li a {display:block;}
+.lnbWrapV15 ul li a:hover {color:#000; background-color:#f2f2f2; text-decoration:none;}
+.lnbWrapV15 ul li a img {margin-top:4px;}
+.lnbV15 {padding:22px 0 10px 0;}
+.lnbV15 li a {padding:5px 20px 4px 20px; color:#555;}
+.lnbV15 li.selected a, .lnbV15 li.selected a:hover {color:#d50c0c; font-weight:bold;}
+.addLnbV15 {border-top:1px solid #ddd; padding-top:10px;}
+.addLnbV15 li {font-family:verdana, tahoma, sans-serif; font-weight:bold; font-size:12px;}
+.addLnbV15 li a {padding:5px 35px; color:#222; background:url(http://fiximage.10x10.co.kr/web2015/common/blt06.png) 20px 50% no-repeat; }
+.lnbLyrWrapV15 {display:none; position:absolute; left:195px; top:-13px; width:220px; padding:7px 0 0 6px; background:url(http://fiximage.10x10.co.kr/web2015/shopping/lnb_sublayer_top.png) 100% 0 no-repeat; z-index:100;}
+.lnbLyrWrapV15 div {position:relative; padding:7px 17px 17px 10px; background:url(http://fiximage.10x10.co.kr/web2015/shopping/lnb_sublayer_btm.png) 100% 100% no-repeat;}
+.lnbLyrWrapV15 div .lnbSubV15 {}
+.lnbLyrWrapV15 div .lnbSubV15 li {font-size:11px; color:#555;}
+.lnbLyrWrapV15 div .lnbSubV15 li a {padding:5px 12px 4px 12px; color:#555; font-weight:normal;}
+.lnbLyrWrapV15 div .lnbSubV15 li a:hover {padding:5px 12px 4px 12px; color:#000; font-weight:normal;}
+.lnbLyrWrapV15 div span {display:block; position:absolute; left:-6px; top:14px; width:7px; height:11px; background:url(http://fiximage.10x10.co.kr/web2015/shopping/lnb_sublayer_pointer.png) 0 0 no-repeat;}
+
+.ctgyWrapV15 {overflow:hidden;}
+.ctgyWrapV15 .lnbWrapV15 {width:207px; z-index:50;}
+.ctgyWrapV15 .content {float:right; width:908px; z-index:1;}
+.ctgyWrapV15 img {display:inline; vertical-align:top;}
+.ctgyWrapV15 h3 {font-size:10px; line-height:1;}
+.ctgyWrapV15 .titWrapV15 {position:relative;}
+.ctgyWrapV15 .moreV15 {display:block; position:absolute; right:0; top:0; font-size:11px; line-height:1.2; color:#777; font-weight:normal; font-family:verdana, tahoma, sans-serif;}
+.ctgyWrapV15 .section {width:100%;}
+.ctgyWrapV15 .section:after {visibility:hidden; display:block; clear:both; height:auto; content:'';}
+
+.ctgySlideV15 {overflow:hidden; padding-bottom:60px;}
+.ctgySlideV15 .multiWrapV15 {float:left; width:635px; height:406px; z-index:1;}
+.ctgySlideV15 .multiWrapV15 .multiSlideV15 {width:635px; height:380px; z-index:2;}
+.multiSlideV15 {position:relative; padding-bottom:26px; background:url(http://fiximage.10x10.co.kr/web2015/common/multi_num_bg.png) left bottom repeat-x; z-index:3;}
+.multiSlideV15 .slidesjs-navigation {overflow:hidden; position:absolute; bottom:0; right:0; width:46px; height:26px; background-position:right top; background-repeat:no-repeat; text-indent:-999em;}
+.multiSlideV15 .slidesjs-navigation:hover {background-position:right -26px;}
+.multiSlideV15 .slidesjs-stop {background-image:url(http://fiximage.10x10.co.kr/web2015/common/multi_pause.png);}
+.multiSlideV15 .slidesjs-play {background-image:url(http://fiximage.10x10.co.kr/web2015/common/multi_play.png);}
+.multiSlideV15 .slidesjs-pagination {overflow:hidden; position:absolute; bottom:0; right:46px; height:26px;}
+.multiSlideV15 .slidesjs-pagination li {float:left; width:46px; height:26px;}
+.multiSlideV15 .slidesjs-pagination li a {display:block; overflow:hidden; width:46px; height:26px; background-repeat:no-repeat; background-image:url(http://fiximage.10x10.co.kr/web2015/common/multi_num.png); text-indent:-999em;}
+.multiSlideV15 .slidesjs-pagination li a:hover {background-image:url(http://fiximage.10x10.co.kr/web2015/common/multi_num_over.png);}
+.multiSlideV15 .slidesjs-pagination li a.active {background-image:url(http://fiximage.10x10.co.kr/web2015/common/multi_num_on.png);}
+.multiSlideV15 .slidesjs-pagination .multi00 a {background-position:left top;}
+.multiSlideV15 .slidesjs-pagination .multi01 a {background-position:-46px top;}
+.multiSlideV15 .slidesjs-pagination .multi02 a {background-position:-92px top;}
+.multiSlideV15 .slidesjs-pagination .multi03 a {background-position:-138px top;}
+.multiSlideV15 .slidesjs-pagination .multi04 a {background-position:-184px top;}
+.multiSlideV15 .slidesjs-pagination .multi05 a {background-position:-230px top;}
+.multiSlideV15 .slidesjs-pagination .multi06 a {background-position:-276px top;}
+
+/* 카테고리 메인 
+.ctgySlideV15 .todayHotV15 {float:right;}
+.todayHotV15 {position:relative; width:253px; height:309px; padding:77px 0 20px 0; background-color:#f5f5f5; text-align:center;}
+.todayHotV15 h3 {position:absolute; top:35px; left:50%; margin-left:-67px;}
+.todaySlideV15 {width:170px; margin:0 auto;}
+.todaySlideV15 .slidesjs-slide a {display:block; width:100%; height:100%;}
+.todaySlideV15 .slidesjs-slide a:hover {text-decoration:none;}
+.todaySlideV15 .todayPhoto {position:relative;}
+.todaySlideV15 .todayPhoto span {display:none; position:absolute; top:0; right:0; width:45px; height:45px; background-repeat:no-repeat;}
+.todaySlideV15 .todayPhoto img {width:170px; height:170px;}
+.todaySlideV15 p.saleTag span {display:block; background-image:url(http://fiximage.10x10.co.kr/web2015/common/tag_salerate_red.png);}
+.todaySlideV15 p.couponTag span {display:block; background-image:url(http://fiximage.10x10.co.kr/web2015/common/tag_salerate_grn.png);}
+.todaySlideV15 .pdtBrand {margin-top:22px; text-decoration:none; }
+.todaySlideV15 .pdtName {overflow:hidden; text-overflow:ellipsis; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; word-wrap:break-word; padding-top:7px;}
+.todaySlideV15 .pdtName:hover {text-decoration:underline;}
+.todaySlideV15 .pdtPrice {color:#555;}
+.todaySlideV15 .slidesjs-navigation {overflow:hidden; position:absolute; top:154px; width:15px; height:15px; text-indent:-999em; background-repeat:no-repeat; background-image:url(http://fiximage.10x10.co.kr/web2015/common/blt05.gif)}
+.todaySlideV15 .slidesjs-previous {left:14px; background-position:4px 0;}
+.todaySlideV15 .slidesjs-next {right:14px; background-position:-208px 0;}
+.todaySlideV15 .slidesjs-pagination {overflow:hidden; position:absolute; bottom:20px; left:0; width:100%; *left:50%; *width:80px; *margin-left:-40px; height:6px; text-align:center;}
+.todaySlideV15 .slidesjs-pagination li {display:inline-block; *float:left; width:6px; height:6px; margin:0 3px;}
+.todaySlideV15 .slidesjs-pagination li a {display:block; width:6px; height:6px; background-repeat:no-repeat; background-image:url(http://fiximage.10x10.co.kr/web2015/common/slide_page_small.png); background-position:100% 50%; text-indent:-999em;}
+.todaySlideV15 .slidesjs-pagination li a:hover, .todaySlideV15 .slidesjs-pagination li a.active {background-position:0 50%;}
+*/
+
+/*
+카테고리 메인 New */
+.ctgySlideV15 .todayHotV15 {float:right; border-top:3px solid #d50c0c;}
+.todayHotV15 {position:relative; width:260px; height:360px; padding:58px 0 0 0; background-color:#f4f4f4; text-align:center;}
+.todayHotV15.typeA {height:345px;}
+.todayHotV15 h3 {position:absolute; top:25px; left:50%; margin-left:-67px;}
+.todaySlideV15 {width:184px; margin:0 auto;}
+.todaySlideV15 .slidesjs-slide a {display:block; width:100%; height:100%;}
+.todaySlideV15 .slidesjs-slide a:hover {text-decoration:none;}
+.todaySlideV15 .todayPhoto {position:relative;}
+.todaySlideV15 .todayPhoto:after {content:' '; display:inline-block; position:absolute; left:0; top:0; z-index:20; width:184px; height:184px; background:url(http://fiximage.10x10.co.kr/web2015/shopping/bg_hot_mask.png) 0 0 no-repeat;}
+.todaySlideV15 .todayPhoto span {display:none; position:absolute; top:10px; right:2px;  z-index:30; width:40px; height:40px; background-repeat:no-repeat;}
+.todaySlideV15 .todayPhoto img {width:184px; height:184px;}
+.todaySlideV15 p.saleTag span {display:block; background-image:url(http://fiximage.10x10.co.kr/web2015/common/tag_sale_red.png);}
+.todaySlideV15 p.couponTag span {display:block; background-image:url(http://fiximage.10x10.co.kr/web2015/common/tag_sale_grn.png);}
+.todaySlideV15 .pdtBrand {margin-top:28px; text-decoration:none; }
+.todaySlideV15 .pdtName {overflow:hidden; text-overflow:ellipsis; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; word-wrap:break-word;}
+.todaySlideV15 .pdtName:hover {text-decoration:underline;}
+.todaySlideV15 .pdtPrice {color:#555;}
+.todaySlideV15 .slidesjs-navigation {overflow:hidden; position:absolute; top:143px; width:15px; height:15px; text-indent:-999em; background-repeat:no-repeat; background-image:url(http://fiximage.10x10.co.kr/web2015/common/blt05.gif)}
+.todaySlideV15 .slidesjs-previous {left:10px; background-position:4px 0;}
+.todaySlideV15 .slidesjs-next {right:10px; background-position:-209px 0;}
+.todaySlideV15 .slidesjs-pagination {overflow:hidden; position:absolute; bottom:25px; left:0; width:100%; *left:50%; *width:80px; *margin-left:-40px; height:6px; text-align:center;}
+.todaySlideV15 .slidesjs-pagination li {display:inline-block; *float:left; width:6px; height:6px; margin:0 3px;}
+.todaySlideV15 .slidesjs-pagination li a {display:block; width:6px; height:6px; background-repeat:no-repeat; background-image:url(http://fiximage.10x10.co.kr/web2015/common/slide_page_small.png); background-position:100% 50%; text-indent:-999em;}
+.todaySlideV15 .slidesjs-pagination li a:hover, .todaySlideV15 .slidesjs-pagination li a.active {background-position:0 50%;}
+
+
+.ctgyMdPickV15 {overflow:hidden; padding-top:55px;}
+.ctgyMdPickV15 .bnrV15 {float:left; width:205px; height:425px; padding-top:22px;}
+.ctgyMdPickV15 .mdPickWrapV15 {float:right;}
+.mdPickWrapV15 {position:relative; width:683px; height:447px;}
+.mdPickSlideV15 {width:683px; height:401px; margin-top:9px; padding:11px 0; background:url(http://fiximage.10x10.co.kr/web2015/shopping/mdpick_bg.gif) 50% 0 no-repeat; border-top:1px solid #ddd; border-bottom:1px solid #ddd;}
+.mdPickSlideV15 .pdtList li {width:130px; height:177px; padding:11px 20px 11px 20.5px; text-align:center; background:none;}
+.mdPickSlideV15 .pdtList li:first-child, .mdPickSlideV15 .pdtList li:nth-child(5) {padding:11px 20px;}
+.mdPickSlideV15 .pdtList li a {display:block; width:100%; height:100%;}
+.mdPickSlideV15 .pdtList li a:hover {text-decoration:none;}
+.mdPickSlideV15 .pdtPhoto img {width:130px; height:130px;}
+.mdPickSlideV15 .pdtName {min-height:16px; text-overflow:ellipsis; overflow:hidden; white-space:nowrap;}
+.mdPickSlideV15 .pdtPrice {color:#555;}
+.mdPickSlideV15 .slidesjs-pagination {overflow:hidden; position:absolute; top:0; right:0;}
+.mdPickSlideV15 .slidesjs-pagination li {float:left; width:12px; height:12px; margin-left:9px;}
+.mdPickSlideV15 .slidesjs-pagination li a {display:block; width:12px; height:12px; background-repeat:no-repeat; background-image:url(http://fiximage.10x10.co.kr/web2015/common/slide_page_big.png); background-position:100% 50%; text-indent:-999em;}
+.mdPickSlideV15 .slidesjs-pagination li a:hover {background-position:-21px 50%;}
+.mdPickSlideV15 .slidesjs-pagination li a.active {background-position:0 50%;}
+
+.spcEvtWrap {margin-top:10px; border-top:1px solid #ddd; background:url(http://fiximage.10x10.co.kr/web2015/shopping/event_bg.gif) 50% 50% no-repeat;}
+.spcEvtWrap ul {overflow:hidden; padding:0 12px;}
+.spcEvtWrap ul li {float:left; width:390px; padding:30px 26px; text-align:center;}
+.spcEvtWrap ul li a {display:block; width:100%;}
+.spcEvtWrap ul li a:hover {text-decoration:none;}
+.spcEvtWrap ul li p {padding-top:5px; font-size:11px; color:#666; text-overflow:ellipsis; overflow:hidden; white-space:nowrap;}
+.spcEvtWrap ul li p img {width:390px; height:189px;}
+.spcEvtWrap ul li p.evtTitV15 {padding-top:15px; font-family:verdana, tahoma, dotum, '돋움', sans-serif; font-size:12px; color:#000;}
+.ctgySpcEvtV15 {overflow:hidden; padding-top:60px;}
+.ctgySpcEvtV16 {overflow:hidden;}
+.ctgySpcEvtV16 .spcEvtWrap {margin-top:18px; border-top:0; background-image:none;}
+.ctgySpcEvtV16 ul {overflow:hidden; margin:0 -23px; padding:0;}
+.ctgySpcEvtV16 .spcEvtWrap ul li {width:430px; padding:0 23px; text-align:center;}
+.ctgySpcEvtV16 .spcEvtWrap ul li p {padding-top:0;}
+.ctgySpcEvtV16 .spcEvtWrap ul li p img {width:430px; height:230px;}
+.ctgySpcEvtV16 .spcEvtWrap ul li p.evtTitV15 {padding:12px 0 5px;}
+
+.ctgyBrandV15 {overflow:hidden; padding-top:35px;}
+.ctgyBrandV15 .bnrV15 {float:left; width:308px;}
+.ctgyBrandV15 .bnrV15 p {border-bottom:1px solid #ddd;}
+.ctgyBrandV15 .bnrV15 p:last-child {border-bottom:none;}
+.ctgyBrandV15 .brandWrapV15 {float:right;}
+.brandWrapV15 {position:relative; width:570px; padding-top:20px;}
+.brdPickSlideV15 {width:570px; height:550px; margin-top:10px; background-color:#f5f5f5;}
+.brdPickSlideV15 .brNewV15 .brTagV15 {display:block; background-position:50% 0;}
+.brdPickSlideV15 .brBestV15 .brTagV15 {display:block; background-position:50% -50px;}
+.brdPickSlideV15 .brZzimV15 .brTagV15 {display:block; background-position:50% -100px;}
+.brdPickSlideV15 .brArtV15 .brTagV15 {display:block; background-position:50% -150px;}
+.brdPickSlideV15 .brTagV15 {display:none; overflow:hidden; position:absolute; top:0; right:37px; width:54px; height:45px; text-indent:-999em; background-repeat:no-repeat; background-image:url(http://fiximage.10x10.co.kr/web2015/shopping/brand_tag.png);}
+.brdPickSlideV15 dl {overflow:hidden; width:370px; min-height:154px; margin:0 auto; text-align:center;}
+.brdPickSlideV15 dl dt {overflow:hidden; padding-top:45px; font-size:38px; line-height:41px; font-family:'bodoni Std', 'Times New Roman', serif; font-style:italic; color:#000;}
+.brdPickSlideV15 dl dt a {color:#000; text-decoration:none;}
+.brdPickSlideV15 dl dd {padding-top:10px; font-size:11px; color:#666;}
+.brdPickSlideV15 .pdtList {padding:0 30px;}
+.brdPickSlideV15 .pdtList li {width:140px; padding:11px 15px 15px 15px;}
+.brdPickSlideV15 .pdtList li .pdtPhoto {width:140px; height:140px; background:url(http://fiximage.10x10.co.kr/web2015/shopping/pdt_bg1.gif) 50% 50% no-repeat; }
+.brdPickSlideV15 .pdtList li .pdtPrice {padding-top:7px; font-family:dotum, dotumche, '돋움', '돋움체', sans-serif; letter-spacing:0; color:#555;}
+.brdPickSlideV15 .pdtList li img {width:140px; height:140px;}
+/*
+.brdPickSlideV15 dl {overflow:hidden; width:370px; min-height:171px; margin:0 auto; text-align:center;}
+.brdPickSlideV15 dl dt {overflow:hidden; padding-top:45px; font-size:38px; line-height:41px; font-family:'bodoni Std', 'Times New Roman', serif; font-style:italic; color:#000;}
+.brdPickSlideV15 dl dt a {color:#000; text-decoration:none;}
+.brdPickSlideV15 dl dd {padding-top:10px; font-size:11px; color:#666;}
+.brdPickSlideV15 .pdtList {padding:15px 30px;}
+.brdPickSlideV15 .pdtList li {width:140px; height:140px; padding:15px; background:url(http://fiximage.10x10.co.kr/web2015/shopping/pdt_bg1.gif) 50% 50% no-repeat;}
+.brdPickSlideV15 .pdtList li img {width:140px; height:140px;}
+*/
+.brdPickSlideV15 .slidesjs-pagination {overflow:hidden; position:absolute; top:20px; right:0;}
+.brdPickSlideV15 .slidesjs-pagination li {float:left; width:12px; height:12px; margin-left:9px;}
+.brdPickSlideV15 .slidesjs-pagination li a {display:block; width:12px; height:12px; background-repeat:no-repeat; background-image:url(http://fiximage.10x10.co.kr/web2015/common/slide_page_big.png); background-position:100% 50%; text-indent:-999em;}
+.brdPickSlideV15 .slidesjs-pagination li a:hover {background-position:-21px 50%;}
+.brdPickSlideV15 .slidesjs-pagination li a.active {background-position:0 50%;}
+
+.ctgyBestAwdV15 {overflow:hidden; padding-top:50px;}
+.awardNavV15 {height:54px; margin-top:10px; border-top:1px solid #ddd; background:url(http://fiximage.10x10.co.kr/web2015/common/tab_nav_bg.png) 0 0 repeat-x;}
+.awardNavV15 ul {width:485px; margin:0 auto; text-align:center;}
+.awardNavV15 li {float:left; overflow:hidden; width:81px; height:45px; padding:0 8px;}
+.awardNavV15 li span {display:block; width:81px; height:38px; text-indent:-999em; background-repeat:no-repeat; background-position:50% 0; cursor:pointer;}
+.awardNavV15 li span:hover, .awardNavV15 li.current span {background-position:50% -59px;}
+.awardNavV15 li.current {background:url(http://fiximage.10x10.co.kr/web2015/common/tab_nav_on.png) 50% 100% no-repeat;}
+.awardNavV15 li.ctgyAwardV15 span {background-image:url(http://fiximage.10x10.co.kr/web2015/shopping/award_nav_seller.png);}
+.awardNavV15 li.ctgyWishV15 span {background-image:url(http://fiximage.10x10.co.kr/web2015/shopping/award_nav_wish.png);}
+.awardNavV15 li.ctgyReviewV15 span {background-image:url(http://fiximage.10x10.co.kr/web2015/shopping/award_nav_review.png);}
+.awardNavV15 li.ctgyBrandV15 span {background-image:url(http://fiximage.10x10.co.kr/web2015/shopping/award_nav_brand.png);}
+.awardNavV15 li.ctgySaleV15 span {background-image:url(http://fiximage.10x10.co.kr/web2015/shopping/award_nav_sale.png);}
+
+.awardContV15 {height:460px; border-bottom:1px solid #ddd; position:relative;}
+.ctgyList {overflow:hidden; position:relative;}
+.ctgyList a.moreV15 {right:20px; z-index:10;}
+.ctgyList a.moreV15:hover {text-decoration:none;}
+.ctgyList ul {overflow:hidden; width:840px; margin:0 auto; padding:15px 0; position:relative;}
+.ctgyList li {float:left; width:180px; padding:14px 15px 14px 15px; background-repeat:no-repeat; background-position:7px 21px;}
+.ctgyList li div.awardReviewV15 {width:180px;}
+.ctgyList li .awardReviewV15 .reviewBoxV15 {position:relative; width:150px; height:130px; margin-top:5px; padding:35px 15px; background:url(http://fiximage.10x10.co.kr/web2015/shopping/award_review_box.png) 50% 0 no-repeat; font-size:11px; color:#555;}
+.ctgyList li .awardReviewV15 .reviewBoxV15 p.starView {text-align:left;}
+.reviewBoxV15 a.more1V15 {width:auto; position:absolute; left:15px; bottom:20px; color:#888;}
+.ctgyList li a {display:block; width:140px; margin:0 auto; z-index:10;}
+.ctgyList li a:hover {text-decoration:none;}
+.ctgyList li div p {width:140px; margin:0;}
+.ctgyList li div p.pdtPhoto img {width:140px; height:140px;}
+.ctgyList li div p.pdtName {min-height:16px;}
+.ctgyList li div p.pdtPrice {font-family:verdana, tahoma, dotum, '돋움', sans-serif;}
+.ctgyList li.best01 {background-image:url(http://fiximage.10x10.co.kr/web2015/shopping/award_01.png);}
+.ctgyList li.best02 {background-image:url(http://fiximage.10x10.co.kr/web2015/shopping/award_02.png);}
+.ctgyList li.best03 {background-image:url(http://fiximage.10x10.co.kr/web2015/shopping/award_03.png);}
+.ctgyList li.best04 {background-image:url(http://fiximage.10x10.co.kr/web2015/shopping/award_04.png);}
+.ctgyList li.best05 {background-image:url(http://fiximage.10x10.co.kr/web2015/shopping/award_05.png);}
+.ctgyList li.best06 {background-image:url(http://fiximage.10x10.co.kr/web2015/shopping/award_06.png);}
+.ctgyList li.best07 {background-image:url(http://fiximage.10x10.co.kr/web2015/shopping/award_07.png);}
+.ctgyList li.best08 {background-image:url(http://fiximage.10x10.co.kr/web2015/shopping/award_08.png);}
+
+.more1V15 {display:inline-block; width:auto; font-size:11px; color:#888; padding-right:8px; background:url(http://fiximage.10x10.co.kr/web2015/common/blt08.gif) 100% 46% no-repeat;}
+.more2V15 {display:inline-block; width:auto; font-size:11px; color:#d50c0c !important; padding-right:10px; background:url(http://fiximage.10x10.co.kr/web2015/common/blt11.gif) 100% 49% no-repeat;}
+
+/* category main V15a */
+.ctgyHotKwdV15a {padding:30px; background:url(http://fiximage.10x10.co.kr/web2015/shopping/bg_slash.gif) 0 0 repeat;}
+.ctgyHotKwdV15a:after {visibility:hidden; display:block; clear:both; height:auto; content:'';}
+.ctgyHotKwdV15a h3 {float:left;}
+.ctgyHotKwdV15a ul {float:left;}
+.ctgyHotKwdV15a li {float:left; width:150px; padding-left:25px;}
+.ctgyHotKwdV15a li a {text-decoration:none;}
+.ctgyHotKwdV15a li:first-child {padding-left:23px;}
+.ctgyHotKwdV15a li .pdtPhoto:after {content:' '; display:inlnie-block; position:absolute; left:0; top:0; z-index:10; width:150px; height:150px; background:url(http://fiximage.10x10.co.kr/web2015/shopping/bg_keyword_mask.png) 0 0 repeat;}
+.ctgyHotKwdV15a li .pdtPhoto img {width:150px; height:150px;}
+.ctgyHotKwdV15a li .pdtPhoto p {position:absolute; left:50%; top:50%; z-index:20; width:118px; height:25px; margin:-13px 0 0 -60px; text-align:center; background-color:rgba(0,0,0,0.3); border:1px solid #fff;}
+.ctgyHotKwdV15a li .pdtPhoto p span {color:#fff; font-size:12px; line-height:27px; font-weight:bold;}
+#ctgyMainV15 .pdt240V15 .pdtList > li {width:25%;}
+
+.multiWrapV15a {overflow:hidden; position:relative; float:left; width:618px; height:420px;}
+.multiSlideV15a {overflow:visible !important; position:relative; width:420px; height:420px;}
+.multiSlideV15a img {width:420px; height:420px;}
+.multiSlideV15a .slidesjs-container {overflow:hidden; width:420px; height:420px;}
+.multiWrapV15a .slidesjs-slide {z-index:50; width:420px; height:420px;}
+.multiWrapV15a .slidesjs-slide .bnrTit {display:none; visibility:hidden; height:0; width:0;}
+.multiWrapV15a .slidesjs-pagination {position:absolute; top:0; right:-198px; z-index:20; width:198px;}
+.multiWrapV15a .slidesjs-pagination li {position:relative;}
+.multiWrapV15a .slidesjs-pagination li a {display:block; width:198px; height:84px; line-height:0; font-size:0; text-decoration:none;}
+.multiWrapV15a .slidesjs-pagination .bnrTit {/*position:relative;*/ display:table; width:198px; height:83px; color:#666; border-top:1px solid #fff; background:#eee;}
+.multiWrapV15a .slidesjs-pagination .multi00 .bnrTit {height:84px; border-top:0;}
+.multiWrapV15a .slidesjs-pagination .bnrTit .num {display:block; position:absolute; left:21px; top:32px; width:17px; height:20px; background-position:0 100%; text-indent:-999em; background-repeat:no-repeat;}
+.multiWrapV15a .slidesjs-pagination .multi00 .num {background-image:url(http://fiximage.10x10.co.kr/web2015/shopping/txt_num_01.png);}
+.multiWrapV15a .slidesjs-pagination .multi01 .num {background-image:url(http://fiximage.10x10.co.kr/web2015/shopping/txt_num_02.png);}
+.multiWrapV15a .slidesjs-pagination .multi02 .num {background-image:url(http://fiximage.10x10.co.kr/web2015/shopping/txt_num_03.png);}
+.multiWrapV15a .slidesjs-pagination .multi03 .num {background-image:url(http://fiximage.10x10.co.kr/web2015/shopping/txt_num_04.png);}
+.multiWrapV15a .slidesjs-pagination .multi04 .num {background-image:url(http://fiximage.10x10.co.kr/web2015/shopping/txt_num_05.png);}
+.multiWrapV15a .slidesjs-pagination .bnrTit p {display:table-cell; padding:2px 20px 0 52px; font-size:11.5px; line-height:20px; vertical-align:middle;}
+.multiWrapV15a .slidesjs-pagination .active .num {background-position:0 0;}
+.multiWrapV15a .slidesjs-pagination .active .bnrTit p em {display:inline-block; height:19px;  margin-left:5px;}
+.multiWrapV15a .slidesjs-pagination .active .bnrTit p em { padding:0 8px; color:#fff; border-radius:12px;}
+.multiWrapV15a .slidesjs-pagination .active .bnrTit p em.saleRed {background-color:#d50c0c;}
+.multiWrapV15a .slidesjs-pagination .active .bnrTit p em.saleGrn {background-color:#49893f;}
+.multiWrapV15a .slidesjs-pagination .active .bnrTit p {font-weight:bold; color:#fff; background:#222;}
+.multiWrapV15a .slidesjs-pagination .bnrTit p:after {content:' '; display:none; position:absolute; left:-6px; top:50%; z-index:100; width:6px; height:11px; margin-top:-5px; background:url(http://fiximage.10x10.co.kr/web2015/common/blt_arrow_03.gif) 0 0 no-repeat;}
+
+/* pdt list style */
+.locationV15 {padding:9px 0 5px 0; font-size:11px;}
+.subCtgyViewV15 {overflow:hidden; padding:28px 0 17px 20px; min-height:68px; border-top:1px solid #ddd;}
+.subCtgyViewV15 dt {float:left; width:155px; padding-right:15px; font-family:'malgun gothic', 'malgungothic', '맑은고딕', dotum, '돋움', sans-serif; font-size:16px; line-height:1.2; color:#000; font-weight:bold;}
+.subCtgyViewV15 dd {float:left; padding-left:10px; width:708px;}
+.subCtgyViewV15 dd ul {overflow:hidden;}
+.subCtgyViewV15 dd ul li {float:left; width:170px; padding:0 7px 9px 0;}
+.subCtgyViewV15 dd ul li a {display:block; width:170px; font-size:11px; color:#555; text-overflow:ellipsis; overflow:hidden; white-space:nowrap;}
+.subCtgyViewV15 dd ul li a:hover, .subCtgyViewV15 dd ul li.current a {text-decoration:none; color:#d50c0c;}
+.subCtgyViewV15 dd ul li.current a {text-decoration:underline;}
+
+div.ctgyBestV15 .pdt240V15 .pdtList > li {width:33.3%;}
+.ctgyWrapV15 .ctgyBestV15 {padding:40px 0 30px 0; background-color:#f8f8f8;}
+.ctgyWrapV15 .ctgyBestV15 .pdt240V15 .pdtList li {padding:0;}
+.ctgyWrapV15 .ctgyBestV15 .pdt240V15 .pdtList li .ranking {padding-bottom:25px;}
+.ctgyWrapV15 .ctgyBestV15 .pdt240V15 .pdtList li .pdtBox {height:360px;}
+.ctgyWrapV15 .ctgyBestV15 .pdt240V15 .pdtList {background:url(http://fiximage.10x10.co.kr/web2015/shopping/line_best.gif) 50% 0 repeat-y;}
+
+.tabWrapV15 {position:relative; width:100%; height:67px; border-top:1px solid #ddd; background:url(http://fiximage.10x10.co.kr/web2015/common/tab_nav_bg.png) 0 100% repeat-x; z-index:50;}
+.tabWrapV15:after {visibility:hidden; display:block; clear:both; height:0; content:'';}
+.tabWrapV15 ul li {float:left; text-align:center; cursor:pointer; z-index:10;}
+.tabWrapV15 li:hover, .tabWrapV15 li.selected {color:#d50c0c; z-index:10;}
+.tabWrapV15 li.selected {background:url(http://fiximage.10x10.co.kr/web2015/common/tab_nav_on.png) 50% 51px no-repeat;}
+.sortingTabV15 {float:left; height:58px; z-index:10;}
+.sortingTabV15 li {width:110px; height:38px; padding-top:20px; font-size:11px; font-family:verdana, tahoma, dotum, '돋움', sans-serif; color:#666;}
+.dFilterTabV15 {float:right;}
+.dFilterTabV15 li {width:40px; height:58px; margin-left:5px;}
+.dFilterTabV15 li p {width:40px; height:58px; background-repeat:no-repeat; background-position:50% 0; text-indent:-999em;}
+.dFilterTabV15 li p:hover, .dFilterTabV15 li.selected p {background-position:50% -82px;}
+.dFilterTabV15 li.tabColor p {background-image:url(http://fiximage.10x10.co.kr/web2015/shopping/filter_tab_color.png);}
+.dFilterTabV15 li.tabStyle p {background-image:url(http://fiximage.10x10.co.kr/web2015/shopping/filter_tab_style.png);}
+.dFilterTabV15 li.tabAttribute p {background-image:url(http://fiximage.10x10.co.kr/web2015/shopping/filter_tab_attr.png);}
+.dFilterTabV15 li.tabPrice p {background-image:url(http://fiximage.10x10.co.kr/web2015/shopping/filter_tab_price.png);}
+.dFilterTabV15 li.tabDelivery p {background-image:url(http://fiximage.10x10.co.kr/web2015/shopping/filter_tab_deliver.png);}
+.dFilterTabV15 li.tabSearch p {background-image:url(http://fiximage.10x10.co.kr/web2015/shopping/filter_tab_keyword.png);}
+
+.dFilterWrap {position:relative; width:100%; margin-top:-15px; z-index:0;}
+.filterSelect {background:#f9f9f9; padding:40px 90px;}
+.filterSelect ul {overflow:hidden; text-align:center;}
+.filterSelect li {display:inline-block; padding:3px 15px; font-size:11px; white-space:nowrap;}
+.filterSelect .colorchipV15 {width:960px;}
+.colorchipV15 {overflow:hidden; margin:0 auto;}
+.colorchipV15 li {position:relative; float:left; width:60px; height:44px; padding:14px 0; text-align:center;}
+.colorchipV15 li p {width:28px; height:28px; margin:0 auto; background:url(http://fiximage.10x10.co.kr/web2015/common/color_chip.png) left top no-repeat;}
+.colorchipV15 li input[type=checkbox] {width:28px; height:28px; opacity:0; cursor:pointer; -webkit-appearance:none; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);}
+.colorchipV15 li input[type=radio] {width:28px; height:28px; opacity:0; cursor:pointer; -webkit-appearance:none; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);}
+.colorchipV15 li label {display:inline-block; padding:1px 3px 0 3px; margin-top:3px; color:#777; font-size:10px; line-height:12px; text-align:center; font-family:arial, verdana, tahoma, dotum, sans-serif;}
+.colorchipV15 li.selected p {background:url(http://fiximage.10x10.co.kr/web2015/common/color_chip_on.png) left top no-repeat;}
+.colorchipV15 li:hover label, .colorchipV15 li.selected label {background-color:#333; color:#fff;}
+.colorchipV15 li.all p {background-position:left top;}
+.colorchipV15 li.wine p {background-position:-42px top;}
+.colorchipV15 li.red p {background-position:-84px top;}
+.colorchipV15 li.orange p {background-position:-126px top;}
+.colorchipV15 li.brown p {background-position:-169px top;}
+.colorchipV15 li.camel p {background-position:-211px top;}
+.colorchipV15 li.yellow p {background-position:-253px top;}
+.colorchipV15 li.beige p {background-position:-296px top;}
+.colorchipV15 li.ivory p {background-position:-337px top;}
+.colorchipV15 li.khaki p {background-position:-379px top;}
+.colorchipV15 li.green p {background-position:-422px top;}
+.colorchipV15 li.mint p {background-position:-464px top;}
+.colorchipV15 li.skyblue p {background-position:-506px top;}
+.colorchipV15 li.blue p {background-position:-549px top;}
+.colorchipV15 li.navy p {background-position:-591px top;}
+.colorchipV15 li.violet p {background-position:-634px top;}
+.colorchipV15 li.lilac p {background-position:left bottom;}
+.colorchipV15 li.babypink p {background-position:-42px bottom;}
+.colorchipV15 li.pink p {background-position:-84px bottom;}
+.colorchipV15 li.white p {background-position:-126px bottom;}
+.colorchipV15 li.grey p {background-position:-169px bottom;}
+.colorchipV15 li.charcoal p {background-position:-211px bottom;}
+.colorchipV15 li.black p {background-position:-253px bottom;}
+.colorchipV15 li.silver p {background-position:-296px bottom;}
+.colorchipV15 li.gold p {background-position:-337px bottom;}
+.colorchipV15 li.check p {background-position:-379px bottom;}
+.colorchipV15 li.stripe p {background-position:-422px bottom;}
+.colorchipV15 li.dot p {background-position:-464px bottom;}
+.colorchipV15 li.flower p {background-position:-506px bottom;}
+.colorchipV15 li.drawing p {background-position:-549px bottom;}
+.colorchipV15 li.animal p {background-position:-591px bottom;}
+.colorchipV15 li.geometric p {background-position:-634px bottom;}
+.ftStyle li {font-size:14px;}
+/*.ftDelivery ul {padding-bottom:30px;}*/
+.ftDelivery li {padding:5px 25px; font-size:14px;}
+.ftDelivery li.tenDeliver {position:relative;}
+.ftDelivery li.tenDeliver span {position:absolute; left:25px; top:28px;}
+.ftDelivery li.abroad {background:url(http://fiximage.10x10.co.kr/web2013/shopping/ico_plane.png) 110px 50% no-repeat;}
+.ftAttribute dl {border-bottom:1px solid #ddd; overflow:hidden;}
+.ftAttribute dt {float:left; width:160px; padding:5px 10px; font-weight:bold; color:#777;}
+.ftAttribute dd {float:left; width:775px; padding:5px 0;}
+.ftAttribute dd ul {text-align:left;}
+.ftPrice {position:relative;}
+.sliderWrap {background:url(http://fiximage.10x10.co.kr/web2013/common/slider_bg.png) center 50% no-repeat; width:600px; height:2px; font-size:1px; line-height:1px; margin:0 auto; padding:40px 16px;}
+#slider-range {height:2px; width:600px; background:#cecece; font-size:1px; line-height:1px; position:relative;}
+.ui-slider-range {height:2px; background:#868686; font-size:1px; line-height:1px; top:0; position:absolute;}
+.ui-state-default {background:url(http://fiximage.10x10.co.kr/web2013/common/slider_handle.png) center top no-repeat; width:12px; height:32px; position:absolute; top:-14px; margin-left:-6px;}
+.amoundBox1, .amoundBox2 {position:absolute; width:78px; left:-33px;}
+.amoundBox1 span, .amoundBox2 span {position:absolute; left:50%; margin-left:-4px; width:7px; height:5px; background-position:center top; background-repeat:no-repeat; font-size:1px; line-height:1px;}
+.amoundBox1 {top:39px;}
+.amoundBox1 span {background-image:url(http://fiximage.10x10.co.kr/web2013/shopping/price_pointer2.gif); top:-4px;}
+.amoundBox2 {top:-29px;}
+.amoundBox2 span {background-image:url(http://fiximage.10x10.co.kr/web2013/shopping/price_pointer1.gif); top:21px;}
+.amoundRange {border:1px solid #ccc; outline-style:none; font-size:11px; font-weight:bold; font-family:dotum, "돋움", sans-serif; color:#555; min-width:70px; width:70px; height:15px; padding:5px 3px 1px 3px; text-align:center;}
+.amountView {font-size:11px; color:#999; position:absolute; top:50%; width:80px; height:12px; font-weight:bold; text-align:center; margin-top:-8px;}
+.amountLt {left:60px;}
+.amountRt {right:60px;}
+.ftSearch {text-align:center;}
+.ftSearchInput {border:none; border-bottom:3px solid #555; background:transparent; padding:5px; text-align:left; font-size:14px; font-family:dotum, "돋움", sans-serif; color:#555;}
+
+.dFilterResult {border-bottom:1px solid #ccc; padding:3px 200px 3px 10px; position:relative; min-height:36px;}
+.dFilterResult .btnSltSearch {position:absolute; right:10px; top:7px;}
+.dFilterResult dl {overflow:hidden; padding:5px 0; white-space:nowrap;}
+.dFilterResult .resultTit {width:120px; padding-top:5px; font-size:14px; color:#000; text-align:center;}
+.dFilterResult .resultCont {width:780px;}
+.dFilterResult dl dt, .dFilterResult dl dd {float:left; font-size:11px; line-height:15px; color:#777; white-space:nowrap;}
+.dFilterResult dl dt {font-weight:bold; padding-right:5px;}
+.dFilterResult dl dd {padding:0 5px; overflow:hidden;}
+.dFilterResult dl dd .deleteBtn {vertical-align:top; margin-top:2px; cursor:pointer;}
+.dFilterResult dl dl {float:left; margin-left:20px;}
+.filterLyrClose {position:absolute; right:10px; top:10px; cursor:pointer;}
+
+.pdtView {float:right; padding-right:10px;}
+.pdtView li {width:17px; height:17px; margin-left:5px; float:left;}
+.pdtView li a {display:block; width:17px; height:17px; text-indent:-9999px; overflow:hidden; background:url(http://fiximage.10x10.co.kr/web2013/common/btn_viewoption_off.gif) left top no-repeat;}
+.pdtView li.current a {background-image:url(http://fiximage.10x10.co.kr/web2013/common/btn_viewoption_on.gif);}
+.pdtView .view01 a {background-position:left top;}
+.pdtView .view02 a {background-position:-22px top;}
+.pdtView .view03 a {background-position:-44px top;}
+
+.pdtWrap {overflow:hidden; padding:0; margin-top:30px; padding-bottom:1px; background:url(http://fiximage.10x10.co.kr/web2015/common/line_pdtlist.gif) 0 100% repeat-x;}
+.pdtWrap img {vertical-align:top; display:inline;}
+.pdtWrap .pdtList {margin-top:-30px; margin-bottom:-1px;}
+.pdtWrap .pdtList li {background:url(http://fiximage.10x10.co.kr/web2015/common/line_pdtlist.gif) 0 100% repeat-x;}
+.pdtWrap .pdtActionV15 li {background:none;}
+.pdtList {overflow:hidden;}
+.pdtList li {float:left; text-align:center;}
+.pdtList li.soldOut .soldOutMask {display:block; z-index:10;}
+.pdtBox {position:relative; margin:0 auto;}
+.pdtInfo {text-align:center;}
+.pdtLabel {position:absolute; right:-9px; z-index:12;}
+.pdtPhoto {position:relative;}
+.pdtPhoto a {display:block; width:100%; height:100%;}
+.pdtPhoto a dfn {display:none; position:absolute; left:0; top:0; width:100%; height:100%; z-index:5;}
+.soldOutMask {display:none; position:absolute; left:0; top:0; right:0; bottom:0; width:100%; height:100%; background:url(http://fiximage.10x10.co.kr/web2015/common/mask_soldout.png) 50% 50% no-repeat;}
+.pdtBrand {color:#b2b2b2; font-size:11px; line-height:14px; font-weight:bold; text-decoration:underline; word-wrap:break-word; word-break:break-all;}
+.pdtBrand a {color:#b2b2b2; text-decoration:underline; word-wrap:break-word; word-break:break-all;}
+.pdtName {color:#555; font-size:11px; min-height:32px; vertical-align:top; line-height:16px; word-wrap:break-word; word-break:break-all;}
+.pdtPrice {color:#777; font-size:11px; letter-spacing:-1px; font-family:verdana, tahoma, dotum, "돋움", sans-serif;}
+.finalP {color:#777; font-weight:bold;}
+
+.dealBadge {display:none; position:absolute; color:#fff; font-family:verdana, dotum, '돋움', sans-serif; z-index:10; background-position:50% 0; background-repeat:no-repeat; text-align:center; font-style:normal;}
+.deal-item .dealBadge {display:block;}
+.pdtList .dealBadge {left:10px; top:0; width:46px; height:50px; padding-top:9px; font-size:12px; line-height:14px; background-image:url(http://fiximage.10x10.co.kr/web2017/common/ico_dealBadge_itemlist.png);}
+.pdtInfoWrapV15 .dealBadge {left:50px; top:5px; width:70px; height:67px; padding-top:11px; font-size:16px; line-height:18px; background-image:url(http://fiximage.10x10.co.kr/web2017/common/ico_dealBadge_itemdetail.png);}
+
+.pdtActionV15 {overflow:hidden; position:absolute; left:0; bottom:0; width:100%; height:15px; text-align:center;}
+.pdtActionV15 li {display:inline-block; float:none; *float:left; height:15px; vertical-align:top; background:none; font-size:11px; line-height:13px; color:#999; font-family:verdana, tahoma, dotum, "돋움", sans-serif; letter-spacing:-0.085em;}
+.pdtActionV15 li a, .pdtActionV15 li p {display:block; height:15px; padding:0 3px 0 24px; cursor:pointer; text-decoration:none; color:#999;}
+.pdtActionV15 li.largeView a, .pdtActionV15 li.largeView p {padding:0 3px 0 0;}
+.pdtActionV15 li.postView {background:url(http://fiximage.10x10.co.kr/web2015/common/ico_review.png) 0 50% no-repeat;}
+.pdtActionV15 li.wishView {background:url(http://fiximage.10x10.co.kr/web2015/common/ico_wish.png) 0 50% no-repeat;}
+.pdtActionV15 li.wishView a, .pdtActionV15 li.wishView p {padding:0 0 0 24px;}
+
+.pdt400V15 .pdtList > li {padding:30px 0 31px 0;}
+.pdt400V15 .pdtBox {width:400px; height:575px;}
+.pdt400V15 .pdtPhoto, .pdt400V15 .pdtPhoto img {width:400px; height:400px;}
+
+.pdt320V15 .pdtList > li {padding:30px 0 31px 0;}
+.pdt320V15 .pdtBox {width:320px; height:495px;}
+.pdt320V15 .pdtPhoto, .pdt320V15 .pdtPhoto img {width:320px; height:320px;}
+
+.pdt270V15 .pdtList > li {padding:30px 0 31px 0;}
+.pdt270V15 .pdtBox {width:270px; height:445px;}
+.pdt270V15 .pdtPhoto, .pdt270V15 .pdtPhoto img {width:270px; height:270px;}
+
+.ctgyWrapV15 .pdt240V15 .pdtList {background:url(http://fiximage.10x10.co.kr/web2015/shopping/line_pdtlist240.gif) 0 0 repeat-y;}
+.ctgyWrapV15 .pdt240V15 .pdtList > li {width:25%;}
+.pdt240V15 .pdtList > li {padding:30px 0 26px 0;}
+.pdt240V15 .pdtBox {width:240px; height:420px;}
+.pdt240V15 .pdtPhoto, .pdt240V15 .pdtPhoto img {width:240px; height:240px;}
+
+.ctgyWrapV15 .pdt200V15 .pdtList {background:url(http://fiximage.10x10.co.kr/web2015/shopping/line_pdtlist200.gif) 0 0 repeat-y;}
+.ctgyWrapV15 .pdt200V15 .pdtList > li {width:20%;}
+.pdt200V15 .pdtList > li {padding:30px 0 26px 0;}
+.pdt200V15 .pdtBox {width:200px; height:383px;}
+.pdt200V15 .pdtPhoto, .pdt200V15 .pdtPhoto img {width:200px; height:200px;}
+
+.pdt180V15 .pdtList > li {padding:30px 0 26px 0;}
+.pdt180V15 .pdtBox {width:180px; height:373px;}
+.pdt180V15 .pdtPhoto, .pdt180V15 .pdtPhoto img {width:180px; height:180px;}
+.pdt180V15 .largeView {overflow:hidden; width:17px !important;}
+
+.ctgyWrapV15 .pdt150V15 .pdtList {background:url(http://fiximage.10x10.co.kr/web2015/shopping/line_pdtlist150.gif) 0 0 repeat-y;}
+.ctgyWrapV15 .pdt150V15 .pdtList > li {width:190px;}
+.pdt150V15 .pdtList > li {padding:30px 0 26px 0;}
+.pdt150V15 .pdtBox {width:150px; height:345px;}
+.pdt150V15 .pdtPhoto, .pdt150V15 .pdtPhoto img {width:150px; height:150px;}
+.pdt150V15 .largeView {overflow:hidden; width:17px !important;}
+
+.pdt130V15 .pdtList > li {padding:30px 0 31px 0;}
+.pdt130V15 .pdtBox {width:130px; height:333px;}
+.pdt130V15 .pdtPhoto, .pdt130V15 .pdtPhoto img {width:130px; height:130px;}
+.pdt130V15 .pdtActionV15 {left:-5px; right:-5px; width:140px;}
+.pdt130V15 .largeView {overflow:hidden; width:17px !important;}
+
+.pdt120V15 .pdtList > li {padding:30px 0 31px 0;}
+.pdt120V15 .pdtBox {width:120px; height:320px;}
+.pdt120V15 .pdtPhoto, .pdt120V15 .pdtPhoto img {width:120px; height:120px;}
+.pdt120V15 .pdtActionV15 {left:-5px; right:-5px; width:130px;}
+.pdt120V15 .largeView {overflow:hidden; width:17px !important;}
+
+div.ctgyWrapV15 div.reviewListV15 .pdtBox {overflow:hidden; width:490px;}
+div.reviewListV15 .pdtList {margin-top:-40px; background:url(http://fiximage.10x10.co.kr/web2015/common/line_pdtlist.gif) 50% 0 repeat-y;}
+div.reviewListV15 .pdtList > li {width:50%; padding:40px 0 41px 0;}
+div.reviewListV15 .pdtInfo {text-align:left;}
+div.reviewListV15 .pdtInfo .pdtPrice span {padding-left:4px;}
+div.reviewListV15 .pdtInfo .pdtPrice span:first-child {padding-left:0;}
+div.reviewListV15 .pdtPhoto {float:left;}
+div.reviewListV15 .pdtActionV15 {position:relative; padding-top:20px;}
+div.reviewListV15 .pdtActionV15 li {float:left;}
+div.reviewListV15 .pdtActionV15 li a {padding:0 6px 0 24px;}
+div.reviewListV15 .pdtActionV15 li.largeView a, div.reviewListV15 .pdtActionV15 li.largeView p {padding:0 6px 0 0;}
+
+.reviewBoxV15 {position:relative; background:url(http://fiximage.10x10.co.kr/web2015/common/review_box.png) 100% 0 no-repeat; text-align:left;}
+.reviewBoxV15 .reviewTxt {color:#555;}
+.reviewBoxV15 .reviewWriteV15 {font-size:11px; color:#777;}
+.reviewBoxV15 .reviewWriteV15 em {color:#ccc;}
+.reviewBoxV15 .reviewWriteV15 p {display:inline-block; *display:inline;}
+
+div.txtReviewWrap .pdtBox {height:240px; min-height:240px;}
+div.txtReviewWrap .pdtInfo {float:right; width:230px; padding-top:15px;}
+div.txtReviewWrap .pdtPhoto {width:240px; height:240px;}
+div.txtReviewWrap .pdtPhoto img {width:240px; height:240px;}
+div.txtReviewWrap .pdtActionV15 {overflow:hidden; left:20px; width:230px;}
+
+div.txtReviewWrap .reviewBoxV15 {width:440px; height:112px; padding:49px 25px 25px; margin:-6px auto 0 auto;}
+div.txtReviewWrap .reviewBoxV15 .reviewTxt {min-height:68px; overflow:hidden; text-overflow:ellipsis; display:-webkit-box; -webkit-line-clamp:4; -webkit-box-orient:vertical; word-wrap:break-word;}
+div.txtReviewWrap .reviewBoxV15 a.more1V15 {left:25px;}
+div.txtReviewWrap .reviewBoxV15 .reviewFoodV15 {overflow:hidden; width:100%; padding-top:10px;}
+div.txtReviewWrap .reviewBoxV15 .reviewFoodV15 li {overflow:hidden; float:left; width:50%; padding:6px 0 3px 0;}
+div.txtReviewWrap .reviewBoxV15 .reviewFoodV15 li span {float:left; font-size:11px;}
+div.txtReviewWrap .reviewBoxV15 .reviewFoodV15 li em {float:right; padding-right:15px;}
+div.txtReviewWrap .reviewBoxV15 .reviewWriteV15 {position:absolute; right:25px; top:52px;}
+
+div.photoReviewWrap .pdtBox {height:120px; min-height:120px; margin-top:8px;}
+div.photoReviewWrap .pdtInfo {float:left; width:310px; padding-top:10px;}
+div.photoReviewWrap .pdtInfo .pdtPrice .pdtStTag img {margin-top:3px;}
+div.photoReviewWrap .pdtPhoto {width:120px; height:120px; margin-right:30px;}
+div.photoReviewWrap .pdtPhoto img {width:120px; height:120px;}
+div.photoReviewWrap .pdtActionV15 {width:310px;}
+
+div.photoReviewWrap .reviewBoxV15 {width:195px; height:225px; padding:30px 275px 37px 20px; margin:0 auto; background:url(http://fiximage.10x10.co.kr/web2015/common/review_box.png) 0 100% no-repeat;}
+div.photoReviewWrap .reviewBoxV15 .reviewTxt {min-height:15px;}
+div.photoReviewWrap .reviewBoxV15 a.more1V15 {left:20px; bottom:44px;}
+div.photoReviewWrap .reviewBoxV15 .pdtPhoto {position:absolute; right:15px; top:15px; width:240px; height:240px; margin-right:0;}
+div.photoReviewWrap .reviewBoxV15 .pdtPhoto img {width:240px; height:240px;}
+div.photoReviewWrap .reviewBoxV15 .reviewWriteV15 {padding-top:10px;}
+
+
+/* product detail */
+.pdtInfoWrapV15 {position:relative; width:1140px; margin-top:10px; padding-top:23px; padding-bottom:20px; background:url(http://fiximage.10x10.co.kr/web2015/shopping/pdt_info_bgline.png) 0 0 no-repeat; z-index:2;}
+.pdtInfoWrapV15:after {display:block; visibility:hidden; height:0; clear:both; content:'';}
+.pdtPhotoWrap {position:relative; float:left; width:510px; margin-top:5px; padding:0 25px;}
+.pdtPhotoWrap .limitV15 {position:absolute; top:6px; left:20px; width:115px; height:32px; padding-right:5px; text-align:center; color:#fff; font-size:11px; line-height:32px; letter-spacing:-0.05em; z-index:10; background:url(http://fiximage.10x10.co.kr/web2015/shopping/tag_limit_bg.png) 50% 50% no-repeat; z-index:11;}
+.pdtPhotoBox {width:500px; height:500px; padding:5px 5px 50px 5px; background:url(http://fiximage.10x10.co.kr/web2015/shopping/pdt_photo_bg.png) 50% 0 no-repeat;}
+.photoSlideV15 {width:500px;}
+.photoSlideV15 .slidesjs-slide img {display:inline; width:500px; height:500px; vertical-align:top;}
+.photoSlideV15 .slidesjs-pagination {overflow:hidden; padding-top:10px;}
+.photoSlideV15 .slidesjs-pagination li {position:relative; float:left; width:40px; height:40px; margin-right:5px; cursor:pointer;}
+.photoSlideV15 .slidesjs-pagination li a {display:block; overflow:hidden; width:40px; height:40px; background-position:50% 50%; background-repeat:no-repeat; background-size:40px 40px; text-indent:-999em;}
+.photoSlideV15 .slidesjs-pagination li a.active span {display:block;}
+.photoSlideV15 .slidesjs-pagination li span {display:none; position:absolute; left:0; top:0; width:34px; height:34px; border:3px solid #000; z-index:10;}
+.photoSlideV15 .slidesjs-pagination li.thumbVod a em {position:absolute; left:0; top:0; width:40px; height:40px; background:url(http://fiximage.10x10.co.kr/web2015/shopping/thumb_vod.png) 50% 50% no-repeat; z-index:5;}
+.photoSlideV15 .slidesjs-navigation {display:none; overflow:hidden; position:absolute; top:236px; width:38px; height:38px; background-repeat:no-repeat; background-image:url(http://fiximage.10x10.co.kr/web2015/shopping/photo_navi.png); text-indent:-999em; cursor:pointer; z-index:11;}
+.photoSlideV15 .slidesjs-previous {left:11px; background-position:0 0;}
+.photoSlideV15 .slidesjs-next {right:11px; background-position:100% 0;}
+
+.giftcardDetailV15 .pdtPhotoWrap {width:550px;}
+.giftcardDetailV15 .pdtPhotoBox {width:550px; padding:0; background:url(http://fiximage.10x10.co.kr/web2015/shopping/bg_giftcard.png) 50% 0 no-repeat; text-align:center;}
+.giftcardDetailV15 .pdtDetailWrap {width:530px;}
+.giftcardDetailV15 .pdtInfoV15 {width:530px; min-height:340px; background:none;}
+.giftcardDetailV15 .pdtSaleInfoV15 {width:500px; min-height:340px; background:none;}
+.giftcardDetailV15 .giftcard .section .process {padding: 0 0 0 154px;}
+.giftcardDetailV15 .giftcard .section .process h4 {float:left; margin:0; padding:0 30px 0 0; background:none;}
+
+.pdtInfoV15 {/*overflow:hidden;*/ width:570px; min-height:470px; padding-bottom:39px; border-bottom:1px solid #ddd; background:url(http://fiximage.10x10.co.kr/web2015/shopping/pdt_addinfo_bg.png) 100% 0 no-repeat;}
+.pdtInfoV15:after {content:' '; display:block; clear:both;}
+.pdtDetailWrap {/*overflow:hidden;*/ width:570px;}
+.pdtDetailWrap img {display:inline; vertical-align:top;}
+
+.pdtSaleInfoV15 {position:relative; float:left; width:440px; min-height:470px; padding-right:30px; background:url(http://fiximage.10x10.co.kr/web2015/shopping/pdt_info_dotline.gif) 100% 0 repeat-y; z-index:11;}
+.pdtSaleInfoV15:after {position:absolute; right:-2px; bottom:0; display:block; width:5px; height:5px; background:url(http://fiximage.10x10.co.kr/web2015/shopping/pdt_info_dotline_acc.gif) 0 0 no-repeat; content:'';}
+.pdtBasicV15 {padding:29px 0 11px 0; min-height:79px; border-bottom:1px solid #ddd;}
+.pdtBasicV15 .pdtBrand {overflow:hidden; text-decoration:none; font-size:13px; line-height:14px;}
+.pdtBasicV15 .pdtBrand a {float:left; text-decoration:none; height:14px;}
+.pdtBasicV15 .pdtBrand span {font-family:/*Georgia, */'Times New Roman', Times, serif; font-style:italic; font-size:13px; line-height:14px; color:#777; letter-spacing:0.025em; text-decoration:none; vertical-align:middle;}
+.pdtBasicV15 .pdtBrand dfn {display:block; overflow:hidden; width:16px; height:14px; margin-right:5px; background-image:url(http://fiximage.10x10.co.kr/web2015/shopping/brand_zzim.png); background-position:0 0; vertical-align:top; background-repeat:no-repeat; text-indent:-999em;}
+.pdtBasicV15 .pdtBrand dfn.zzimBrV15 {background-position:0 100%;}
+.pdtBasicV15 .pdtBrand .btnS6 {height:6px; padding:3px 4px; line-height:8px;}
+.pdtBasicV15 .pdtName {padding-top:9px; min-height:24px; font-size:17px; line-height:20px; color:#000; font-weight:bold; font-family:dotum, '돋움', sans-serif; letter-spacing:-0.05em;}
+.pdtBasicV15 .pdtDesp {padding-top:15px; font-size:11px; color:#888; text-overflow:ellipsis; overflow:hidden; white-space:nowrap;}
+.detailInfoV15 {padding-top:15px;}
+.saleInfo {width:440px; font-size:11px; color:#555; padding-top:6px;}
+.saleInfo:after {display:block; visibility:hidden; height:0; clear:both; content:'';}
+.saleInfo dt {float:left; width:95px;}
+.saleInfo dd {padding:0 0 0 95px;}
+.saleInfo dd .btn {margin-top:-2px;}
+.saleInfo dd .more1V15 {color:#888; text-decoration:underline; cursor:pointer;}
+.saleInfo dd > a, .saleInfo dd > span {white-space:nowrap;}
+.saleInfo .txtInp {padding:0 5px; font-size:11px; color:#555; line-height:16px;}
+.saleInfo select {max-width:330px;}
+.saleInfo select.optSelect2 {height:21px;}
+.icoAbroadV15 {padding-right:20px; background:url(http://fiximage.10x10.co.kr/web2015/common/ico_abroad.png) 100% 50% no-repeat;}
+.icoDirectV17 {padding-right:20px; background:url(http://fiximage.10x10.co.kr/web2017/common/ico_abroad_blue.png) 100% 50% no-repeat;}
+.infoMoreViewV15 {display:inline-block; *display:inline; position:relative; z-index:49;}
+.infoViewLyrV15 {display:none; position:absolute; left:50%; top:100%; width:344px; margin-left:-172px; padding-top:6px; z-index:100;}
+.infoViewBoxV15 {position:relative; width:337px; padding:0 7px 8px 0; background:url(http://fiximage.10x10.co.kr/web2015/shopping/detail_box_rt.png) 100% 100% no-repeat; z-index:100;}
+.infoViewBoxV15 dfn {display:block; position:absolute; left:50%; top:-6px; width:11px; height:9px; margin-left:-7px; background:url(http://fiximage.10x10.co.kr/web2015/shopping/detail_box_pointer.png) 50% 0 no-repeat;}
+.infoViewV15 {width:334px; padding:3px 0 0 3px; background:url(http://fiximage.10x10.co.kr/web2015/shopping/detail_box_lt.png) 0 0 no-repeat;}
+
+.plusSaleBoxV15 {position:relative; width:434px; margin-top:15px; border:3px solid #e2e2e2; z-index:10;}
+.plusSaleBoxV15:after {display:block; visibility:hidden; height:0; clear:both; content:'';}
+.plusSHeadV15 {font-size:11px; color:#777; width:397px; margin:-3px; padding:18px 18px 18px 25px; z-index:100; background:url(http://fiximage.10x10.co.kr/web2015/shopping/deco_plussale.gif) 0 0 no-repeat;}
+.plusSHeadV15:after {display:block; visibility:hidden; height:0; clear:both; content:'';}
+.plusSHeadV15 .more1V15 {color:#777; text-decoration:underline; cursor:pointer;}
+.plusSListV15 {overflow-y:scroll; position:relative; width:390px; height:220px; padding:0 22px;}
+.plusSListV15 .pdtList {position:relative;}
+.plusSListV15 .pdtList li {float:none; padding:19px 0 20px 0; border-bottom:1px solid #ddd;}
+.plusSListV15 .pdtList li:last-child {border-bottom:none;}
+.plusSListV15 .pdtBox {overflow:hidden;}
+.plusSListV15 .pdtPhoto {float:left; width:75px; height:75px; margin-right:20px;}
+.plusSListV15 .pdtPhoto img {width:75px; height:75px;}
+.plusSListV15 .pdtInfo {float:left; width:225px; text-align:left;}
+.plusSListV15 .pdtInfo .pdtName {min-height:16px; text-overflow:ellipsis; overflow:hidden; white-space:nowrap;}
+.plusSListV15 .pdtInfo select {max-width:225px;}
+.plusSListV15 .btn {position:absolute; right:0; top:10px;}
+
+.easeCartV15 {background-color:#f8f8f8; margin-top:20px;}
+.easeCartV15 .easeTxtV15 {padding:20px 20px 0 20px;}
+.easeCartV15 .easeTxtV15 p {padding-left:18px; font-size:11px; color:#888; background:url(http://fiximage.10x10.co.kr/web2015/common/blt12.png) 0 1px no-repeat;}
+.easeCartV15 .optSelectListWrap {padding:0 20px;}
+.easeCartV15 .txtInp {padding:0 5px; font-size:11px; color:#555; line-height:16px;}
+.easeCartV15 .optSelectList .spinner {padding-left:10px;}
+.easeCartV15 .optSelectList .plusPdtOrder {min-height:18px; padding:0 0 0 25px; background:url(http://fiximage.10x10.co.kr/web2013/common/blt_plussale.png) 0 0 no-repeat;}
+.easeCartV15 .optSelectList td .btnListDel {text-align:left;}
+.easeCartV15 .totalPrice {background-color:#eee; padding:15px 20px;}
+
+.checkContV15 {padding-top:24px;}
+.checkContV15 dl {color:#d50c0c;}
+.checkContV15 dl dt {font-weight:bold;}
+
+.pdtAddInfoV15 {float:right; width:100px; padding-top:30px; z-index:5;}
+.pdtTagV15 {min-height:70px; padding-bottom:4px;}
+.pdtTagV15 p {padding-bottom:4px; text-align:center;}
+.interactInfoV15 dl {position:relative; padding:20px 0 19px 0; font-size:11px; line-height:13px; font-family:verdana, tahoma, dotum, '돋움', sans-serif; color:#555; text-align:center; letter-spacing:-0.03em;}
+.interactInfoV15 dl:first-child:before {display:none;}
+.interactInfoV15 dl:before {display:block; position:absolute; left:50%; top:0; width:30px; height:1px; margin-left:-15px; background-color:#ddd; content:'';}
+.interactInfoV15 dl dt {font-weight:bold;}
+.interactInfoV15 dl dd {padding-top:5px;}
+.interactInfoV15 dl dd a {text-decoration:underline;}
+
+.pdtDetailWrap .btnArea {display:table; width:100%; padding-top:15px; z-index:101;}
+.pdtDetailWrap .btnArea span {display:table-cell; *float:left;}
+.pdtDetailWrap .btnArea a.btn {margin:0;}
+.pdtDetailWrap .btnArea a.btnB1 {width:100%; padding:18px 0; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box;}
+.wishActionV15 {padding-left:20px; font-family:verdana, tahoma, sans-serif; font-size:12px; background:url(http://fiximage.10x10.co.kr/web2015/common/ico_wish2.png) 0 2px no-repeat; color:#555;}
+.myWishMarkV15 .wishActionV15 {background:url(http://fiximage.10x10.co.kr/web2015/common/ico_wish2.png) 0 -68px no-repeat;}
+
+.btnCartV15 {position:relative; /*z-index:200;*/}
+.alertLyrV15 {position:absolute; left:50%; top:-145px; width:274px; height:145px; margin-left:-137px; background:url(http://fiximage.10x10.co.kr/web2015/shopping/bg_descript_box.png) 50% 100% no-repeat; z-index:201;}
+.alertBox {position:relative; padding:5px 5px 11px 5px;}
+.closeBtnV15 {display:block; overflow:hidden; position:absolute; right:15px; top:15px; width:9px; height:9px; text-indent:-999em; background:url(http://fiximage.10x10.co.kr/web2015/common/btn_delete2.gif) 0 0 no-repeat; z-index:305; cursor:pointer;}
+.alertInner {padding:25px 20px; text-align:center;}
+
+.evtSnsV17a {position:relative; padding-top:10px; padding-bottom:37px;}
+.evtSnsV17a .evtIssuV17a {overflow:hidden; width:570px; padding-top:10px; min-height:50px;}
+.evtSnsV17a .evtIssuV17a dt {float:left; width:120px; padding:11px 0 20px 25px; background:url(http://fiximage.10x10.co.kr/web2017/common/blt01_red.png) 13px 21px no-repeat; font-size:13px; font-family:verdana, sans-serif; color:#000; font-weight:bold;}
+.evtSnsV17a .evtIssuV17a dd {float:left; width:425px;}
+.evtSnsV17a .evtIssuV17a dd li {position:relative; width:360px; height:50px; padding:10px 0 10px 65px; border-bottom:1px dotted #d7d7d7; font-size:11px; color:#555;}
+.evtSnsV17a .evtIssuV17a dd li:last-child {border-bottom:none;}
+.evtSnsV17a .evtIssuV17a dd li a {display:block; text-decoration:none;}
+.evtSnsV17a .evtIssuV17a dd li a:hover .evtTit strong {text-decoration:underline;}
+.evtSnsV17a .evtIssuV17a dd li span {display:block; position:absolute; left:0; top:10px; width:50px; height:50px;}
+.evtSnsV17a .evtIssuV17a dd li .evtTit {display:inline-block; overflow:hidden; position:relative; margin-top:8px;}
+.evtSnsV17a .evtIssuV17a dd li .evtTit strong {overflow:hidden; display:block; float:left; padding-right:10px; text-overflow:ellipsis; white-space:nowrap;}
+.evtSnsV17a .evtIssuV17a dd li .evtTit dfn {display:block; position:absolute; right:0; top:0; font-weight:bold;}
+.evtSnsV17a .evtIssuV17a dd li .evtTit dfn i {display:inline-block; font-style:normal;}
+.evtSnsV17a .evtIssuV17a dd li .evtDesc {width:355px; text-overflow:ellipsis; overflow:hidden; white-space:nowrap;}
+
+/*
+.evtSnsV15 {position:relative; padding-top:40px; min-height:17px;}
+.evtSnsV15 .evtIssu {width:450px; padding-top:0; padding-bottom:0;}
+.evtSnsV15 .evtIssu dt {width:122px;}
+.evtSnsV15 .evtIssu dd {width:325px;}
+.evtSnsV15 .evtIssu dd li {padding:0 0 5px 11px; background:url(http://fiximage.10x10.co.kr/web2015/common/blt15.png) 0 -24px no-repeat; text-overflow:ellipsis; overflow:hidden; white-space:nowrap;}
+.evtSnsV15 .evtIssu dd li.evt {background:url(http://fiximage.10x10.co.kr/web2015/common/blt15.png) 0 6px no-repeat;}
+.pdtSnsV15 {overflow:hidden; position:absolute; right:0; top:30px; width:90px; height:27px;}
+*/
+.pdtSnsV15 {overflow:hidden; position:absolute; top:auto; right:0; bottom:0; width:90px; height:27px;}
+.pdtSnsV15 li {float:left; padding-left:3px; width:27px; height:27px;}
+.pdtSnsV15 li a {overflow:hidden; display:block; width:27px; height:27px; background-position:0 0; background-repeat:no-repeat; text-indent:-999em;}
+.pdtSnsV15 li a:hover {background-position:0 -27px;}
+.pdtSnsV15 li.fbShareV15 a {background-image:url(http://fiximage.10x10.co.kr/web2015/common/sns_facebook.png);}
+.pdtSnsV15 li.twShareV15 a {background-image:url(http://fiximage.10x10.co.kr/web2015/common/sns_twitter.png);}
+.pdtSnsV15 li.ptShareV15 a {background-image:url(http://fiximage.10x10.co.kr/web2015/common/sns_pinterest.png);}
+
+.recommendItemV15 {overflow:hidden; height:305px; padding:0 16px 0 29px; margin-bottom:50px; border:7px solid #ececec;}
+.recommendItemV15 .itemNaviV15 {float:left; padding-top:31px;}
+.recommendItemV15 .itemNaviV15 li {padding-bottom:8px;}
+.recommendItemV15 .itemNaviV15 li a {display:block; height:30px; background-position:left top; background-repeat:no-repeat; text-indent:-9999px;}
+.recommendItemV15 .itemNaviV15 li a.on {background-position:left bottom;}
+.recommendItemV15 .itemNaviV15 li.item01 a {width:177px; background-image:url(http://fiximage.10x10.co.kr/web2015/shopping/tab_category_best.gif)}
+.recommendItemV15 .itemNaviV15 li.item02 a {width:187px; background-image:url(http://fiximage.10x10.co.kr/web2015/shopping/tab_happy_together.gif)}
+.recommendItemV15 .itemNaviV15 li.item03 a {width:146px; background-image:url(http://fiximage.10x10.co.kr/web2015/shopping/tab_brand_best.gif)}
+.recommendItemV15 .itemContainerV15 {position:relative; overflow:hidden; float:right; padding-top:41px; width:876px;}
+.recommendItemV15 .itemContV15 {margin-left:-1px;}
+.recommendItemV15 .itemContV15 .more {display:inline-block;}
+.recommendItemV15 .itemContV15 .more {position:absolute; right:2px; top:15px; color:#000; font-size:11px; line-height:1; font-family:Verdana, Dotum, '돋움', sans-serif;}
+.recommendItemV15 .itemContV15 .more:hover {text-decoration:none;}
+.recommendItemV15 .itemContV15 .more:hover span {text-decoration:underline;}
+.recommendItemV15 .pdtName {min-height:16px;}
+.recommendItemV15 .pdtList li {width:150px; height:225px; padding:0 34px; border-left:1px solid #ececec;}
+.recommendItemV15 .pdtList li .pdtBrand {width:150px; text-overflow:ellipsis; overflow:hidden; white-space:nowrap;}
+.recommendItemV15 .pdtList li .pdtPhoto img {width:150px; height:150px;}
+
+.pdtListBoxV17a {position:relative; overflow:hidden; padding:35px 46px; margin-bottom:50px; border:7px solid #ececec;}
+.pdtListBoxV17a img {vertical-align:top;}
+.pdtListBoxV17a .titWrap {overflow:hidden; padding:0 0 30px 0;}
+.pdtListBoxV17a .titWrap h3 {font-size:15px; color:#000; font-weight:bold; line-height:1;}
+.pdtListBoxV17a .titWrap span {padding-left:17px; line-height:1.3; color:#555;}
+.pdtListBoxV17a .itemContainerV17a {position:relative; overflow:hidden;}
+.pdtListBoxV17a .itemContV15 {margin:-26px -35px -20px -36px;}
+.pdtListBoxV17a .more {display:inline-block;}
+.pdtListBoxV17a .more {position:absolute; right:45px; top:33px; color:#000; font-size:11px; line-height:1; font-family:Verdana, Dotum, '돋움', sans-serif;}
+.pdtListBoxV17a .more:hover {text-decoration:none;}
+.pdtListBoxV17a .more:hover span {text-decoration:underline;}
+.pdtListBoxV17a .pdtName {min-height:16px;}
+.pdtListBoxV17a .pdtList li {height:234px; padding:25px 35px 20px 35px; border-left:1px solid #ececec; border-top:1px solid #ececec;}
+.pdtListBoxV17a .pdtList li .pdtPhoto img {width:150px; height:150px;}
+.pdtListBoxV17a .pdtList li p {width:150px;}
+
+.pdtDetailV15 {position:relative; padding-top:47px; background-color:#fff;}
+.pdtTabLinkV15 {position:absolute; left:50%; top:0; width:1140px; margin-left:-570px; padding-top:10px; background:#fff url(http://fiximage.10x10.co.kr/web2015/shopping/pdt_detail_tabline.gif) 0 100% repeat-x; z-index:1000;}
+.pdtTabLinkV15 ul {overflow:hidden; width:100%;}
+.pdtTabLinkV15 ul li {position:relative; float:left; min-width:130px; border-top:1px solid #fff; border-bottom:none; font-size:12px; cursor:pointer;}
+.pdtTabLinkV15 ul li.current {position:relative; border-top:1px solid #333; border-left:1px solid #333; border-right:1px solid #333; background-color:#fff; margin-right:-1px; z-index:5;}
+.pdtTabLinkV15 ul li.current p {font-weight:bold; color:#d50c0c;}
+.pdtTabLinkV15 ul li:before {position:absolute; left:0; top:11px; width:1px; height:16px; background-color:#ddd; content:'';}
+.pdtTabLinkV15 ul li:first-child:before, .pdtTabLinkV15 ul li.current:before {display:none;}
+.pdtTabLinkV15 ul li p {padding:9px 15px 8px 15px; text-align:center; font-family:verdana, tahoma, dotum, '돋움', sans-serif;}
+
+.pdtDetailV15 .section {padding:50px 70px 60px 70px;}
+.pdtDetailV15 .section .more1V15 {margin-left:15px; color:#888; text-decoration:underline;}
+.pdtDetailV15 h3 {font-size:15px; color:#000; font-weight:bold;}
+.pdtDetailV15 h4 {font-size:11px; color:#555; font-weight:bold;}
+.pdtExplanV15, .pdtExplanV15 div, .pdtExplanV15 div * {z-index:1;}
+.pdtExplanV15 div img {max-width:1000px; vertical-align:top;}
+
+.pdtInforBox {padding:25px 30px; background:#f4f4f4;}
+.pdtInforList {overflow:hidden;}
+.pdtInforList span {display:inline-block; padding:4px 25px 3px 9px; background:url(http://fiximage.10x10.co.kr/web2013/common/blt_btn_arr_red03.gif) left 8px no-repeat; line-height:15px; color:#666; font-size:11px; font-family:dotum, dotumche, '돋움', '돋움체', sans-serif;}
+.pdtInforList span em {font-style:normal; font-weight:bold;}
+
+.tabMenuV15 {overflow:hidden;}
+.tabMenuV15 li {float:left; min-width:140px; margin-right:1px;}
+.tabMenuV15 li a {display:block; min-width:140px; padding:11px 0 7px 0; color:#777; text-align:center; line-height:1.1; background-color:#f4f4f4;}
+.tabMenuV15 li a:hover {text-decoration:none;}
+.tabMenuV15 li a.on {background-color:#ddd; color:#333;}
+.tabMenuV15 li a.on span {padding-right:15px; background:url(http://fiximage.10x10.co.kr/web2013/common/blt15.gif) 100% 3px no-repeat;}
+
+.talkList {border-top:1px solid #ddd;}
+.talkList thead {display:none;}
+.talkList thead th {display:block; visibility:hidden; width:0; height:0;}
+.talkList td {padding:24px 0; border-bottom:1px solid #ddd; vertical-align:top; font-size:11px;}
+.talkList td img {vertical-align:middle;}
+.talkList .imgArea {padding:15px 0 6px;}
+.talkList .purchaseOption em {color:#000; font-style:normal;}
+.talkList td.comment {padding-left:25px;}
+.talkList .imgArea img {max-width:428px;}
+
+.review {font-size:11px;}
+.review table {text-align:center;}
+.review table td {padding:5px 0; border-bottom:1px solid #ddd; background:#fff;}
+.review table td.noData, .qnaV15 table td.noData {padding:45px 0; font-size:11px;}
+.review .talkList tr.talkMore td, .qnaV15 .talkList tr.talkMore td {background:#fafafa;}
+.review .talkList tr td:first-child {vertical-align:middle;}
+.review .talkList tr.talkMore td:first-child {vertical-align:top;}
+.review table .reviewItem li {padding-bottom:15px;}
+.review table .reviewItem li strong {color:#000; text-decoration:none;}
+.review table .imgArea img {max-width:745px;}
+
+.popReviewV15 .review table .imgArea img {max-width:470px;}
+
+.pdtReviewV15 table td {height:36px; vertical-align:middle;}
+.pdtReviewV15 table td .purchaseOption {color:#888;}
+
+.customerReview {overflow:hidden; margin:25px 40px;}
+.customerReview:after {content:" "; display:block; clear:both;}
+.customerReview .rating {float:left; width:140px; padding-right:20px;}
+.customerReview .comment {float:left; width:745px; text-align:left;}
+.customerReview .comment .purchaseOption {padding-bottom:10px;}
+.customerReview .comment .btnArea {margin-top:5px;}
+.customerReview .comment .btnArea a {margin:0;}
+
+.review .healthReview thead th {padding:5px 0; border-top:1px solid #ddd; border-bottom:1px solid #ddd; font-weight:normal; font-size:11px;}
+.review .healthReview thead th span {display:block; visibility:hidden; width:0; height:0;}
+.review .healthReview td {font-size:11px;}
+.review .healthReview .onlyPhotoReview td {padding:30px 0; background-color:#fafafa;}
+.review .healthReview .onlyPhotoReview td .imgArea img {max-width:520px; width:520px;}
+.review .healthReview .onlyPhotoReview td .btnArea {text-align:left; padding:10px 0 0 235px;}
+.review .healthReview .generalV15 {background-color:#fafafa; color:#000; font-weight:bold;}
+
+.rating {overflow:hidden; font-size:11px;}
+.rating ul {width:110px; margin-top:-5px;}
+.rating li {overflow:hidden; width:104px; padding:5px 0 3px 6px; border-top:1px solid #ddd;}
+.rating li span, .rating li img {float:left; text-align:left; vertical-align:top;}
+.rating li span {width:44px;}
+
+.qnaV15 .boardForm {border-top:1px solid #ddd; background:#fafafa;}
+.qnaV15 .talkList td {padding:5px 0; font-size:11px; text-align:center;}
+.qnaV15 .talkList tr.secretV17 .lt {padding-left:18px; background:url(http://fiximage.10x10.co.kr/web2017/common/ico_lock.png) 0 40% no-repeat;}
+.qnaV15 .talkList tr.secretV17 .account p {text-indent:18px; background:url(http://fiximage.10x10.co.kr/web2017/common/ico_lock.png) 0 1px no-repeat;}
+.qnaV15 h4 {font-size:16px; color:#000;}
+.boardForm fieldset {padding:60px 80px 50px 80px;}
+.boardForm input {font-size:11px;}
+.boardForm .txtInp {width:45px; height:10px; padding:5px 0 5px; border:1px solid #ccc;}
+.boardForm .emailInfo {width:190px; padding-left:12px;}
+.boardForm textarea {width:808px; height:100px; margin:5px 0; padding:15px; border:1px solid #ccc;}
+.boardForm input[type=checkbox] {vertical-align:middle;}
+.boardForm .btnArea a {margin:0 0 0 5px;}
+.list01V15 li a {text-decoration:underline;}
+.list01V15 li .more2V15 {margin-left:10px;}
+
+.qnaList {padding:45px 80px; text-align:left;}
+.qnaList .question, .qnaList .answer {overflow:hidden;}
+.qnaList .question, .qnaList .answer:after {content:" "; display:block; clear:both;}
+.qnaList .question {margin-bottom:0; padding-bottom:0; border-bottom:0;}
+.qnaList .answer {margin-top:25px; padding-top:25px; border-top:1px solid #ddd;}
+.qnaList .title, .qnaList .account {float:left;}
+.qnaList .title {width:60px; text-align:left;}
+.qnaList .account {width:760px; padding:0 0 0 0;}
+.qnaList .account .btnArea {padding-top:12px;}
+.qnaList .account .btnArea a {margin:0 0 0 3px;}
+
+.list01V15 {}
+.list01V15 li {margin-top:2px; padding:0 0 0 13px; background:url(http://fiximage.10x10.co.kr/web2015/common/blt10.gif) 0 5px no-repeat; font-size:11px;}
+.checkListV15 {}
+.checkListV15 li {margin-bottom:3px; padding:0 0 0 19px; background:url(http://fiximage.10x10.co.kr/web2015/common/blt14.png) 0 0 no-repeat; letter-spacing:-0.025em;}
+
+.conditionV15 table {margin-top:5px; border-top:1px solid #ddd;}
+.conditionV15 table th {position:relative; padding:21px 0; border-right:1px solid #ddd; font-size:12px;}
+.conditionV15 table th:before,
+.conditionV15 table th:after {content:' '; display:inlnie-block; position:absolute; right:-1px; width:2px; height:10px; background:#fff;}
+.conditionV15 table th:before {top:0; }
+.conditionV15 table th:after {bottom:0;}
+.conditionV15 table td {padding:21px;}
+.conditionV15 table th, .conditionV15 table td {border-bottom:1px solid #ddd; vertical-align:top;}
+.conditionV15 ul {margin-top:-2px;}
+
+.pdtTicketV15 {font-size:11px;}
+.infoTb01V15 th, .infoTb01V15 td {border:1px solid #ddd; padding:7px; text-align:center; font-weight:normal;}
+.infoTb01V15 th {background-color:#f4f4f4;}
+
+.wishCollectionV15 {position:relative; overflow:hidden; height:303px; text-align:center; background:url(http://fiximage.10x10.co.kr/web2015/shopping/bg_wish_collection.gif) 0 0 no-repeat;}
+.pdtDetailV15 div.wishCollectionV15 {padding:0;}
+.wishCollectionV15 img {vertical-align:top;}
+.wishCollectionV15 .title {position:absolute; left:0; top:35px; width:222px; z-index:20;}
+.wishCltSlideV15 .othersWish {overflow:hidden;}
+.wishCltSlideV15 .othersWish .user {float:left; width:129px; height:142px; padding-top:6px; margin:120px 47px 0; background:url(http://fiximage.10x10.co.kr/web2015/shopping/bg_wish_profile.png) 0 0 no-repeat;}
+.wishCltSlideV15 .othersWish .user img {width:102px; height:102px;}
+.wishCltSlideV15 .othersWish .user span {display:block; padding-top:23px; font-size:11px; line-height:1; color:#777; font-weight:bold;}
+.wishCltSlideV15 .othersWish .pdtList {float:left; padding:55px 0 0 28px;}
+.wishCltSlideV15 .othersWish .pdtList li {width:150px; padding:0 10px;}
+.wishCltSlideV15 .othersWish .pdtPhoto img {width:150px; height:150px;}
+.wishCltSlideV15 .slidesjs-pagination {overflow:hidden; position:absolute; top:0; right:0; z-index:25;}
+.wishCltSlideV15 .slidesjs-pagination li {float:left; width:12px; height:12px; margin-left:9px;}
+.wishCltSlideV15 .slidesjs-pagination li a {display:block; width:12px; height:12px; background-repeat:no-repeat; background-image:url(http://fiximage.10x10.co.kr/web2015/common/slide_page_big.png); background-position:100% 50%; text-indent:-999em;}
+.wishCltSlideV15 .slidesjs-pagination li a:hover {background-position:-21px 50%;}
+.wishCltSlideV15 .slidesjs-pagination li a.active {background-position:0 50%;}
+
+.justDayV15 {position:relative; padding-top:14px; margin-top:-5px; margin-bottom:-30px; z-index:1;}
+.justDayV15 dl {overflow:hidden; padding:37px 185px 56px 35px; background-color:#f5f5f5;}
+.justDayV15 dl dt {float:left; padding-top:9px;}
+.justDayV15 dl dd {float:right;}
+.justDayV15 dl dd strong {float:left; padding:14px 12px 0 0;}
+.timeBoxV15 {float:left; padding-left:4px; background:url(http://fiximage.10x10.co.kr/web2015/shopping/txt_remain_time_box_lt.png) 0 0 no-repeat;}
+.timeBoxV15 div {padding:5px 4px 5px 0; background:url(http://fiximage.10x10.co.kr/web2015/shopping/txt_remain_time_box_rt.png) 100% 0 no-repeat;}
+.timeBoxV15 div p {overflow:hidden; background:url(http://fiximage.10x10.co.kr/web2015/shopping/justday_line_bg.gif) 50% 50% no-repeat;}
+.timeBoxV15 div p span {display:block; float:left; width:25px; height:43px; margin:0 1px; background:url(http://fiximage.10x10.co.kr/web2015/shopping/txt_remain_time_unit_bg.png) 0 0 no-repeat; text-align:center; font-family:arial, sans-serif; font-size:30px; line-height:43px; font-weight:bold; color:#fff;}
+.timeBoxV15 div em {display:block; float:left; width:5px; height:43px; background:url(http://fiximage.10x10.co.kr/web2015/shopping/txt_remain_time_delimiter.png) 50% 15px no-repeat;}
+.justDayV15 .saleRatev15 {position:absolute; right:0; top:0; width:123px; height:93px; padding:57px 0 0 48px; background:url(http://fiximage.10x10.co.kr/web2015/shopping/just_salerate_bg.png) 0 0 no-repeat; text-align:center;}
+.justDayV15 .saleRatev15 img {float:left;}
+
+/* 20151012 기프트톡이란? 추가 */
+.infoMoreViewV15a {display:inline-block; *display:inline; position:relative; z-index:49; cursor:pointer;}
+.infoViewLyrV15a {display:none; position:absolute; right:-17px; bottom:108%; width:300px; margin-left:-150px; padding-bottom:8px; z-index:100;}
+.infoViewLyrV15a dfn {display:block; position:absolute; right:19px; bottom:2px; width:11px; height:9px; background:url(http://fiximage.10x10.co.kr/web2015/shopping/detail_box_pointer2.png) 50% 0 no-repeat;}
+.infoViewV15a {border:3px solid #b2b2b2; background-color:#fff; text-align:left; font-weight:normal; line-height:1.4;}
+
+.evtSelectV15a {width:212px; position:relative; z-index:50;}
+.evtSelectV15a p {width:210px; height:22px; border:1px solid #ddd;}
+.evtSelectV15a p span {color:#888; font-size:11px; display:block; padding:2px 25px 2px 10px; height:18px; background:#fff url(http://fiximage.10x10.co.kr/web2013/event/btn_select_arrow.gif) right top no-repeat; text-overflow:ellipsis; overflow:hidden; white-space:nowrap; cursor:pointer;}
+.evtSelectV15a p.over span {background:#efefef url(http://fiximage.10x10.co.kr/web2013/event/btn_select_arrow.gif) right bottom no-repeat;}
+.evtSelectV15a div {display:none; position:absolute; left:0; top:24px; border:1px solid #ddd; border-top:none; background:#fff; padding:8px 10px; width:190px; z-index:500;}
+.evtSelectV15a div li {font-size:11px; width:190px; padding:2px 0; text-overflow:ellipsis; overflow:hidden; white-space:nowrap; color:#777; cursor:pointer; text-align:left !important;}
+.evtSelectV15a div li.on, .evtSelectV15a div li:hover {color:#d50c0c;}
+
+/* brand notice 20170201 */
+.notiV17 {position:relative; min-height:90px; margin:20px -70px 0; padding:40px 40px 40px 218px; background-color:#fbf9f5;}
+.pdtExplanV15 .notiV17:first-child {margin-top:-30px;}
+.notiDelivery {background-color:#fbf9f5;}
+.notiGeneral {background-color:#fafafa;}
+.notiV17 .ico {position:absolute; top:50%; left:88px; width:90px; height:90px; margin-top:-45px; background:url(http://fiximage.10x10.co.kr/web2017/common/bg_sprite_noti.png) 0 0 no-repeat;}
+.notiGeneral .ico {background-position:-90px 0;}
+.notiV17 .texarea {display:table; min-height:90px; font-size:11px; line-height:18px;}
+.notiV17 .texarea .inner {display:table-cell;vertical-align:middle;}
+.notiV17 .texarea p {margin-top:11px;}
+.notiV17 + h3,
+.notiV17 + .plusSaleVItem17 {margin-top:50px;}
+
+/* dropdwon */
+.dropDown {position:relative; display:inline-block; *display:inline; *zoom:1; width:340px;}
+.btnDrop {overflow:hidden; width:100%; height:21px; padding:0 35px 0 8px; border:1px solid #ccc; background:#fff url(http://fiximage.10x10.co.kr/web2017/common/blt_arrow_down_up.png) 100% 0 no-repeat ; color:#555; font-family:'돋움', 'Dotum', 'Verdana'; font-size:11px; line-height:21px; text-align:left; text-overflow:ellipsis; white-space:nowrap;}
+.btnDrop.on {background-position:100% 100%;}
+.dropBox {overflow:hidden; position:absolute; top:20px; left:0; z-index:35; height:0; width:338px;}
+.dropBox.on {overflow:auto; height:auto; max-height:192px; border:1px solid #000; background:#fff;}
+.dropBox::-webkit-scrollbar-track {background-color:#f5f5f5;}
+.dropBox::-webkit-scrollbar {width:10px; background-color: #f0f0f0;}
+.dropBox::-webkit-scrollbar-thumb {background-color:#d7d7d7;}
+.dropBox ul {padding:4px 0;}
+.dropBox ul li a {display:block; margin-top:1px; padding:5px 10px 4px; color:#555; text-decoration:none;}
+.dropBox ul li:first a {margin-top:0;}
+.dropBox ul li.soldout .option {position:relative; margin:5px 10px 4px; color:#b2b2b2;}
+.dropBox ul li a:hover,
+.dropBox ul li a:focus,
+.dropBox ul li.on {background:#efefef; color:#000; text-decoration:none; transition:all 0.5s;}
+.dropBox ul li .option {position:relative; line-height:14px;}
+.dropBox ul li .option span {display:block; margin-top:1px; color:#888;}
+.dropDown .multi ul li .option {padding-right:85px;}
+.dropBox ul li .value {position:absolute; top:0; right:0; width:85px; font-weight:bold; text-align:right;}
+
+.plusSaleVItem17 {margin:0 70px; padding:61px 0 52px; border-bottom:1px solid #ddd;}
+.pdtExplanV15 + .plusSaleVItem17 {margin-top:-20px; padding-top:0;}
+.plusSaleVItem17 img {vertical-align:top;}
+.plusSaleVItem17 .hgroup {overflow:hidden;}
+.plusSaleVItem17 .hgroup h3,
+.plusSaleVItem17 .hgroup p {float:left;}
+.plusSaleVItem17 .hgroup h3 span {color:#d50c0c;}
+.plusSaleVItem17 .hgroup p {margin:4px 0 0 8px; color:#777; font-size:11px;}
+.plusSaleVItem17 .item {overflow:hidden; margin-top:12px; border-top:1px solid #ececec; border-bottom:1px solid #ececec;}
+.plusSaleVItem17 .item ul {overflow:hidden; margin-bottom:-1px;}
+.plusSaleVItem17 .item li {position:relative; float:left; width:50%; font-size:11px; font-weight:bold;}
+.plusSaleVItem17 .item li a {overflow:hidden; display:block; position:relative; padding:29px 30px; background:url(http://fiximage.10x10.co.kr/web2017/shopping/bg_line_left.gif) 29px 100% no-repeat; text-decoration:none; cursor:pointer;}
+.plusSaleVItem17 .item li:nth-child(even) a {background-image:url(http://fiximage.10x10.co.kr/web2017/shopping/bg_line_right.gif); background-position:0 100%;}
+.plusSaleVItem17 .item li:nth-child(odd) a:after {content:' '; position:absolute; top:30px; right:0; height:130px; width:1px; background-color:#ddd;}
+.plusSaleVItem17 .item li a:hover {background-color:#ececec;}
+.plusSaleVItem17 .item li .thumbnail,
+.plusSaleVItem17 .item li .desc {float:left;}
+.plusSaleVItem17 .item li .thumbnail {position:relative;}
+.plusSaleVItem17 .item li .thumbnail .btnView {display:block; position:absolute; top:0; left:0; width:100%; height:130px; background:transparent url(http://fiximage.10x10.co.kr/web2016/playing/bg_mask_black_50.png) 0 0 repeat; color:#fff; font-family:'돋움', 'Dotum', 'Verdana'; font-size:11px; font-weight:bold; line-height:130px; opacity:0; filter:alpha(opacity=0); transition:all 0.3s; text-align:center;}
+.plusSaleVItem17 .item li .thumbnail .btnView i {padding-left:14px; background:transparent url(http://fiximage.10x10.co.kr/web2017/common/ico_search_white_12x12.png) 0 0 no-repeat; font-style:normal;}
+.plusSaleVItem17 .item li a:hover .thumbnail .btnView {opacity:1; filter:alpha(opacity=100);}
+.plusSaleVItem17 .item li .desc {display:table;}
+.plusSaleVItem17 .item li .desc {width:245px; padding-left:24px;}
+.plusSaleVItem17 .item li .desc .inner {display:table-cell; width:100%; height:130px; vertical-align:middle;}
+.plusSaleVItem17 .item li .desc .name {overflow:hidden; display:-webkit-box; margin-top:8px; height:29px; line-height:16px; text-overflow:ellipsis; -webkit-line-clamp:2; -webkit-box-orient:vertical; word-wrap:break-word;}
+.plusSaleVItem17 .item li .no {display:block; width:65px; height:17px; padding-top:3px; border-radius:10px; background-color:#000; color:#fff; line-height:15px; text-align:center;}
+.plusSaleVItem17 .item li .price {margin-top:20px;}
+.plusSaleVItem17 .item li .price span {display:inline-block; *display:inline; *zoom:1; width:85px; font-weight:normal;}
+.plusSaleVItem17 .item li .price s,
+.plusSaleVItem17 .item li .price b {font-family:'Verdana';}
+.plusSaleVItem17 .item li .price s { font-weight:normal;}
+.plusSaleVItem17 .item li .price div {margin-top:5px;}
+.plusSaleVItem17 .item li .price div:first-child {margin-top:0;}
+.plusSaleVItem17 .item li .price b {color:#d50c0c;}
+
+.plusSaleVItem17 .one li {width:100%;}
+.plusSaleVItem17 .one li:nth-child(odd) a:after {display:none;}
+
+.plusSaleVItem17 .typeA {border:7px solid #ececec;}
+.plusSaleVItem17 .typeA li a { padding:28px 30px; background-color:#fff;}
+.plusSaleVItem17 .typeA li a:hover {background-color:#f8f8f8;}
+.plusSaleVItem17 .typeB {background-color:#f4f4f4;}
+.plusSaleVItem17 .typeB li:first-child + li + li a,
+.plusSaleVItem17 .typeB li:first-child + li + li + li a {padding-top:30px;}
+.plusSaleVItem17 .typeB li .price b {color:#000;}
+
+.plusSaleVItem17 .list01V15 {margin-top:18px;}
+
+/* deal event */
+.dealDetail .detailInfoV15 {margin-top:26px; padding-top:0;}
+.dealDetail .saleInfo {padding-top:0; line-height:21px;}
+.dealDetail .saleInfo dt {width:100px;}
+.dealDetail .saleInfo dd {padding-left:100px;}
+.dealDetail .saleInfo dd .dropdown {vertical-align:top;}
+.dealDetail .easeCartV15 {margin-top:26px;}
+.dealDetail .pdtInfoWrapV15 {padding-bottom:0;}
+.dealDetail .pdtDetailV15 {margin-top:60px;}
+.dealDetail .pdtExplanV15 {padding-top:80px;}
+
+.dealDetail .tentenPrice {margin-top:25px;}
+.tentenPrice dl {font-size:17px;}
+.tentenPrice dt {color:#000; font-weight:bold;}
+.tentenPrice dd strong {vertical-align:top;}
+.tentenPrice dd strong span {display:inline-block; margin-top:-3px; font-family:'Verdana'; font-size:20px;}
+.tentenPrice dd .btn {margin-top:12px;}
+.tentenPrice + .detailInfoV15 {margin-top:20px;}
+
+.dealDetail .dealTime {height:37px; margin-top:20px; background-color:#f6f6f6; font-size:11px; text-align:center; line-height:37px;}
+.dealTime b {color:#000;}
+.dealTime span {display:inline-block; width:1px; height:8px; margin:0 15px; background-color:#ccc;}
+.dealTime i {display:inline-block; *display:inline; *zoom:1; width:12px; height:12px; margin-right:7px; background:url(http://fiximage.10x10.co.kr/web2017/deal/bg_sprite.png) 0 0 no-repeat; vertical-align:middle;}
+
+.dealDetail .pdtTabLinkV15 .group {overflow:hidden; position:absolute; top:10px; right:0; *width:180px;}
+.dealDetail .pdtSnsV15 {float:left; position:static; width:auto;}
+.dealDetail .pdtSnsV15 li {min-width:auto;}
+.dealDetail .pdtSnsV15 li:before {display:none;}
+.dealDetail .btnLike {float:right; height:27px; margin-left:12px; background-color:transparent; color:#787878; font-family:'Verdana'; font-size:11px; font-weight:bold; line-height:27px;}
+.dealDetail .btnLike i {display:inline-block; width:12px; height:12px; padding-right:7px; background:url(http://fiximage.10x10.co.kr/web2015/common/ico_wish2.png) 0 0 no-repeat; vertical-align:middle;}
+.dealDetail .btnLike span {display:none;}
+.dealDetail .btnLike.on i {background-position:0 100%;}
+.dealDetail .pulse {animation:pulse 0.5s;}
+@keyframes pulse {
+	0% {transform:scale(0); opacity:0;}
+	100% {transform:scale(1); opacity:1;}
+}
+
+.dealDetail .pdtDetailV15 .dropdown {width:308px; *margin-right:4px;}
+.dealDetail .pdtDetailV15 .dropdown .dropdownList {width:306px;}
+.dealDetail .pdtDetailV15 .dropdown .multi li .option {padding-right:65px;}
+.dealDetail .pdtDetailV15 .dropdown ul li .value {width:65px;}
+
+.sorting .option .dropdown + .btn {margin-left:0;}
+
+.dealDetail .pdtReviewV15 .option .optSelect2 {height:21px; margin-left:0; vertical-align:top;}
+.dealDetail .pdtReviewV15 .option .btnGroup {position:absolute; top:-29px; right:0;}
+.dealDetail .option .btn {margin-left:0;}
+
+.dealDetail .easeCartV15 .optSelectList .spinner {padding-left:0;}
+
+.itemDeal {width:940px; margin:0 auto;}
+.itemDeal .pdtList {margin-top:-20px;}
+.itemDeal img {vertical-align:top;}
+.itemDeal li {margin:20px 10px 0;}
+.itemDeal li > a { display:block; position:relative; padding:45px; border:1px solid #ddd;}
+.itemDeal li > a:after {content:' '; display:none; box-sizing:border-box; position:absolute; top:0; left:0; width:100%; height:100%; border:1px solid #d50c0c;}
+.itemDeal li > a:hover {border-color:#d50c0c; text-decoration:none;}
+.itemDeal li > a:hover:after {display:block;}
+.itemDeal .pdtPhoto {position:relative;}
+.itemDeal .pdtPhoto .btnView {display:block; position:absolute; bottom:0; left:0; width:100%; height:40px; background:transparent url(http://fiximage.10x10.co.kr/web2016/playing/bg_mask_black_50.png) 0 0 repeat; color:#fff; font-family:'돋움', 'Dotum', 'Verdana'; font-size:11px; font-weight:bold; line-height:40px; opacity:0; filter:alpha(opacity=0); transition:all 0.3s; text-align:center;}
+.itemDeal .pdtPhoto .btnView i {padding-left:14px; background:transparent url(http://fiximage.10x10.co.kr/web2017/common/ico_search_white_12x12.png) 0 0 no-repeat; font-style:normal;}
+.itemDeal a:hover .pdtPhoto .btnView {opacity:1; filter:alpha(opacity=100);}
+.itemDeal .no {display:block; width:74px; height:30px; border:1px solid #000; border-radius:30px; color:#000; font-size:13px; font-weight:bold; line-height:30px; text-align:center;}
+.itemDeal .no span {font-family:'Verdana';}
+.itemDeal li > a:hover .no {border-color:#d50c0c; color:#d50c0c;}
+.itemDeal .pdtInfo {margin-top:22px;}
+.itemDeal .pdtBrand {margin-top:20px;}
+.itemDeal .pdtName {overflow:hidden; display:-webkit-box; height:40px; margin-top:8px; font-family:'Verdana', 'Dotum', '돋움'; font-size:12px; font-weight:bold; line-height:20px; text-overflow:ellipsis; webkit-line-clamp:2; -webkit-box-orient:vertical; word-wrap:break-word;}
+.itemDeal .pdtPrice {margin-top:8px; color:#000; font-family:'Verdana', 'Dotum', '돋움'; font-size:16px; font-weight:bold;}
+.itemDeal .pdtPrice span {font-size:12px;}
+.itemDeal .label {display:inline-block; width:32px; height:15px; padding-top:1px; background-color:#49893f; color:#fff; font-size:11px; font-style:normal; font-weight:normal; line-height:16px; text-align:center;}
+.itemDeal .soldout {position:absolute; top:0; left:0; z-index:5; width:100%; height:636px; background:url(http://fiximage.10x10.co.kr/web2017/common/bg_mask_black_30.png) 0 0 repeat; color:#fff; font-family:'Verdana'; font-size:28px; font-weight:bold; line-height:450px;}
+
+.itemDeal .half {width:450px; height:638px;}
+.itemDeal .half > a {width:358px; height:546px;}
+.itemDeal .half .pdtPhoto {margin:0 auto;}
+.itemDeal .half .pdtPhoto, .itemDeal .half .pdtPhoto img {width:360px; height:360px;}
+.itemDeal .half .no {margin:0 auto;}
+.itemDeal .full {clear:left; width:920px; height:410px;}
+.itemDeal .full > a {width:828px; height:318px;}
+.itemDeal .full .pdtBox {overflow:hidden; display:table;}
+.itemDeal .full .pdtPhoto {display:table-cell; *float:left;}
+.itemDeal .full .pdtPhoto, .itemDeal .full .pdtPhoto img {width:320px; height:320px;}
+.itemDeal .full .pdtInfo {display:table-cell;  *float:left; width:458px; padding-left:50px; text-align:left; vertical-align:middle;}
+.itemDeal .full .pdtBrand {margin-top:34px; font-size:13px;}
+.itemDeal .full .pdtName {margin-top:9px; font-size:15px;}
+.itemDeal .full .pdtPrice {margin-top:30px;}
+.itemDeal .full .label {display:block; margin-top:13px;}
+.itemDeal .full .soldout {height:408px; text-align:left; line-height:410px;}
+.itemDeal .full .soldout span {padding-left:126px;}
+
+.layerDeal {display:none; position:fixed; top:50%; left:50%; z-index:1100; width:900px; height:750px; margin:-375px 0 0 -450px; background-color:#fff;}
+.layerDeal .title {height:63px; padding:0 32px; border-bottom:1px solid #ececec; color:#000; font-weight:bold; line-height:63px; }
+.layerDeal .contents {overflow:auto; height:686px;}
+.layerDeal .btnNav {position:absolute; top:50%; width:60px; height:60px; margin-top:-30px; background:url(http://fiximage.10x10.co.kr/web2017/deal/bg_sprite.png) 0 -12px no-repeat; color:transparent; text-indent:-9999rem;}
+.layerDeal .btnPrev {left:10px;}
+.layerDeal .btnNext {right:27px; background-position:-60px -12px;}
+.layerDeal .btnClose {position:absolute; top:0; right:0; width:61px; height:61px; background-color:transparent;}
+.layerDeal .btnClose span {display:block; width:100%; height:100%; background:url(http://fiximage.10x10.co.kr/web2017/deal/bg_sprite.png) 0 -72px no-repeat; text-indent:-999em; transition:transform .7s ease;}
+.layerDeal .btnClose:active span,
+.layerDeal .btnClose:focus span {transform:rotate(-180deg);}
+
+.layerDeal .itemDeal {width:100%;}
+.layerDeal .itemDeal .soldout {position:relative; left:0; width:100%; height:56px; background-color:#404040; line-height:56px; color:#fff; font-size:12px; font-family:'굴림', 'Gulim', 'Verdana'; text-align:center;}
+.layerDeal .itemDeal .soldout:after {content:' '; position:absolute; bottom:-8px; left:50%; width:0; height:0; margin-left:-7.5px; border-style:solid; border-width:8px 7.5px 0 7.5px; border-color: #404040 transparent transparent transparent;}
+.layerDeal .itemDeal .pdtInfo {width:470px; margin:0 auto;}
+.layerDeal .itemArea .pdtInfo {margin-top:45px;}
+.layerDeal .itemArea .no {width:80px; height:63px; margin:0 auto; padding-top:17px; border:0; border-radius:50%; background-color:#000; color:#fff; line-height:22px;}
+.layerDeal .itemArea .no span {display:block; font-size:20px; vertical-align:top;}
+.layerDeal .itemArea .pdtBrand {margin-top:33px;}
+.layerDeal .itemArea .pdtName {color:#000; font-size:16px;}
+.layerDeal .itemArea .pdtPrice {margin-top:19px;}
+.layerDeal .itemArea .btn {margin-left:5px; vertical-align:middle;}
+.layerDeal .itemArea .btn span {font-size:11px;}
+.layerDeal .itemArea ul {width:200px; margin:45px auto 0; font-size:11px;}
+.layerDeal .itemArea ul li {overflow:hidden; margin:0; padding:7px 0 0;}
+.layerDeal .itemArea ul li:first-child {padding-top:0;}
+.layerDeal .itemArea ul li span {float:left; width:50%;}
+.layerDeal .itemArea .ico img {margin-top:-4px; vertical-align:middle;}
+
+.layerDeal .imgArea, .layerDeal .infoArea, .layerDeal .safety-mark-area {width:790px; margin:100px auto 40px;}
+.layerDeal .infoArea h3, .layerDeal .safety-mark-area h3 {color:#000; font-size:15px;}
+.layerDeal .imgArea {margin-bottom:0;}
+.layerDeal .imgArea img {max-width:790px;}
+.layerDeal .infoArea, .layerDeal .safety-mark-area {margin-top:50px;}
+
+/* 상품이벤트 배너 */
+.item-bnr {display:table; overflow:hidden;  position:relative; z-index:1; width:100%; height:180px; margin:14px 0 -33px; padding:0 0 23px; background:#ffc7c7 url(http://fiximage.10x10.co.kr/web2017/shopping/bg_bnr.png) 0 0 no-repeat;}
+.item-bnr .label {display:table-cell; *float:left; width:310px; text-align:center; vertical-align:middle;}
+.item-bnr .label span,.item-bnr .label em {display:inline-block; height:38px; background-repeat:no-repeat; vertical-align:top; font-size:0; line-height:0;}
+.item-bnr .label span {background-image:url(http://fiximage.10x10.co.kr/web2017/shopping/tit_bnr.png?v=1);}
+.item-bnr .label em {margin:0 2px; background-image:url(http://fiximage.10x10.co.kr/web2017/shopping/txt_num_red.png);}
+.item-bnr .label em.num0 {width:18px; background-position:0 0;}
+.item-bnr .label em.num1 {width:12px; background-position:-23px 0;}
+.item-bnr .label em.num2 {width:19px; background-position:-42px 0;}
+.item-bnr .label em.num3 {width:19px; background-position:-63px 0;}
+.item-bnr .label em.num4 {width:21px; background-position:-84px 0;}
+.item-bnr .label em.num5 {width:18px; background-position:-108px 0;}
+.item-bnr .label em.num6 {width:19px; background-position:-129px 0;}
+.item-bnr .label em.num7 {width:15px; background-position:-150px 0;}
+.item-bnr .label em.num8 {width:19px; background-position:-167px 0;}
+.item-bnr .label em.num9 {width:18px; background-position:-190px 0;}
+.item-bnr .label em.comma {width:6px; height:12px; margin-bottom:-3px; background-position:-211px 100%; vertical-align:bottom;}
+.item-bnr .label em.won {width:30px; margin-left:1px; background-position:-254px 0;}
+.item-bnr .label em.percent {width:35px; margin-left:1px; background-position:-217px 0;}
+.item-bnr .desc {display:table-cell; *float:left; width:620px; padding-right:210px; vertical-align:middle;}
+.item-bnr .desc .tit {padding-top:5px; color:#000; font:bold 19px/1.2 "verdana","malgun Gothic","맑은고딕"; letter-spacing:-1px;}
+.item-bnr .desc .tit .date {display:block; padding-top:6px; font-size:11px; letter-spacing:0;}
+.item-bnr .desc .txt {padding-top:16px; color:#444; line-height:1.7;}
+.item-bnr .figure {position:absolute; right:23px; top:0; width:147px; height:147px; padding:16px; background:url(http://fiximage.10x10.co.kr/web2017/shopping/bg_bnr_figure.png) 0 0 no-repeat;}
+.item-bnr .figure img {width:147px; height:147px;}
+.item-bnr .figure .slidesjs-slide:before {content:'1'; display:inline-block; position:absolute; left:0; top:0; z-index:5; width:14px; height:14px; font:normal 11px/14px arial; color:#fff; text-align:center; background-color:#444;}
+.item-bnr .figure .slidesjs-slide + .slidesjs-slide:before {content:'2';}
+.item-bnr .figure .slidesjs-slide + .slidesjs-slide + .slidesjs-slide:before {content:'3';}
+.item-bnr .figure .slidesjs-navigation {display:block; position:absolute; right:16px; bottom:16px; z-index:10; width:14px; height:14px; background:url(http://fiximage.10x10.co.kr/web2017/shopping/btn_bnr_nav.png) 0 0 no-repeat; text-indent:-999em;}
+.item-bnr .figure .slidesjs-previous {right:31px;}
+.item-bnr .figure .slidesjs-next {background-position:100% 0;}
+
+.item-bnr-coupon {background-color:#b6e5e6;}
+.item-bnr-gift, .item-bnr-shipping, .item-bnr-booking {background-color:#b6d2e6;}
+.item-bnr-discount .label span {width:127px; margin-left:1px; background-position:0 0;}
+.item-bnr-coupon .label span {display:block; width:128px; margin:14px auto 0; background-position:0 -120px;}
+.item-bnr-coupon .label em {background:url(http://fiximage.10x10.co.kr/web2017/shopping/txt_num_green.png?v=1);}
+.item-bnr-gift .label span {width:180px; background-position:0 -160px;}
+.item-bnr-shipping .label span {width:148px; height:40px; background-position:0 -200px;}
+.item-bnr-onetoone .label span {width:161px; background-position:0 -80px;}
+.item-bnr-oneplus .label span {width:165px; background-position:0 -40px;}
+.item-bnr-booking .label span {width:146px; height:40px; background-position:0 -240px;}

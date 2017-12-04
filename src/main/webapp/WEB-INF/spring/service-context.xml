@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd
+		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.3.xsd">
+		
+	<tx:annotation-driven transaction-manager="transactionManager"/>
+
+	<bean name="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<property name="driverClassName" value="com.mysql.jdbc.Driver"></property>
+		<property name="url" value="jdbc:mysql://211.238.142.247/soonface2db?autoReconnect=true&amp;useSSL=false&amp;useUnicode=true&amp;characterEncoding=utf8"></property>
+		<property name="username" value="soonface2"></property>
+		<property name="password" value="2014"></property>
+	</bean>
+	
+	<bean name="template" class="org.springframework.jdbc.core.JdbcTemplate">
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+	
+	<!-- Transaction 처리 방법 1 -> 4번 방법 Annotation에서 재료로 사용 -->
+	<bean name="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+	
+	<!-- Transaction 처리 방법 2 -->
+	<!-- <bean name="transactionTemplate" class="org.springframework.transaction.support.TransactionTemplate">
+		<property name="transactionManager" ref="transactionManager"/>
+	</bean> -->
+	
+	<!-- Transaction 처리 방법 3 = AOP -->
+	<!-- <bean name="transactionInterceptor" class="org.springframework.transaction.interceptor.TransactionInterceptor">
+		<property name="transactionManager" ref="transactionManager"/>
+		<property name="transactionAttributes">
+			<props>
+				<prop key="insert">PROPAGATION_REQUIRED</prop>
+			</props>
+		</property>
+	</bean>
+	<bean class="org.springframework.aop.framework.ProxyFactoryBean">
+		<property name="target" ref="noticeDao"/>
+		<property name="interceptorNames">
+			<list>
+				<value>transactionInterceptor</value>
+			</list>
+		</property>
+	</bean> -->
+	
+	<!-- <bean name="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+		<property name="dataSource" ref="dataSource"/>
+		<property name="mapperLocations" value="classpath:com/prj/web/dao/mybatis/mapper/*.xml"></property>	
+	</bean>
+	
+	<bean class="org.mybatis.spring.SqlSessionTemplate">
+		<constructor-arg index="0" ref="sqlSessionFactory"/>
+	</bean> -->
+	
+	<!-- DAO 객체들 -->
+	<bean name="FreeDao" class="com.prj.web.dao.spring.SpringFreeDao"/>
+	<bean name="TipDao" class="com.prj.web.dao.spring.SpringTipDao"/>
+	<bean name="InfoDao" class="com.prj.web.dao.spring.SpringInfoDao"/>
+	<bean name="VotingDao" class="com.prj.web.dao.spring.SpringVotingDao"/>
+	<bean name="AdviceDao" class="com.prj.web.dao.spring.SpringAdviceDao"/>
+	<bean name="UserDao" class="com.prj.web.dao.spring.SpringUserDao"/>
+	<bean name="InfoCommentDao" class="com.prj.web.dao.spring.SpringInfoCommentDao"/>
+	
+	
+	<!-- Service 객체들 -->
+	<bean class="com.prj.web.service.admin.BoardService"/>
+	<bean class="com.prj.web.service.admin.MypageService"/>
+	
+	<context:annotation-config></context:annotation-config>	
+</beans>

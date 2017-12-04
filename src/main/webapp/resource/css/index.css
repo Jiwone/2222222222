@@ -1,0 +1,181 @@
+@charset "UTF-8";
+
+#menu {
+	margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.fixed{
+	top: 0;
+	position: fixed;
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding-right: 30px;
+    padding-left: 30px;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#menu li {
+    float: right;
+}
+
+.menu-selector, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 25px 20px;
+    text-decoration: none;
+}
+
+#logoutBtn {
+	background-color: #333;
+	border: none;
+	font-size: 16px;
+    padding: 26px 20px;
+    cursor: pointer;
+}
+
+#menu li a:hover, .dropdown:hover .dropbtn, #logoutBtn:hover {
+    background-color: MediumSeaGreen;
+}
+
+#menu li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+	background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.menu-selector.active {
+	background-color: MediumSeaGreen;
+}
+
+/* ==================================================================== */
+
+#main-menu {
+	max-width: 100%;
+	height: auto;
+}
+
+#main-menu div {
+	max-width: 100%;
+	height: 685px;
+}
+
+#main-menu div li {
+	list-style:none;
+}
+
+#main-menu #home {
+	background: url(../img/bg_ind_home.jpg) center no-repeat;
+	background-size: cover;
+	padding-top: 171px;
+	border-bottom: 2.5px solid #000
+}
+#main-menu #advice {
+	background: url(../img/bg_ind_advice.jpg) center no-repeat;
+	background-size: cover;
+	padding-top: 71px;
+	border-bottom: 2.5px solid #000;
+	text-align: center;
+}
+#main-menu #voting {
+	background: url(../img/bg_ind_voting.jpg) center no-repeat;
+	background-size: cover;
+	padding-top: 71px;
+	border-bottom: 2.5px solid #000;
+	text-align: center;
+}
+#main-menu #info {
+	background: url(../img/bg_ind_info.jpg) center no-repeat;
+	background-size: cover;
+	padding-top: 71px;
+	border-bottom: 2.5px solid #000;
+}
+#main-menu #tip {
+	background: url(../img/bg_ind_tip.jpg) center no-repeat;
+	background-size: cover;
+	padding-top: 71px;
+	border-bottom: 2.5px solid #000;
+	text-align: right;
+	
+}
+#main-menu #free {
+	background: url(../img/bg_ind_free.jpg) center no-repeat;
+	background-size: cover;
+	padding-top: 71px;
+	text-align: center;
+}
+
+
+#main-menu #advice ul {
+	margin-top: 250px;
+}
+#main-menu #voting ul {
+	margin-top: 250px;
+}
+#main-menu #info ul {
+	margin-top: 250px;
+	margin-left: 200px;
+}
+#main-menu #tip ul {
+	margin-top: 250px;
+	margin-right: 250px;
+}
+#main-menu #free ul {
+	margin-top: 250px;
+}
+
+
+#main-menu #free li a, #main-menu #tip li a, 
+#main-menu #info li a, #main-menu #voting li a,#main-menu #advice li a{
+	text-decoration: none;
+	font-size: 20px;
+	padding: 15px 65px;
+	border: 2.5px solid #fff;
+	color: white;
+	font-weight: bold;
+	font-family: Arial, sans-serif;
+	/* transition: 0.5s; */
+	transition: all 180ms cubic-bezier(.1,.85,.87,.32);
+	box-shadow: #1f1f1f 0px 0px 0.5px inset;
+	cursor: pointer;
+}
+
+#main-menu #free li a:hover, #main-menu #tip li a:hover, 
+#main-menu #info li a:hover, #main-menu #voting li a:hover,#main-menu #advice  li a:hover{
+	background: black;
+	border: 2.5px solid #fff;
+	color: white;
+	
+	box-shadow: #1f1f1f 0 0px 10px 40px inset;
+}
+
+
+}

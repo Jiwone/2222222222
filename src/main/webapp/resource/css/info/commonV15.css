@@ -1,0 +1,383 @@
+@charset "utf-8";
+
+html {overflow-y:scroll;}
+body, h1, h2, h3 ,h4 {font-size:12px; font-family:verdana, tahoma, '돋움', '돋움체', arial, sans-serif; line-height:1.6; color:#555;}
+a {color:inherit; text-decoration:none;}
+a:link, a:active, a:visited {color:#555;}
+a:hover {text-decoration:underline;}
+legend {visibility:hidden; width:0; height:0;}
+caption {overflow:hidden; width:0; height:0; font-size:0; line-height:0; text-indent:-9999px;}
+button {border:0; cursor:pointer;}
+input[type=number]::-webkit-inner-spin-button {-webkit-appearance:none;}
+
+.clearFix:after {visibility:hidden; display:block; clear:both; height:0; content:'';}
+#accessibility {position:absolute; left:0; top:0; z-index:1000; width:100%; background:#d50c0c; text-align:center;}
+#accessibility a {display:block;overflow:hidden; width:1px; height:1px; margin-bottom:-1px; font-size:16px; font-weight:bold; color:#fff; white-space:nowrap;}
+#accessibility a:focus, #accessibility a:active { width:100%; height:35px; padding-top:10px;color:#fff;}
+
+.imgOverV15 {position:relative; width:100%;}
+.imgOverV15 em {display:none; position:absolute; left:0; top:0; right:0; bottom:0; width:100%; height:100%; background-image:url(http://fiximage.10x10.co.kr/web2015/main/bnr_over.png); background-position:50% 50%; background-repeat:repeat; cursor:pointer;}
+
+/* layout */
+.wrapV15 {overflow:hidden; width:100%; min-width:1180px;}
+.headerWrapV15 {position:relative; z-index:100; width:100%; min-width:1140px; background:#fff;}
+.headerV15 {width:1100px; height:128px; margin:0 auto; z-index:4;}
+.headerInV15 {position:relative; width:900px; height:128px; margin-left:200px; z-index:10;}
+.unbWrapV15, .gnbWrapV15 {width:100%; z-index:20;}
+
+.headerWrapV15 .decoV15 {display:block; overflow:hidden; position:absolute; font-size:10px; line-height:10px; text-indent:-9999px;}
+.headerWrapV15 .txtLV15 {width:241px; height:13px; top:8px; left:12px; background:url(http://fiximage.10x10.co.kr/web2015/layout/deco_txt.gif) no-repeat left top;}
+.headerWrapV15 .snsV15 {top:4px; right:15px; height:20px;}
+.headerWrapV15 .snsV15 a {margin:0 5px 0 4px; width:20px; height:20px;}
+.headerWrapV15 .snsV15 a.snsTwV15 {background-position:-393px 0;}
+.headerWrapV15 .snsV15 a.snsFbV15 {background-position:-422px 0;}
+.headerWrapV15 .snsV15 a.snsItV15 {background-position:-451px 0;}
+.headerWrapV15 .snsV15 a.snsPrV15 {background-position:-480px 0;}
+.headerWrapV15 .snsV15 a.snsTwV15:hover {background-position:-393px -20px;}
+.headerWrapV15 .snsV15 a.snsFbV15:hover {background-position:-422px -20px;}
+.headerWrapV15 .snsV15 a.snsItV15:hover {background-position:-451px -20px;}
+.headerWrapV15 .snsV15 a.snsPrV15:hover {background-position:-480px -20px;}
+
+.headerWrapV15 h1 {overflow:hidden; position:absolute; left:50%; top:39px; width:1114px; height:106px; margin-left:-557px; text-align:left; z-index:5;}
+.headerWrapV15 h1 a {display:block; width:107px; height:106px; background:url(http://fiximage.10x10.co.kr/web2015/layout/logo.png) 50% -106px no-repeat; text-indent:-999em; z-index:15;}
+.headerWrapV15 h1.a14L a {background:url(http://fiximage.10x10.co.kr/web2015/layout/logo_14th.png) 50% -212px no-repeat;}
+.headerWrapV15 h1.a15L {top:29px; height:123px;}
+.headerWrapV15 h1.a15L a {width:107px; height:123px; background:url(http://fiximage.10x10.co.kr/web2016/layout/logo_15th.gif) 50% 0 no-repeat;}
+.headerWrapV15 h1.a16L a {width:105px; height:106px; background:url(http://fiximage.10x10.co.kr/web2017/layout/logo_16th_v2.png) 50% 0 no-repeat;}
+.headerWrapV15 h1.hangulDay a {width:291px; background:url(http://fiximage.10x10.co.kr/web2016/layout/logo_hangul2016.png) 0 50% no-repeat;} /* 2016 한글날 */
+.headerWrapV15 h1.hangulDay2017 a {width:113px; background:url(http://fiximage.10x10.co.kr/web2017/layout/logo_hangul2017.png) 0 50% no-repeat;}
+
+.unbWrapV15 {background:#d50c0c; z-index:49;}
+.unbWrapV15 img {vertical-align:top;}
+.unbWrapV15 .unbV15 {width:1100px; margin:0 auto; z-index:49;}
+.unbV15:after {visibility:hidden; display:block; font-size:0; content:''; clear:both; height:0;}
+.unbV15 ul {float:right;}
+.unbV15 li {float:left; padding:5px 17px 4px 10px; font-size:11px; color:#fff;}
+.unbV15 li span {display:inline-block; line-height:19px; letter-spacing:-0.025em;}
+.unbV15 li span.dropMarkV15 {padding-right:13px; background:url(http://fiximage.10x10.co.kr/web2015/common/blt01.gif) no-repeat 100% 48%;}
+.unbV15 li span a {color:#fff;}
+.unbV15 li span a:hover {text-decoration:none;}
+
+.uSubLyrV15 {display:none; position:absolute; top:22px; padding-top:6px; z-index:50; background-image:url(http://fiximage.10x10.co.kr/web2015/layout/drop_lyr_pointer.png); background-repeat:no-repeat;}
+.subLyrBgV15 {background:url(http://fiximage.10x10.co.kr/web2015/layout/drop_lyrbg_lt.png) 0 100% no-repeat; padding-left:6px; z-index:50;}
+.subLyrBgV15 .subLyrBoxV15 {padding:13px 21px 15px 15px; background:url(http://fiximage.10x10.co.kr/web2015/layout/drop_lyrbg_rt.png) 100% 100% no-repeat; color:#777; z-index:51;}
+
+.unbV15 .uAlarmV15 {position:relative; height:19px; padding:5px 7px 4px 10px; z-index:50; cursor:pointer;}
+.unbV15 .uAlarmV15 span {display:block; width:26px; height:16px; text-indent:-999em; background-image:url(http://fiximage.10x10.co.kr/web2015/layout/element.png); background-repeat:no-repeat; background-position:0 0;}
+.unbV15 li.newArV15 span {background:url(http://fiximage.10x10.co.kr/web2015/layout/element.png) no-repeat -50px 0;}
+.uAlarmV15 .uSubLyrV15 {left:50%; margin-left:-158.5px; background-position:50% 0;}
+.uAlarmV15 .subLyrBgV15 .subLyrBoxV15 {padding:0 6px 6px 0; width:295px;}
+.uAlarmV15 .figure {margin-top:30px;}
+.uAlarmV15 .txtV15 {padding-top:20px; color:#555; text-align:center;}
+
+.alarmSvcV15 {padding:30px 0; text-align:center; background-color:#fff;}
+.alarmSvcV15 .titV15 {font-size:16px; line-height:19px; color:#000;}
+.alarmSvcV15 .titV15 img {margin-left:8px; padding-bottom:3px; border-bottom:1px solid #0e78c7;}
+.alarmType01 {text-align:center; padding-bottom:35px;}
+.alarmType01 .txtV15 {font-size:12px;}
+
+.myAlarmV15 {background-color:#fff;}
+.myAlarmV15 .titV15 {position:relative; padding:10px 15px 6px 15px; border-bottom:1px solid #ddd;}
+.myAlarmV15 .titV15 strong {color:#000; font-size:12px;}
+.myAlarmV15 .titV15 .goLinkV15 {position:absolute; right:15px; top:10px;}
+
+.alarmListV15 {overflow:hidden; padding:0 10px;}
+.almTodayV15 {padding:15px 0; background:url(http://fiximage.10x10.co.kr/web2015/common/dotline01.gif) 0 100% repeat-x;}
+.almTodayV15 .boxRd0V15 {margin:0 auto; width:140px; height:22px; text-align:center; font-weight:bold; color:#333; font-size:12px; font-family:verdana, tahoma, dotum, '돋움', sans-serif; line-height:22px; vertical-align:middle; background:url(http://fiximage.10x10.co.kr/web2015/common/box_round00.png) 50% 50% no-repeat;}
+
+.alarmListV15 ul.alarmUnitV15 {float:none; padding-bottom:12px;}
+.alarmUnitV15 li {position:relative; float:none; padding:12px 8px 13px 85px; vertical-align:middle; background:url(http://fiximage.10x10.co.kr/web2015/common/dotline01.gif) 0 100% repeat-x;}
+.alarmUnitV15 li a {display:block;}
+.alarmUnitV15 li .pdtStTag img {margin-right:3px;}
+.alarmUnitV15 li span.alarmIcoV15 {display:block; position:absolute; left:8px; top:50%; margin-top:-32px; width:66px; height:66px; background-image:url(http://fiximage.10x10.co.kr/web2015/common/ico_alarm.png); background-repeat:no-repeat;}
+.alarmUnitV15 li dl {padding-bottom:5px;}
+.alarmUnitV15 li dl dt {padding-top:5px; font-weight:bold; color:#555;}
+.alarmUnitV15 li dl dd {color:#555;}
+.alarmUnitV15 li p {color:#999; letter-spacing:-0.05em;}
+
+li.mktIsuPartV15 span.alarmIcoV15 {background-position:0 0;}
+li.cuponPartV15 span.alarmIcoV15 {background-position:0 -250px;}
+li.csPartV15 span.alarmIcoV15 {background-position:0 -500px;}
+li.winPartV15 span.alarmIcoV15 {background-position:0 -750px;}
+
+.alarmUnitV15 li.evtPartV15 {background:none;}
+.evtPartV15 span.alarmIcoV15 {left:5px; margin-top:-35px; width:66px; height:66px; text-indent:0; border:2px solid #f4f8f9; background:none;}
+.evtPartV15 span.alarmIcoV15 img {width:66px; height:66px;}
+
+.unbV15 li.uMemOnV15 {position:relative; z-index:50; cursor:pointer;}
+.uMemOnV15 .uSubLyrV15 {left:50%; margin-left:-94px; background-position:50% 0;}
+.uMemOnV15 .subLyrBgV15 .subLyrBoxV15 {padding:0 6px 6px 0; width:155px;}
+.uMemInfoV15 {padding:22px 5px 10px 5px; background-color:#f5f5f5; text-align:center;}
+.uMemInfoV15 p {color:#333;}
+.uMemInfoV15 div {display:table; overflow:hidden; padding-top:5px; padding-bottom:5px; width:100%;}
+.uMemInfoV15 div dl {display:table-cell; *float:left;}
+.uMemInfoV15 dl dd {color:#333;}
+.uMemInfoV15 dl dd a {color:#333; text-decoration:underline;}
+.uMemCpV15 {width:60px; border-right:1px solid #ccc;}
+.uMemOdrV15 {padding-bottom:8px; font-size:12px; color:#333;}
+.uMineNaV15 {overflow:hidden; padding:0 16px 16px 16px;}
+.uMineNaV15 ul {float:none; padding:10px 9px 8px 9px;}
+.uMineNaV15 ul li {float:none; padding:2px 0 1px 0;}
+.uMineNaV15 ul li a {display:block; width:100%;}
+
+.unbV15 li.uOrderV15 {cursor:pointer;}
+
+.unbV15 li.uCartV15 {position:relative; padding:5px 0 4px 10px; z-index:50; cursor:pointer;}
+.uCartV15 .uSubLyrV15 {right:-26px; background-position:250px 0;}
+.uCartV15 .subLyrBgV15 .subLyrBoxV15 {width:271px;}
+.uCartV15 span {overflow:hidden; vertical-align:middle;}
+.uCartV15 em {display:inline-block; overflow:hidden; float:left; width:18px; height:16px; text-indent:-999em; background:url(http://fiximage.10x10.co.kr/web2015/layout/element.png) no-repeat 0 -35px;}
+.uCartV15 dfn {float:left; font-style:normal;}
+.uCartV15 ul.pdtList {float:none; border-top:1px solid #ddd; padding-right:0;}
+.uCartV15 ul li {overflow:hidden; position:relative; width:100%; padding:12px 0; border-bottom:1px solid #ddd;}
+.uCartV15 ul li a {display:block; width:100%;}
+.uCartV15 ul li .pdtPhoto {float:left; width:70px; height:70px;}
+.uCartV15 ul li .pdtPhoto img {width:70px; height:70px;}
+.uCartV15 ul li .pdtInfo {display:table-cell; width:190px; height:70px; padding-left:11px; text-align:left; vertical-align:middle; color:#555;}
+.uCartV15 ul li .pdtInfo .pdtName {padding-top:6px; min-height:0;}
+.uCartV15 ul li .btnDelV15 {overflow:hidden; position:absolute; right:0; top:12px; width:11px; height:11px; padding:0; background:url(http://fiximage.10x10.co.kr/web2015/layout/element.png) no-repeat -4px -104px; text-indent:-999em; cursor:pointer;}
+.uCartV15 ul li .btnDelV15:hover {background-position:-4px -124px;}
+.uCartAllV15 p {text-align:center; width:100%; padding:17px 0 7px 0;}
+.uCartAllV15 a {display:block;}
+.uCartAllV15 a span {line-height:13px; vertical-align:top;}
+.uCartAllV15 a:hover span {text-decoration:underline;}
+.noPdtCartV15 {display:table-cell; width:271px; height:140px;border-top:1px solid #ddd; border-bottom:1px solid #ddd; vertical-align:middle; text-align:center;}
+
+.searchBoxV15 {position:absolute; right:0; top:45px; width:258px; background-color:#eaeaea; z-index:120;}
+.searchBoxV15 div {position:relative; width:100%;}
+.searchBoxV15 input[type=text] {float:left; width:200px; padding:2px 0 0 15px; height:30px; background-color:transparent; font-size:12px; color:#d50c0c; line-height:28px;}
+.searchBoxV15 input[type=image] {position:absolute; right:0; top:0;}
+.searchBoxV15 div .schExample {display:block; position:absolute; left:0; top:32px; width:100%; padding:4px 0 5px 0; border:1px solid #d50c0c; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; background-color:#fff; z-index:5000; font-size:11px;}
+
+.sectionNaV15 {/*overflow:hidden;*/ position:absolute; left:261px; top:46px; height:29px; z-index:20;}
+.sectionNaV15:after {visibility:hidden; display:block; clear:both; height:0; content:'';}
+.sectionNaV15 li {position:relative; float:left; height:29px; margin:0 11px 0 10px;}
+.sectionNaV15 li a {display:block; overflow:hidden; width:100%; height:29px; background-image:url(http://fiximage.10x10.co.kr/web2016/layout/section_nav_v1.png); background-repeat:no-repeat; text-indent:-999em;}
+.sectionNaV15 li.scPlay {width:113px;}
+.sectionNaV15 li.scPlay:after {display:block; position:absolute; left:101px; top:-13px; width:20px; height:20px; background:url(http://fiximage.10x10.co.kr/web2016/layout/ico_playing_new.png) no-repeat 0 0; text-indent:-999em; content:'';}
+.sectionNaV15 li.scPlay a {background-position:0 0;}
+.sectionNaV15 li.scPlay a:hover {background-position:0 -29px;}
+.sectionNaV15 li.scWish {width:89px;}
+.sectionNaV15 li.scWish a {background-position:-142px 0;}
+.sectionNaV15 li.scWish a:hover {background-position:-142px -29px;}
+.sectionNaV15 li.scGift {width:80px;}
+.sectionNaV15 li.scGift a {background-position:-254px 0;}
+.sectionNaV15 li.scGift a:hover {background-position:-254px -29px;}
+
+.groupNaV15 {overflow:hidden; position:absolute; right:-5px; bottom:15px; height:20px; z-index:20;}
+.groupNaV15 li {position:relative; float:left; height:20px; padding-left:10px; background:url(http://fiximage.10x10.co.kr/web2015/layout/sub_group_dot.png) no-repeat 0 50%;}
+.groupNaV15 li:first-child {padding-left:0; background:none;}
+.groupNaV15 li a {display:block; overflow:hidden; width:100%; height:20px; background-image:url(http://fiximage.10x10.co.kr/web2015/layout/group_nav.png); background-repeat:no-repeat; text-indent:-999em;}
+.groupNaV15 li.gpNew {width:39px;}
+.groupNaV15 li.gpNew a {background-position:0 0;}
+.groupNaV15 li.gpNew a:hover {background-position:0 -20px;}
+.groupNaV15 li.gpBest {width:43px;}
+.groupNaV15 li.gpBest a {background-position:-49px 0;}
+.groupNaV15 li.gpBest a:hover {background-position:-49px -20px;}
+.groupNaV15 li.gpSale {width:41px;}
+.groupNaV15 li.gpSale a {background-position:-100px 0;}
+.groupNaV15 li.gpSale a:hover {background-position:-100px -20px;}
+.groupNaV15 li.gpBr {width:54px;}
+.groupNaV15 li.gpBr a {background-position:-151px 0;}
+.groupNaV15 li.gpBr a:hover {background-position:-151px -20px;}
+.groupNaV15 li.gpEvt {width:50px;}
+.groupNaV15 li.gpEvt a {background-position:-215px 0;}
+.groupNaV15 li.gpEvt a:hover {background-position:-215px -20px;}
+
+.groupNaV15 li.gpTen {width:54px;}
+.groupNaV15 li.gpTen a {background:url(http://fiximage.10x10.co.kr/web2017/common/group_nav_tenten.png) no-repeat 0 50%;}
+
+.gnbWrapV15 {width:100%; height:48px; background:url(http://fiximage.10x10.co.kr/web2015/layout/gnb_bg.png) 0 0 repeat-x; z-index:10;}
+.gnbV15 {position:relative; width:1140px; margin:0 auto;}
+.gnbV15 ul {display:table; width:1130px; margin:0 auto;}
+.gnbV15 li {display:table-cell; *float:left; padding:11px 11px 8px 11px; vertical-align:middle; cursor:pointer;}
+.gnbV15 li p {font-weight:normal; text-align:center; color:#6b6b6b; letter-spacing:-0.085em; white-space:nowrap; font-family:dotum, '돋움', sans-serif;}
+.gnbV15 li.on {background:url(http://fiximage.10x10.co.kr/web2015/layout/gnb_pointer.gif) 50% 100% no-repeat;}
+.gnbV15 li.on p {color:#d50c0c;}
+.gnbV15 li .icoNew img {margin-left:1px; margin-right:-10px; border-bottom:none;}
+.gnbV15 li .icoHot img {margin-left:2px; margin-right:-11px; border-bottom:none; vertical-align:-2px;}
+
+.gnbSubWrapV15 {display:none; position:absolute; top:38px; left:-6px; right:-6px; width:1140px; background:url(http://fiximage.10x10.co.kr/web2015/layout/gnb_drop_lyrbg.png) 0 100% no-repeat; padding:0 6px 6px 6px; z-index:15;}
+.gnbSubV15 {display:none; overflow:hidden; width:1140px; height:327px; background-color:#fff;}
+.gnbCtgyGroupV15 {float:left; padding:15px 0; background-color:#fff;}
+.gnbCtgyGroupV15 .deptUnitV15 {position:relative; float:left; width:165px; height:298px; padding:0 12px; border-right:1px solid #ccc;}
+.gnbCtgyGroupV15 .deptUnitV15 dt {padding:3px 6px;}
+.gnbCtgyGroupV15 .deptUnitV15 dt p {text-align:left; border-bottom:2px solid #666;}
+.gnbCtgyGroupV15 .deptUnitV15 dt p a {display:inline-block; width:100%; text-overflow:ellipsis; overflow:hidden; white-space:nowrap; font-weight:bold;}
+.gnbCtgyGroupV15 .deptUnitV15 dt p a:hover {text-decoration:none; color:#d50c0c;}
+.gnbCtgyGroupV15 .deptUnitV15 dt p .icoNew img, 
+.gnbCtgyGroupV15 .deptUnitV15 dt p .icoHot img {border-bottom:none;}
+.gnbCtgyGroupV15 .deptUnitV15 dd {padding:6px 0;}
+.gnbCtgyGroupV15 .deptUnitV15 dd .icoHot img {border-bottom:1px solid #d50c0c; margin-right:0; vertical-align:-1px;}
+.gnbCtgyGroupV15 .deptUnitV15 dd .icoNew img {border-bottom:1px solid #2f82cf;}
+
+.deptUnitV15 dd .deptListV15 li {font-size:11px; font-weight:normal;}
+.deptUnitV15 dd .deptListV15 li a {display:block; width:153px; padding:3px 6px 2px 6px; color:#555; font-size:11px; text-overflow:ellipsis; overflow:hidden; white-space:nowrap;}
+.deptUnitV15 dd .deptListV15 li a:hover {background-color:#f2f2f2; text-decoration:none;}
+.deptUnitV15 .deptListV15 li {display:block; float:none; padding:0; color:#555;}
+
+.gnbMoreV15 {display:block; position:absolute; left:18px; bottom:15px; font-size:11px; font-weight:normal; font-family:verdana, tahoma, sans-serif;}
+.gnbMoreV15 a {padding:6px 0; color:#777; font-size:11px; font-family:verdana, tahoma, sans-serif;}
+
+.gnbCtgyGroupV15 div.deptUnitTopV15 {width:177px; padding:0 0 0 12px; border-right:none;}
+div.deptUnitTopV15 ul.deptListV15 {width:100%;}
+div.deptUnitTopV15 .deptListV15 li {font-size:12px; font-weight:bold; cursor:pointer;}
+div.deptUnitTopV15 .deptListV15 li p {display:block; color:#555; font-size:12px; text-align:left;}
+div.deptUnitTopV15 .deptListV15 li p a {display:block; width:165px; padding:2px 6px 1px 6px; text-overflow:ellipsis; overflow:hidden; white-space:nowrap;}
+div.deptUnitTopV15 .deptListV15 li p a:hover {text-decoration:none;}
+div.deptUnitTopV15 .deptListV15 li.current p {background:#f2f2f2 url(http://fiximage.10x10.co.kr/web2015/common/blt04.gif) 163px 50% no-repeat; cursor:pointer;}
+
+.subGroupWrapV15 {display:none; position:absolute; left:189px; top:-15px; width:152px; height:327px; z-index:10;}
+.subGroupV15 {width:152px; height:295px; padding:16px 12px; background-color:#f7f7f7;}
+div.subGroupV15 .deptListV15 li {font-size:11px; font-weight:normal;}
+div.subGroupV15 .deptListV15 li a {display:block; padding:3px 6px 2px 6px; color:#555; font-size:11px;}
+div.subGroupV15 .deptListV15 li a:hover {background-color:#eaeaea; text-decoration:none;}
+div.subGroupV15 .gnbMoreV15 {bottom:27px; background-color:#f7f7f7;}
+div.subGroupV15 .gnbMoreV15 a {background-color:#f7f7f7;}
+
+.gnbSubV15 div.gnbBnrV15 {position:relative; float:left; width:190px; height:327px; border-left:1px solid #ccc;}
+.gnbSubV15 div.gnbBnrV15 span {display:none; position:absolute; left:0; top:0; width:190px; height:327px; background:url(http://fiximage.10x10.co.kr/web2015/common/bg01.png) 0 0 repeat;}
+
+.visualWrapV15 {display:none;}
+
+#contentWrap {padding:30px 0 80px 0;}
+
+.footerWrapV15 {border-top:4px solid #d50c0c; min-width:1140px;}
+.footerWrapV15 img {vertical-align:top;}
+.footerV15 {position:relative; width:1100px; margin:0 auto; padding:15px 20px 22px 20px; font-size:11px; font-family:dotum, dotumche, '돋움', '돋움체', sans-serif;}
+
+.footerLinkV15 {overflow:hidden;}
+.footerLinkV15 li {float:left; padding-right:23px;}
+.footerConV15 {overflow:hidden; width:100%; padding-top:30px; color:#888; line-height:19px;}
+.footerConV15 a {color:#888; text-decoration:underline;}
+.footerConV15 a:hover {color:#333;}
+.footerConV15 div {float:left; overflow:hidden; padding:14px 20px;}
+.goLinkV15 {padding-right:9px; background:url(http://fiximage.10x10.co.kr/web2015/common/blt02.gif) no-repeat 100% 48%;}
+.appLinkV15 {overflow:hidden; padding-top:15px; width:260px;}
+.appLinkV15 span {float:left;}
+.appLinkV15 a {display:block; vertical-align:top;}
+div.ftSnsUnitV15 {padding-left:0;}
+.ftSnsUnitV15 .snsV15 {padding-top:5px;}
+.ftSnsUnitV15 .snsV15 a {margin:0 7px 0 0; width:24px; height:24px;}
+.ftSnsUnitV15 .snsV15 a.snsTwV15 {background-position:-382px -88px;}
+.ftSnsUnitV15 .snsV15 a.snsFbV15 {background-position:-414px -88px;}
+.ftSnsUnitV15 .snsV15 a.snsItV15 {background-position:-445px -88px;}
+.ftSnsUnitV15 .snsV15 a.snsPrV15 {background-position:-476px -88px;}
+.ftSnsUnitV15 .snsV15 a.snsTwV15:hover {background-position:-382px -112px;}
+.ftSnsUnitV15 .snsV15 a.snsFbV15:hover {background-position:-414px -112px;}
+.ftSnsUnitV15 .snsV15 a.snsItV15:hover {background-position:-445px -112px;}
+.ftSnsUnitV15 .snsV15 a.snsPrV15:hover {background-position:-476px -112px;}
+
+.ftMallInfoV15 {width:500px; border-left:1px solid #ddd; border-right:1px solid #ddd;}
+.footerConV15 a.btnGry2 {text-decoration:none;}
+.footerConV15 a.btnGry2:hover {color:#fff;}
+.footerConV15 a.btnS6 {padding:3px 5px 0;}
+.footerConV15 a.btnS6 span {vertical-align:top;}
+
+.goTop {position:absolute; right:0; top:0; width:60px; height:42px; font-size:12px; color:#fff; text-align:center; background:#888 url(http://fiximage.10x10.co.kr/web2015/common/blt03.gif) center 9px no-repeat; cursor:pointer;}
+.goTop span {display:block; width:100%; height:25px; padding-top:17px; text-decoration:none; font-weight:bold; color:#fff;}
+
+@media screen and (max-width:1460px) {
+	.headerWrapV15 .decoV15 {display:none;}
+}
+
+
+/* paging */
+.pageWrapV15 {position:relative;}
+.paging {width:100%; text-align:center; height:25px;}
+.paging a {display:inline-block; height:23px; line-height:22px; border:1px solid #ccc; background-color:#fff; text-decoration:none; vertical-align:top; overflow:hidden;}
+.paging a span {display:block; height:23px; vertical-align:middle; font-size:12px; font-family:verdana, tahoma, sans-serif; color:#555; min-width:8px; padding:0 8px 0 7px; letter-spacing:-1px;}
+.paging a.arrow {background-color:#fff;}
+.paging a.arrow span {background-image:url(http://fiximage.10x10.co.kr/web2015/common/paging_arrow.gif); background-repeat:no-repeat; text-indent:-9999px; width:23px; padding:0;}
+.paging a.current {background-color:#fff; border:1px solid #d50c0c; color:#d50c0c; font-weight:bold;}
+.paging a.current span {color:#d50c0c;}
+.paging a.current:hover {background-color:#fff;}
+.paging a.first span {background-position:6px 8px;}
+.paging a.prev span {background-position:-22px 8px;}
+.paging a.next span {background-position:-348px 8px;}
+.paging a.end span {background-position:-378px 8px;}
+.paging a:hover {background-color:#ececec;}
+.pageMove {position:absolute; right:0; top:0; font-size:11px;}
+.pageMove input {padding:3px 5px; border:1px solid #ccc; text-align:right; vertical-align:middle; font-size:11px;}
+
+
+/* form */
+
+
+/* number spinner */
+.spinner {float:none; height:20px; line-height:20px; -webkit-user-select:none; -moz-user-select:none; -khtml-user-select:none; -ms-user-select:none;}
+.spinner input {float:left; width:40px; height:18px; padding:0; margin:0; line-height:20px; text-align:center; border:1px #ddd solid; font-family:dotum, '돋움', sans-serif; font-size:11px; color:#888;}
+.spinner .buttons {float:left !important; width:13px; height:20px; padding-left:2px;}
+.spinner .buttons .up {overflow:hidden; width:13px; height:9px; margin:0; padding:0; line-height:9px; background:url(http://fiximage.10x10.co.kr/web2013/common/btn_num_up.png) 0 0 no-repeat;}
+.spinner .buttons .down {overflow:hidden; position:relative; top:2px; width:13px; height:9px; margin:0; padding:0; line-height:9px; background:url(http://fiximage.10x10.co.kr/web2013/common/btn_num_down.png) 0 0 no-repeat;}
+
+
+/* button */
+.btnW75 {width:73px; padding-left:0; padding-right:0;}
+.btnGry3 {color:#fff; background:#888; border:1px solid #888;}
+.btnGry3:hover {background:#888; border:1px solid #888;}
+.btnBlack {background-color:#000;}
+.whiteArr03 {padding-right:6px; background:url(http://fiximage.10x10.co.kr/web2015/common/blt09.gif) 100% 2px no-repeat;}
+.download {padding-right:15px; background:url(http://fiximage.10x10.co.kr/web2015/shopping/ico_down.gif) 100% 0 no-repeat;}
+
+/* icon */
+.icoHot img {margin-left:2px; padding-bottom:1px; border-bottom:1px solid #d50c0c; vertical-align:-1px;}
+.icoNew img {margin-left:2px; padding-bottom:1px; border-bottom:1px solid #2f82cf; vertical-align:-1px; margin-right:-11px;}
+
+
+/* memver grade */
+.memORANGE {color:#ff7c14 !important;}
+.memYELLOW {color:#fbbd00 !important;}
+.memGREEN {color:#44a46f !important;}
+.memBLUE {color:#48b6f5 !important;}
+.memSILVER {color:#bbb3bd !important;}
+.memGOLD {color:#dbb025 !important;}
+.memSTAFF {color:#000 !important;}
+.memVVIP {color:#d50c0c !important;}
+.memVVIP strong, strong.memVVIP {color:#d50c0c;}
+.memSTAFF strong, strong.memSTAFF {color:#000;}
+
+/* SNS unit */
+.snsV15 {overflow:hidden;}
+.snsV15 a {display:block; overflow:hidden; float:left; text-indent:-999em; background:url(http://fiximage.10x10.co.kr/web2015/layout/element.png) no-repeat;}
+
+
+/* etc */
+.overHidden {overflow:hidden;}
+.lt {text-align:left !important;}
+.ct {text-align:center !important;}
+.rt {text-align:right !important;}
+.ftLt {float:left;}
+.ftRt {float:right;}
+.vTop {vertical-align:top;}
+.vMid {vertical-align:middle;}
+
+.cRd0V15 {color:#d50c0c !important;}
+.cOr0V15 {color:#fe7c14 !important;}
+.cGr0V15 {color:#49893f !important;}
+.cMt0V15 {color:#05a5af !important;}
+.cGy0V15 {color:#777 !important;}
+.cGy1V15 {color:#888 !important;}
+.cGy2V15 {color:#555 !important;}
+.cGy3V15 {color:#666 !important;}
+.cBk0V15 {color:#000 !important;}
+.cPk0V15 {color:#ff2fda !important;}
+.cGr0V17 {color:#00b160 !important;}
+.cBl0V17 {color:#1833ff !important;}
+.cBl1V17 {color:#0054a6 !important;}
+
+.bgGy0V15 {background-color:#fafafa;}
+
+.bdrTop00 {border-top:1px solid #ddd;}
+
+.tMar03 {margin-top:3px !important;}
+.tMar10 {margin-top:12px !important;}
+.tMar12 {margin-top:12px;}
+.tMar15 {margin-top:15px;}
+.tMar30 {margin-top:30px;}
+.tMar70 {margin-top:70px;}
+.tMar100 {margin-top:100px;}
+
+.pad20 {padding:20px;}
+.lPad15 {padding-left:15px;}
+.rPad10 {padding-right:10px !important;}

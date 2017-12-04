@@ -1,0 +1,388 @@
+@charset "utf-8";
+
+#my10x10WrapV15 .gnbWrapV15 {height:38px;}
+#my10x10WrapV15 .container {background:#f4eade url(http://fiximage.10x10.co.kr/web2015/my10x10/bg_pattern_beige.png) repeat 0 0;}
+#my10x10WrapV15 #contentWrap {width:100%; padding-top:40px; background:url(http://fiximage.10x10.co.kr/web2015/my10x10/bg_pattern_mint.png) repeat-x 0 0;}
+#my10x10WrapV15 .myHeader {width:1140px; margin:0 auto;}
+#my10x10WrapV15 .my10x10 {padding-top:18px;}
+#my10x10WrapV15 .my10x10 {width:1140px; margin:0 auto;}
+#my10x10WrapV15 .myHeader .breadcrumb {background:url(http://fiximage.10x10.co.kr/web2015/common/bg_line_03.png) no-repeat 0 5px;}
+
+.my10x10V15 {width:1140px; margin:0 auto;}
+.my10x10V15 h2 {line-height:16px;}
+.my10x10V15 h2 img {vertical-align:top;}
+
+/* my10x10 main */
+.my10x10MainV15 {overflow:hidden; margin-top:4px;}
+.my10x10MainV15 .section {float:left;}
+.my10x10MainV15 .section1 {width:212px;}
+.my10x10MainV15 .section2 {width:598px; margin-left:20px;}
+.my10x10MainV15 .section3 {width:288px; margin-left:22px;}
+.my10x10MainV15 .section .article {margin-top:20px; background-color:#fff;}
+.my10x10MainV15 .lnbMy10x10V15 .article:first-child {margin-top:20px;}
+.my10x10MainV15 h3 {color:#000; font-size:12px; line-height:1.25em;}
+.my10x10MainV15 .section h3 {padding:0 10px;}
+.my10x10MainV15 .section2 .article {position:relative; padding-top:11px; border-top:2px solid #555;}
+.my10x10MainV15 .section2 .article .more {position:absolute; top:7px; right:10px; color:#777; font-size:11px; font-family:Verdana, Dotum, '돋움', sans-serif;}
+.my10x10MainV15 .section2 .article .more:hover {text-decoration:none;}
+.my10x10MainV15 .section2 .article .more:hover span {text-decoration:underline;}
+.my10x10MainV15 .nodata {text-align:center;}
+.my10x10MainV15 .nodata img {vertical-align:top;}
+.my10x10MainV15 .nodata .btn {width:140px;}
+.my10x10MainV15 .pagination {position:relative; margin:0 20px; padding:9px 35px 15px 0; text-align:right; zoom:1;}
+.my10x10MainV15 .pagination span {color:#aaa; font-size:11px; font-family:Verdana, Dotum, '돋움', sans-serif; line-height:1em;}
+.my10x10MainV15 .pagination em {color:#777;}
+.my10x10MainV15 .pagination button {position:absolute; top:11px; width:13px; height:13px; border:1px solid #ddd; background-color:#fff; background-image:url(http://fiximage.10x10.co.kr/web2015/my10x10/bg_sprite.png); background-repeat:no-repeat; font-size:11px; line-height:13px; text-indent:-999em;}
+.my10x10MainV15 .pagination .prev {right:12px; background-position:-552px -2px;}
+.my10x10MainV15 .pagination .next {right:0; background-position:-566px -2px;}
+.my10x10MainV15 .pagination button:hover {background-color:#eee;}
+
+.my10x10MainV15 .orderV15 {min-height:212px;}
+.my10x10MainV15 .orderV15 .nodata {margin-top:27px;}
+.my10x10MainV15 .orderV15 .nodata .btn {margin-top:11px;}
+.my10x10MainV15 .orderV15 .detail {margin:23px 10px 0;}
+.my10x10MainV15 .orderV15 .detail .thead {overflow:hidden; padding:5px 0; border-top:1px solid #eee; background-color:#f9f9f9; color:#555; font-size:11px;}
+.my10x10MainV15 .orderV15 .detail .thead span {float:left; text-align:center;}
+.my10x10MainV15 .orderV15 .detail .thead .no {width:128px;}
+.my10x10MainV15 .orderV15 .detail .thead .goods {width:320px;}
+.my10x10MainV15 .orderV15 .detail .thead .condition {width:130px;}
+.my10x10MainV15 .orderV15 .tbody {position:relative; min-height:117px; margin-top:17px;}
+.my10x10MainV15 .orderV15 .row .no {width:125px; margin-top:3px; font-size:11px; text-align:center;}
+.my10x10MainV15 .orderV15 .row .no a {display:block; position:relative; width:100%; color:#777;}
+.my10x10MainV15 .orderV15 .row .no a strong, .my10x10MainV15 .order .row .no a:hover strong {font-weight:normal;}
+.my10x10MainV15 .orderV15 .row .no a.on {color:#d50c0c; text-decoration:underline;}
+.my10x10MainV15 .orderV15 .row .no a.on strong {font-weight:bold;}
+.my10x10MainV15 .orderV15 .row .no a:hover span, .my10x10MainV15 .orderV15 .row .no a.on span {position:absolute; top:50%; right:-3px; z-index:10; width:6px; height:7px; margin-top:-4px; background:#fff url(http://fiximage.10x10.co.kr/web2015/my10x10/bg_sprite.png) no-repeat 0 -290px;}
+.my10x10MainV15 .orderV15 .row .colgroup {overflow:hidden; position:absolute; top:0; left:125px; width:452px;}
+.my10x10MainV15 .orderV15 .colgroup .col {display:table; *float:left;}
+.my10x10MainV15 .orderV15 .colgroup .col1 {display:table-cell; vertical-align:middle; position:relative; z-index:5; width:196px; height:100px; padding-left:137px; background:url(http://fiximage.10x10.co.kr/web2015/my10x10/bg_sprite.png) no-repeat 0 -186px;}
+.my10x10MainV15 .orderV15 .colgroup .col1 a {display:block; *padding-top:7px; padding-left:10px;}
+.my10x10MainV15 .orderV15 .colgroup .col1 a:hover {text-decoration:none;}
+.my10x10MainV15 .orderV15 .colgroup .col1 a:hover strong {text-decoration:underline;}
+.my10x10MainV15 .orderV15 .colgroup .col1 span {display:block; font-size:11px;}
+.my10x10MainV15 .orderV15 .colgroup .col1 .figure {position:absolute; top:0; left:23px;}
+.my10x10MainV15 .orderV15 .colgroup .col1 .pdtName {margin-top:-3px;}
+.my10x10MainV15 .orderV15 .colgroup .col1 .date {margin-top:4px;}
+.my10x10MainV15 .orderV15 .colgroup .col2 {display:table-cell; width:119px; text-align:center; vertical-align:middle;}
+.my10x10MainV15 .orderV15 .colgroup .col2 em {display:block; *margin-top:17px; font-size:11px;}
+.my10x10MainV15 .orderV15 .colgroup .btnwrap {margin-top:6px;}
+.my10x10MainV15 .orderV15 .colgroup .btnwrap .btn {width:88px; margin-top:4px;}
+
+.my10x10MainV15 .pdtList {overflow:hidden; margin-top:26px; padding-left:13px;}
+.my10x10MainV15 .pdtList li {float:left; position:relative; width:142px; background:none;}
+.my10x10MainV15 .pdtList li .figure {display:block; width:106px; padding:0 18px; border-left:1px dotted #ddd;}
+.my10x10MainV15 .pdtList li:first-child .figure {border:0;}
+.my10x10MainV15 .pdtList li .figure img {vertical-align:top;}
+.my10x10MainV15 .pdtList li .pdtBrand, .my10x10MainV15 .pdtList li .pdtName {width:106px; margin:0 auto;}
+.my10x10MainV15 .pdtBrand, .my10x10MainV15 .pdtName {display:block;}
+.my10x10MainV15 .pdtBrand {overflow:hidden; height:15px; text-overflow:ellipsis; white-space:nowrap;}
+.my10x10MainV15 .pdtBrand a {color:#b2b2b2;}
+.my10x10MainV15 .pdtName a {color:#777;}
+.my10x10MainV15 .pdtList .pdtStTag {position:absolute; top:0; right:18px;}
+
+.my10x10MainV15 .wishV15 {min-height:232px;}
+.my10x10MainV15 .wishV15 .nodata {margin-top:30px;}
+.my10x10MainV15 .wishV15 .nodata .btn {margin-top:13px;}
+.my10x10MainV15 .wishV15 h3 {padding-left:28px; background:url(http://fiximage.10x10.co.kr/web2013/my10x10/blt_wish.gif) no-repeat 10px 2px;}
+.my10x10MainV15 .wishV15 .pdtList li .pdtBrand {margin-top:15px;}
+.my10x10MainV15 .wishV15 .pdtList li .pdtName {margin-top:4px;}
+
+.my10x10MainV15 .brandV15 {min-height:228px;}
+.my10x10MainV15 .brandV15 .pdtList li .pdtName {overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+.my10x10MainV15 .brandV15 h3 {position:relative; padding-left:30px;}
+.my10x10MainV15 .brandV15 h3 span {position:absolute; top:0; left:10px; width:12px; height:11px; background:url(http://fiximage.10x10.co.kr/web2015/my10x10/bg_sprite.png) no-repeat 100% 0;}
+.my10x10MainV15 .brandV15 .pdtList .pdtBrand {color:#777; text-decoration:none;}
+.my10x10MainV15 .brandV15 .pdtList .eng {margin-top:13px;}
+.my10x10MainV15 .brandV15 .pdtList .ko {margin-top:3px; font-weight:normal;}
+.my10x10MainV15 .brandV15 .nodata {margin-top:30px;}
+.my10x10MainV15 .brandV15 .nodata .btn {margin-top:11px;}
+
+.my10x10MainV15 .reviewV15 {float:left; width:290px; min-height:178px;}
+.my10x10MainV15 .reviewV15 .nodata {margin-top:47px;}
+.my10x10MainV15 .reviewV15 .nodata .btn {margin-top:15px;}
+.my10x10MainV15 .reviewV15 .mileage {position:relative; margin-top:8px; padding:8px 20px 7px; border-top:1px solid #eee; background-color:#f7f7f7; font-size:11px; line-height:1.375em;}
+.my10x10MainV15 .reviewV15 .mileage strong {position:absolute; top:7px; right:20px; font-size:12px; font-family:Verdana, Dotum, '돋움', sans-serif;}
+.my10x10MainV15 .reviewV15 .pdtList {position:relative; min-height:106px; margin:22px 20px 0; padding:0 0 0 120px;}
+.my10x10MainV15 .reviewV15 .pdtList .figure {position:absolute; top:0; left:0;}
+.my10x10MainV15 .reviewV15 .pdtList .pdtName {margin-top:6px;}
+.my10x10MainV15 .reviewV15 .pdtList .saving {display:block; margin-top:5px; font-size:11px;}
+.my10x10MainV15 .reviewV15 .pdtList .btn {position:absolute; bottom:0; left:120px;}
+
+.my10x10MainV15 .latelyV15 {float:right; width:288px; min-height:232px;}
+.my10x10MainV15 .latelyV15 .nodata {margin-top:47px;}
+.my10x10MainV15 .latelyV15 .detail ul {position:relative; margin:22px 22px 0;}
+.my10x10MainV15 .latelyV15 .detail ul li {margin-bottom:8px;}
+.my10x10MainV15 .latelyV15 .detail ul li.last {position:absolute; top:0; right:0;}
+.my10x10MainV15 .latelyV15 .detail ul li img {vertical-align:top;}
+
+.my10x10MainV15 .alarmV15 {position:relative;}
+.my10x10MainV15 .alarmV15 h3 {position:relative; padding:12px 10px 12px 29px; background:#65c1da url(http://fiximage.10x10.co.kr/web2015/my10x10/bg_sprite.png) no-repeat 0 -112px; color:#fff;}
+.my10x10MainV15 .alarmV15 h3 span {position:absolute; top:11px; left:10px; width:13px; height:14px; background-image:url(http://fiximage.10x10.co.kr/web2015/layout/element.png); background-repeat:no-repeat; background-position:0 0;}
+.my10x10MainV15 .alarmV15 .expire {padding:13px 0 11px; background-color:#f7f7f7; color:#aaa; font-size:11px; text-align:center;}
+.my10x10MainV15 .alarmV15 .pagination {position:absolute; top:1px; right:-5px;}
+.my10x10MainV15 .alarmV15 .pagination .prev {background-position:-552px -17px;}
+.my10x10MainV15 .alarmV15 .pagination .next {background-position:-566px -17px;}
+.my10x10MainV15 .alarmV15 .pagination span {color:#cae7f1;}
+.my10x10MainV15 .alarmV15 .pagination em {color:#fff;}
+
+.my10x10MainV15 .alarmListV15:first-child {padding-top:20px;}
+.my10x10MainV15 .alarmListV15 .almTodayV15 {padding-top:0; padding-bottom:0; background:none;}
+.my10x10MainV15 .myAlarmV15 {font-size:11px;}
+.my10x10MainV15 .almTodayV15 .boxRd0V15 {width:256px; background:url(http://fiximage.10x10.co.kr/web2015/common/box_round01.png) no-repeat 50% 50%; font-size:11px;}
+.my10x10MainV15 .alarmListV15 {position:relative; padding:0 20px;}
+.my10x10MainV15 .alarmListV15 .timeline {display:none; position:absolute; top:63px; left:55px; width:8px; height:100%; background-color:#f4f8f9;}
+.my10x10MainV15 .alarmListV15 ul.alarmUnitV15 {padding-bottom:0;}
+.my10x10MainV15 .alarmUnitV15 li {overflow:hidden; margin-bottom:-1px; padding:20px 8px 22px 90px;}
+.my10x10MainV15 .alarmUnitV15 li a {display:block;}
+.my10x10MainV15 .alarmUnitV15 li a:hover {text-decoration:none;}
+.my10x10MainV15 .alarmUnitV15 li a:hover dl dt, .my10x10MainV15 .alarmUnitV15 li a:hover dl dd {text-decoration:underline;}
+.my10x10MainV15 .alarmType01 {overflow:hidden; position:relative; margin-bottom:-1px; padding-top:20px; padding-bottom:20px;}
+.my10x10MainV15 .alarmType01 .txtV15 {font-size:11px;}
+.my10x10MainV15 .alarmType01 .txtV15, .alarmType02 .txtV15 {background:none;}
+.my10x10MainV15 .alarmType01 .figure img {width:88px;}
+.my10x10MainV15 .alarmType01 .deco {position:absolute; top:50%; left:28px; width:21px; height:21px; margin-top:-10px; background:url(http://fiximage.10x10.co.kr/web2015/my10x10/bg_sprite.png) no-repeat 0 -300px;}
+.my10x10MainV15 .mktIsuPartV15 dt, 
+.my10x10MainV15 .cuponPartV15 dt,
+.my10x10MainV15 .winPartV15 dt {padding-top:7px; background:url(http://fiximage.10x10.co.kr/web2015/my10x10/bg_sprite.png) no-repeat 0 -388px;}
+.my10x10MainV15 .evtPartV15 .pdtStTag {margin-bottom:-3px;}
+.my10x10MainV15 .csPartV15 dt {margin-top:-4px;}
+.my10x10MainV15 .alarmUnitV15 .alarmType01 {padding-left:0; background:none;}
+.my10x10MainV15 .alarmUnitV15 li p {color:#555;}
+.my10x10MainV15 .alarmType01 .btnS2 {width:116px; margin:0 auto;}
+
+/* my10x10 navigator */
+.lnbMy10x10V15 {float:left; width:212px;}
+.lnbMy10x10V15 .article {margin-top:20px;}
+.lnbMy10x10V15 .article:first-child {margin-top:0;}
+.lnbMy10x10V15 .article .nodata {margin-top:28px;}
+.lnbMy10x10V15 .article .nodata span {display:block; width:17px; height:1px; margin:0 auto; background-color:#ddeaef;}
+.lnbMy10x10V15 .profile {padding-top:29px; background-color:#fff; text-align:center;}
+.lnbMy10x10V15 .profile .hello {color:#000; font-size:12px; font-family:Verdana, Dotum, '돋움', sans-serif; font-weight:bold; line-height:1.25em;}
+.lnbMy10x10V15 .profile .figure {position:relative; margin-top:15px;}
+.lnbMy10x10V15 .profile .figure a {display:block; position:absolute; top:0; left:50%; width:112px; height:112px; margin-left:-56px; background:url(http://fiximage.10x10.co.kr/web2015/my10x10/bg_sprite.png) no-repeat 0 0; font-size:11px; text-indent:-999em;}
+.lnbMy10x10V15 .profile .figure img {padding-top:6px;}
+.lnbMy10x10V15 .profile .figure .class {position:absolute; right:22px; bottom:5px; z-index:5; width:54px; height:32px; background-image:url(http://fiximage.10x10.co.kr/web2015/my10x10/bg_sprite_v1.png); background-repeat:no-repeat; font-size:11px; text-indent:-999em;}
+.lnbMy10x10V15 .profile .figure .memORANGE {background-position:-173px 0;}
+.lnbMy10x10V15 .profile .figure .memYELLOW {background-position:-227px 0;}
+.lnbMy10x10V15 .profile .figure .memGREEN {background-position:-280px 0;}
+.lnbMy10x10V15 .profile .figure .memBLUE {background-position:-333px 0;}
+.lnbMy10x10V15 .profile .figure .memSILVER {background-position:-387px 0;}
+.lnbMy10x10V15 .profile .figure .memGOLD {background-position:-441px 0;}
+.lnbMy10x10V15 .profile .figure .memSTAFF {background-position:-495px 0;}
+.lnbMy10x10V15 .profile .badge {margin-top:14px;}
+.lnbMy10x10V15 .profile .badge a:hover {text-decoration:none;}
+.lnbMy10x10V15 .profile .badge span {display:inline-block; *display:inline; zoom:1; width:30px; height:30px; margin:0 -1px 0 -2px; background:url(http://fiximage.10x10.co.kr/web2015/my10x10/bg_sprite.png) no-repeat -113px 0; line-height:30px; text-align:center;}
+.lnbMy10x10V15 .profile .badge a:hover span {background:url(http://fiximage.10x10.co.kr/web2015/my10x10/bg_sprite.png) no-repeat -143px 0;}
+.lnbMy10x10V15 .profile .badge span img {vertical-align:top;}
+.lnbMy10x10V15 .profile .badge .more {position:relative; margin-left:7px; vertical-align:top;}
+.lnbMy10x10V15 .profile .badge .more em {position:absolute; top:0; left:-5px; color:#bdd2da;}
+.lnbMy10x10V15 .profile .badge .more strong {color:#fff; font-family:Verdana, Dotum, '돋움', sans-serif;}
+.lnbMy10x10V15 .profile ul {overflow:hidden; margin-top:24px; border-top:1px dotted #ccdbe1; margin-left:-1px;}
+.lnbMy10x10V15 .profile ul li {float:left; width:50%; *width:49.999%; border-bottom:1px solid #f4eade;}
+.lnbMy10x10V15 .profile ul li a {display:block; padding:13px 0; border-left:1px solid #f4eade; background-color:#f9f9f9; color:#555; font-size:11px;}
+.lnbMy10x10V15 .profile ul li a:hover {text-decoration:none;}
+.lnbMy10x10V15 .profile ul li a strong {display:block; color:#000; font-size:12px;}
+.lnbMy10x10V15 .profile ul li a:focus strong, .lnbMy10x10V15 .profile ul li a:hover strong {color:#d50c0c;}
+.nomemberV15 {padding-top:30px; background-color:#fff; text-align:center;}
+.nomemberV15 .benefit {overflow:hidden; position:relative; padding:0 15px; height:174px;}
+.nomemberV15 .benefit .bg {position:absolute; left:0; top:0; width:100%; height:100%; background:url(http://fiximage.10x10.co.kr/web2015/my10x10/bg_txt_nomember.png) no-repeat 50% 0 #fff;}
+.nomemberV15 .btn {margin-top:20px; width:162px;}
+.nomemberV15 .orderNo {margin-top:30px; padding:20px 0; border-top:1px dotted #ccdbe1; background-color:#f9f9f9; color:#000; font-family:Verdana, Dotum, '돋움', sans-serif; text-align:center;}
+.nomemberV15 .orderNo span {padding:0 7px;}
+
+.lnbMy10x10V15 .heading {display:block; overflow:hidden; position:relative; width:212px; height:38px; color:#fff; font-size:11px; line-height:38px; text-align:center;}
+.lnbMy10x10V15 .heading span {display:block; position:absolute; top:0; left:0; width:100%; height:100%; background-color:#555; background-image:url(http://fiximage.10x10.co.kr/web2015/my10x10/bg_sprite.png); background-repeat:no-repeat;}
+.lnbMy10x10V15 .quick {background-color:#fff;}
+.lnbMy10x10V15 .quick .heading span {background-position:-112px -36px;}
+.lnbMy10x10V15 .quick ul {padding:14px 20px;}
+.lnbMy10x10V15 .quick ul li {margin-top:9px; font-size:12px; line-height:1.25em;}
+.lnbMy10x10V15 .quick ul li a {padding-left:25px; color:#555; background:url(http://fiximage.10x10.co.kr/web2013/my10x10/blt_quickmenu01.gif) no-repeat 0 1px;}
+.lnbMy10x10V15 .quick ul li a:focus, .lnbMy10x10V15 .quick ul li a.on {text-decoration:none; color:#d50c0c; background-position:left -38px;}
+.lnbMy10x10V15 .quick ul li a span {background-color:#fff;}
+.lnbMy10x10V15 .menuV15 {position:relative; padding-bottom:27px;}
+.lnbMy10x10V15 .menuV15 ul {padding:20px; background-color:#f8f8f8;}
+.lnbMy10x10V15 .menuV15 ul li {margin-top:20px; font-size:12px; line-height:1.25em;}
+.lnbMy10x10V15 .menuV15 ul li:first-child {margin-top:0;}
+.lnbMy10x10V15 .menuV15 ul li a {display:block; background:url(http://fiximage.10x10.co.kr/web2013/my10x10/blt_quickmenu02.gif) no-repeat 100% 5px; color:#3a3a3a; font-weight:bold; text-decoration:none;}
+.lnbMy10x10V15 .menuV15 ul li a:hover {background:url(http://fiximage.10x10.co.kr/web2013/my10x10/blt_quickmenu02.gif) no-repeat 100% -35px;}
+.lnbMy10x10V15 .menuV15 ul li a:focus, .lnbMy10x10V15 .menu ul li a.on {background:url(http://fiximage.10x10.co.kr/web2013/my10x10/blt_quickmenu02.gif) no-repeat 100% -76px;}
+.lnbMy10x10V15 .menuV15 ul li ul {margin-top:0; padding:0;}
+.lnbMy10x10V15 .menuV15 ul li ul li {margin-top:10px; font-size:11px;}
+.lnbMy10x10V15 .menuV15 ul li ul li:first-child {margin-top:10px;}
+.lnbMy10x10V15 .menuV15 ul li ul li a {padding-left:12px; background:none; font-weight:normal;}
+.lnbMy10x10V15 .menuV15 ul li ul li a:hover,
+.lnbMy10x10V15 .menuV15 ul li ul li a:focus,
+.lnbMy10x10V15 .menuV15 ul li ul li a.on {background:url(http://fiximage.10x10.co.kr/web2013/common/blt05.gif) no-repeat 0 2px; color:#d50c0c;}
+.lnbMy10x10V15 .menuV15 .all {display:none; position:absolute; bottom:0; left:6px;}
+.lnbMy10x10V15 .menuV15 .all button {padding-left:14px; background-color:transparent; background-image:url(http://fiximage.10x10.co.kr/web2013/my10x10/blt_quickmenu03.gif); background-repeat:no-repeat; background-position:0 4px; color:#666; font-size:11px; font-family:'Verdana', 'Dotum', '돋움';}
+.lnbMy10x10V15 .menuV15 .all button:hover {background-position:0 -16px; color:#444; text-decoration:underline;}
+.lnbMy10x10V15 .menuV15 .all button span {position:relative;}
+.lnbMy10x10V15 .menuV15 .all .close {background-position:0 -37px;}
+.lnbMy10x10V15 .menuV15 .all .close:hover {background-position:0 -57px;}
+
+.navNomemberV15 .heading span {background-color:#fff; background-position:-112px -74px;}
+.navNomemberV15 .menu ul {background-color:#fff;}
+
+.mygetV15 .sorting {margin-bottom:30px; padding-bottom:10px; border-bottom:1px solid #000;}
+.mygetV15 .sorting p {color:#000; font-size:14px;}
+.mygetV15 .sorting select {width:100px !important;}
+.mygetV15 .sorting .option select:first-child {max-width:100px; min-width:100px;}
+.mygetV15 .pdt150V15 .pdtList > li {position:relative; width:25%;}
+.mygetV15 .pdt150V15 .pdtBox {height:334px;}
+.mygetV15 .pdt150V15 .pdtBrand a {color:#b2b2b2;}
+.mygetV15 .pdt150V15 .pdtOption,
+.mygetV15 .pdt150V15 .pdtDate {display:block; color:#777;}
+.mygetV15 .pdt150V15 .pdtOption {margin-top:5px;}
+.mygetV15 .pdtLabel {top:8px; right:-6px;}
+.mygetV15 .pdt150V15 .pdtWrap .noData {padding:52px 0 79px; border-bottom:0;}
+
+/* special shop */
+.specialShopV15 img {vertical-align:top;}
+.specialShopV15 .spcEvtWrap {margin-top:-30px; padding:0 20px; border-top:0; background:none;}
+.specialShopV15 .spcEvtWrap ul {margin-bottom:-1px; padding:0;}
+.specialShopV15 .spcEvtWrap li {width:390px; padding:30px 0; border-bottom:1px solid #ddd;}
+.specialShopV15 .spcEvtWrap li.oddEvt {padding-right:14px;}
+.specialShopV15 .spcEvtWrap li.evenEvt {padding-left:14px;}
+
+.giftcard .subHeader p {padding-top:0;}
+
+
+/**/
+.mySection .pdt150 .pdtList > li {min-height:330px;}
+.myWishWrap .pdtWrap {padding:0;}
+.myWishWrap .pdtWrap .pdtList > li {position:relative; width:25%;}
+.myWishWrap .pdt150V15 .pdtBox {height:363px;}
+.myWishWrap li .check {top:30px;}
+.reviewList .pdtDate {position:absolute; left:0; bottom:72px; width:100%;}
+.reviewList .cartBtn {position:absolute; left:0; top:295px;}
+.myWishList .wishOpt {position:absolute; left:0; bottom:27px; width:100%;}
+
+.mileageShop .cartBtn {position:absolute; left:0; top:307px;}
+.mileageShop .wishOpt {position:absolute; left:0; bottom:63px; width:100%;}
+
+.testerReviewList .cartBtn {position:absolute; left:0; top:307px;}
+.testerReviewList .duringDate {position:absolute; left:0; top:252px; width:130px; font-family:verdana, tahoma, dotum, sans-serif; background:#fff;}
+
+.openWish .myWishWrap .pdtWrap .pdtList > li {width:20%;}
+
+/* gift card */
+.giftcardV15a .subHeader .btnGroupV15a {margin-top:18px;}
+.giftcardV15a .subHeader .btnGroupV15a .btn {width:94px; margin-right:3px;}
+.myContent .giftcardV15a .subHeader .ico {top:15px;}
+
+.giftcardV15a .mySection h4:first-child {margin-top:34px;}
+.giftcardV15a .sorting {padding-bottom:11px;}
+
+.giftcardV15a .baseTable {border-top:1px solid #555;}
+
+.giftcardRegiFormV15a {padding-top:48px;}
+.giftcardRegiFormV15a .field {margin-top:17px; text-align:center;}
+.giftcardRegiFormV15a .field .txtInp {width:38px; color:#d50c0c; font-size:14px; font-weight:bold;}
+.giftcardRegiFormV15a .giftcardPolicyV15a {margin-top:20px;}
+.giftcardRegiFormV15a .giftcardPolicyV15a .scrollbarwrap {border:1px solid #bbb;}
+.giftcardRegiFormV15a .giftcardPolicyV15a .scrollbarwrap .viewport {width:830px;}
+.giftcardRegiFormV15a .giftcardAgreementV15a {padding-right:50px; padding-left:15px;}
+.giftcardRegiFormV15a .agree {margin-top:19px; font-size:12px; text-align:center;}
+.giftcardRegiFormV15a .agree b {color:#555;}
+.giftcardRegiFormV15a .btnGroupV15a {margin-top:23px; padding-top:30px; border-top:1px solid #e5e5e5; text-align:center;}
+.giftcardRegiFormV15a .btnGroupV15a .btn {width:260px;}
+
+.lyGiftcardUrlWrap {position:relative; display:inline-block; *display:inline; *zoom:1;}
+.lyGiftcardUrlV15a {position:absolute; top:23px; width:375px; padding:8px 13px 12px; border:1px solid #bbb; background-color:#fff;}
+.giftcardV15a .lyGiftcardUrlV15a {left:0;}
+.lyGiftcardUrlV15a label {font-size:11px; font-weight:bold;}
+.lyGiftcardUrlV15a input {width:353px; height:12px; margin-top:5px; padding:8px 10px; border:1px solid #bbb; background-color:#f4f4f4; font-size:11px; font-family:'Dotum', 'Verdana';}
+.lyGiftcardUrlV15a .btnclose {position:absolute; top:8px; right:8px; width:20px; height:20px; background:url(http://fiximage.10x10.co.kr/web2015/giftcard/btn_close.gif) no-repeat 50% 50%; text-indent:-999em;}
+
+/* memebership */
+.lnbMy10x10V15 .profile .figure .memVVIP {background:url(http://fiximage.10x10.co.kr/web2015/my10x10/bg_sprite_v1.png) no-repeat -388px -36px;}
+
+.memberGradeV16 .box {position:relative; background-position:482px 0;}
+.memberGradeV16 .myGrade {width:275px;}
+.memberGradeV16 .ico {position:absolute; top:50%; left:25px; margin-top:-57px;}
+.memberGradeV16 .myGrade .summary p span {font-size:15px;}
+.memberGradeV16 .nextUpgrade {width:292px; padding-left:77px;}
+
+.memberTableV16 tbody tr:nth-child(1) th,
+.memberTableV16 tbody tr:nth-child(2) th {background-color:#f7f7f7;}
+.memberTableV16 tbody th {padding:10px 0;}
+.memberTableV16 tbody td {vertical-align:middle;}
+.memberTableV16 tbody td.empty {background-position:50% 50%;}
+.memberTableV16 tbody .vTop {vertical-align:top;}
+.memberTableV16 .btnBlack {width:71px; padding-right:0; padding-left:0;}
+.memberTableV16 .whiteArr01 {padding-right:7px;}
+.memberTableV16 .couponList li {margin-top:12px;}
+.memberTableV16 .couponList li:first-child {margin-top:0;}
+.memberTableV16 .couponList li:first-child .coupon {padding-top:17px;}
+
+.memberTableV16 .addInfo .contLyr {left:95px; width:748px;}
+.memberTableV16 .addInfo #bonusCoupon {top:-180px; background-position:0 185px;}
+.memberTableV16 .addInfo #speciallCoupon {top:-62px; background-position:0 67px;}
+.memberTableV16 .addInfo #benefitDelivery {top:-152px; background-position:0 157px;}
+.memberTableV16 .addInfo .contLyr .close {position:absolute; top:10px; right:10px; width:20px; height:20px; background-color:transparent;}
+.memberTableV16 .benefitGuide table tbody tr:nth-child(3) th,
+.memberTableV16 .benefitGuide table tbody tr:nth-child(4) th {background-color:#f7f7f7;}
+
+.memberTableV16 .coupon {padding-top:17px;}
+.memberTableV16 .coupon .name {position:relative; width:64px; height:32px; margin:0 auto; padding-left:18px; background:url(http://fiximage.10x10.co.kr/web2015/my10x10/bg_sprite_v2.png) no-repeat 0 -389px; color:#555; font-size:11px; font-weight:bold; line-height:34px;}
+.memberTableV16 .coupon .name .no {display:block; position:absolute; top:-17px; right:-10px; width:29px; height:29px; background:url(http://fiximage.10x10.co.kr/web2015/my10x10/bg_sprite_v2.png) no-repeat 0 -421px; color:#fff; font-size:11px; line-height:32px;}
+.memberTableV16 .coupon .name .no span {font-weight:normal;}
+.memberTableV16 .coupon .freeshipping {background-position:-82px -389px;}
+.memberTableV16 .coupon .fingers {margin-top:-17px; background-position:-164px -389px;}
+.memberTableV16 .coupon .sum {margin-top:6px; color:#999;}
+
+/* vip lounge */
+.spcEvtWrapV16 .nodata {margin-top:90px; text-align:center;}
+
+/* order detail (여행상품추가 20160718 오픈) */
+.orderProcess li.happycall strong {background:url(http://fiximage.10x10.co.kr/web2016/my10x10/ico_help_happycall.gif) 50% top no-repeat;}
+.orderProcess li.issue strong {background:url(http://fiximage.10x10.co.kr/web2016/my10x10/ico_help_issue.gif) 50% top no-repeat;}
+.orderProcess li.abroad strong {background:url(http://fiximage.10x10.co.kr/web2016/my10x10/ico_help_abroad.gif) 50% top no-repeat;}
+
+.refundMthLyrV17 .infoMoreViewV15 {cursor:pointer;}
+.refundMthLyrV17 .infoMoreViewV15 span {display:block; padding-right:18px; background:url(http://fiximage.10x10.co.kr/web2015/common/ico_question.png) 100% 50% no-repeat; font-weight:normal; line-height:2;}
+.refundMthLyrV17 .infoViewLyrV15 {width:430px; left:auto; left:0; margin-left:0; font-weight:normal;}
+.refundMthLyrV17 .infoViewLyrV15 .infoViewBoxV15 {width:423px;}
+.refundMthLyrV17 .infoViewLyrV15 .infoViewBoxV15 .infoViewV15 {width:420px; text-align:left; font-size:11px; color:#666;}
+.refundMthLyrV17 .infoViewLyrV15 .infoViewBoxV15 dfn {margin-left:0; left:57px;}
+
+.myQnaList .secretV17 .question .account p {text-indent:18px; background:url(http://fiximage.10x10.co.kr/web2017/common/ico_lock.png) 0 2px no-repeat;}
+
+/*멤버십카드 배너 */
+.lnbMy10x10V15 a:hover {text-decoration:none;}
+.lnbMy10x10V15 .bnrMemcard.article {margin-top:20px;}
+.lnbMy10x10V15 .bnrMemcard {position:relative; padding:17px 0 17px 18px; background-color:#fff; font-size:11px;}
+.lnbMy10x10V15 .bnrMemcard > img {position:absolute; top:16px; left:17px;}
+.lnbMy10x10V15 .bnrMemcard p {padding-left:75px; line-height:1.6;}
+.lnbMy10x10V15 .bnrMemcard .before p:first-child{margin-bottom:4px;}
+.lnbMy10x10V15 .bnrMemcard .after p:first-child{margin-bottom:2px;}
+
+/* 멤버십카드 등록 */
+.registMembercardV17 .before {height:445px; padding:25px 10px 0;}
+.registMembercardV17 .before h4 {margin:0;padding:0;}
+.registMembercardV17 .before .col {width:366px; padding:36px 0 53px; text-align:center;}
+.registMembercardV17 .before .col .cardImg {padding:27px 0;}
+.registMembercardV17 .before .col p {line-height:20px;}
+.registMembercardV17 .before .regisOnline{padding-right:43px; border-right:solid 1px #ddd;}
+.registMembercardV17 .before .regisOnline p {padding-bottom:43px;}
+.registMembercardV17 .before .regisOffline {padding-right:7px;}
+.registMembercardV17 .before .regisOffline p {padding-bottom:64px;}
+.registMembercardV17 .before .btnCard1 {font-size:11px; line-height:11px; padding:9px 33px 8px 32px;}
+.registMembercardV17 .before .btnCard2 {font-size:11px; line-height:11px; padding:9px 14px 8px 15px; margin-left:8px;}
+.registMembercardV17 .after {margin:-17px 0 140px;}
+.registMembercardV17 .after h4 {margin:0; padding:0;}
+.registMembercardV17 .after .memberCardList {position:relative;}
+.registMembercardV17 .after .memberCardList .btnregiCard {position:absolute; top:0; right:0;}
+.registMembercardV17 .after .baseTable {border-top:1px solid #555;}
+.registMembercardV17 .after .memberCardList .baseTable {text-align:left; text-align:center; }
+.registMembercardV17 .after .memberCardList .baseTable tbody tr td{color:#555;}
+.registMembercardV17 .after .memberCardList .baseTable td {position:relative; vertical-align:middle;}
+.registMembercardV17 .after .memberCardList .baseTable td.cardInfo {padding-left:100px; text-align:left;}
+.registMembercardV17 .after .memberCardList .baseTable td.cardInfo span {line-height:1.6}
+.registMembercardV17 .after .memberCardList .baseTable td .date {color:#888; font-size:11px; letter-spacing:0;}
+.registMembercardV17 .after .memberCardList .baseTable .btnGrylight {margin:0;}
+.registMembercardV17 .after .memberCardList.baseTable .noData {margin:10px 0;}
+.registMembercardV17 .after .memberCardList .baseTable .cardImg{position:absolute; top:13px; left:19px;}
+.registMembercardV17 .after .memberCardList .baseTable .transMile {padding-left:0 !important;}
+.registMembercardV17 .after .pointHistory {margin-top:87px;}
+.registMembercardV17 .after .pointHistory .baseTable td{color:#555;}
