@@ -12,6 +12,7 @@ import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 
 import com.prj.web.dao.InfoDao;
+import com.prj.web.entity.Drama;
 import com.prj.web.entity.Free;
 import com.prj.web.entity.Imgview;
 import com.prj.web.entity.Info;
@@ -106,6 +107,49 @@ public class SpringInfoDao implements InfoDao{
 		return insert(new Info(title, content, writerId));
 	}
 
+	
+	
+	@Override
+	public int tipInsert(Tip tip) {
+		String sql = "insert into Tip(id, title, content, writerId, hit) values(?, ?, ?, ?, 0);";
+		
+		int insert = template.update(sql, 
+						getNextId(), 
+						tip.getTitle(), 
+						tip.getContent(), 
+						tip.getWriterId());		
+				
+		return insert;
+	}
+	
+	
+	@Override
+	public int tipInsert(String title, String content, String writerId) {
+		
+		return 0;
+	}
+
+	
+	@Override
+	public int dramaInsert(Drama drama) {
+		String sql = "insert into Drama(id, name, content, writerId) values(?, ?, ?, ?);";
+		
+		int insert = template.update(sql, 
+						getNextId(), 
+						drama.getName(), 
+						drama.getContent(), 
+						drama.getWriterId());		
+				
+		return insert;
+	}
+	
+	@Override
+	public int dramaInsert(String title, String content, String writerId) {
+		
+		return 0;
+	}
+
+
 	@Override
 	public int delete(String id) {
 		String sql = "delete from Info where id = ?";
@@ -192,6 +236,7 @@ public class SpringInfoDao implements InfoDao{
 		String title = template.queryForObject(sql, new Object[] {id}, String.class);
 		return title;
 	}
+
 
 
 

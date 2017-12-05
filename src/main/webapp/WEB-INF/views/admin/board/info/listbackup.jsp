@@ -98,7 +98,6 @@
 .coolBnrV17 .coolBrSlideV17 .slidesjs-navigation {overflow:hidden; position:absolute; top:0; width:75px; height:100%; background-image:url(http://fiximage.10x10.co.kr/web2017/main/bwbnr_navi.png); background-repeat:no-repeat; text-indent:-999em; z-index:10;}
 .coolBnrV17 .coolBrSlideV17 .slidesjs-previous {left:92px; background-position:0 50%;}
 .coolBnrV17 .coolBrSlideV17 .slidesjs-next {right:0; background-position:100% 50%;}
-
 </style>
 <script type="text/javascript" src="${path}/resource/js/jquery.flowslider.js"></script>
 <script>
@@ -182,21 +181,6 @@ $(function() {
 	});
 	$('.brandSlideV15 .slidesjs-pagination > li a').prepend("0");
 
-	
-	$('.roundSlideV15').slidesjs({
-		width:800,
-		height:300,
-		start:3,
-		navigation:{active:false, effect:"fade"},
-		pagination:{active:true, effect:"fade"},
-		play:{active:false, interval:3500, effect:"fade", auto:false, pauseOnHover:true},
-		effect:{
-			fade:{speed:10, crossfade:true}
-		}
-	});
-/* 	$('.roundSlideV15 .slidesjs-pagination > li a').prepend("안녕"); */
-	
-	
 	$('.clearanceSlideV17').slidesjs({
 		width:1150,
 		height:270,
@@ -392,11 +376,6 @@ var V_CURRENTYYYYMM = "2017-11-30";
 
   
 </div>
-  <div class="wrap">
-   <a class="btn-11" href="#">Collision</a>
-  
-  </div>
-
 </div>
 <script type="text/javascript" src="${path}/resource/js/jquery.slides.min.js"></script>
 <script type="text/javascript">
@@ -433,45 +412,9 @@ $(function() {
 
 		<!--------------------------- tip 시작 -->	
 					<div class="section brandV15">
-				<h2>
-				<a href="/street/">
-				<img src="http://fiximage.10x10.co.kr/web2015/main/tit_brand.png" alt="BRAND STREET" /></a></h2>
+				<h2><a href="/street/"><img src="http://fiximage.10x10.co.kr/web2015/main/tit_brand.png" alt="BRAND STREET" /></a></h2>
 				<div class="brandSlideV15">
-					<ul class='brandListV15'>
-					<li>
-					<a href="/street/street_brand_sub06.asp?makerid=moshi1010&gaparam=main_street_1">
-					<p class='imgOverV15'>
-					<img src="http://imgstatic.10x10.co.kr/main/201711/698/vBrandStreet_68935_20171124204013.jpg" alt="[2015]브랜드스트리트"  />
-					</p>
-					</a>
-					</li>
-					<li>
-					<a href="/street/street_brand_sub06.asp?makerid=o2&gaparam=main_street_2">
-					<p class='imgOverV15'>
-					<img src="http://imgstatic.10x10.co.kr/main/201711/698/vBrandStreet_68936_20171124204021.jpg" alt="[2015]브랜드스트리트"  />
-					</p>
-					</a>
-					</li>
-					<li>
-					<a href="/street/street_brand_sub06.asp?makerid=decole1010&gaparam=main_street_3">
-					<p class='imgOverV15'>
-					<img src="http://imgstatic.10x10.co.kr/main/201711/698/vBrandStreet_68937_20171124204028.jpg" alt="[2015]브랜드스트리트"  />
-					</p>
-					</a>
-					</li>
-					</ul>
-					<ul class='brandListV15'>
-					<li>
-					<a href="/street/street_brand_sub06.asp?makerid=dearforrest&gaparam=main_street_4">
-					<p class='imgOverV15'>
-					<img src="http://imgstatic.10x10.co.kr/main/201711/698/vBrandStreet_68938_20171124204035.jpg" alt="[2015]브랜드스트리트"  />
-					</p>
-					</a>
-					</li>
-					<li>
-					<a href="/street/street_brand_sub06.asp?makerid=LAFARE1789&gaparam=main_street_5">
-					<p class='imgOverV15'>
-					<img src="http://imgstatic.10x10.co.kr/main/201711/698/vBrandStreet_68939_20171124204046.jpg" alt="[2015]브랜드스트리트"  /></p></a></li><li><a href="/street/street_brand_sub06.asp?makerid=atclip2016&gaparam=main_street_6"><p class='imgOverV15'><img src="http://imgstatic.10x10.co.kr/main/201711/698/vBrandStreet_68940_20171124204054.jpg" alt="[2015]브랜드스트리트"  /></p></a></li></ul><ul class='brandListV15'><li><a href="/street/street_brand_sub06.asp?makerid=tweetyey10&gaparam=main_street_7"><p class='imgOverV15'><img src="http://imgstatic.10x10.co.kr/main/201711/698/vBrandStreet_68941_20171124204101.jpg" alt="[2015]브랜드스트리트"  /></p></a></li><li><a href="/street/street_brand_sub06.asp?makerid=heeut&gaparam=main_street_8"><p class='imgOverV15'><img src="http://imgstatic.10x10.co.kr/main/201711/698/vBrandStreet_68942_20171124204222.jpg" alt="[2015]브랜드스트리트"  /></p></a></li><li><a href="/street/street_brand_sub06.asp?makerid=dailylike&gaparam=main_street_9"><p class='imgOverV15'><img src="http://imgstatic.10x10.co.kr/main/201711/698/vBrandStreet_68943_20171124204116.jpg" alt="[2015]브랜드스트리트"  /></p></a></li></ul>
+					<ul class='brandListV15'><li><a href="/street/street_brand_sub06.asp?makerid=moshi1010&gaparam=main_street_1"><p class='imgOverV15'><img src="http://imgstatic.10x10.co.kr/main/201711/698/vBrandStreet_68935_20171124204013.jpg" alt="[2015]브랜드스트리트"  /></p></a></li><li><a href="/street/street_brand_sub06.asp?makerid=o2&gaparam=main_street_2"><p class='imgOverV15'><img src="http://imgstatic.10x10.co.kr/main/201711/698/vBrandStreet_68936_20171124204021.jpg" alt="[2015]브랜드스트리트"  /></p></a></li><li><a href="/street/street_brand_sub06.asp?makerid=decole1010&gaparam=main_street_3"><p class='imgOverV15'><img src="http://imgstatic.10x10.co.kr/main/201711/698/vBrandStreet_68937_20171124204028.jpg" alt="[2015]브랜드스트리트"  /></p></a></li></ul><ul class='brandListV15'><li><a href="/street/street_brand_sub06.asp?makerid=dearforrest&gaparam=main_street_4"><p class='imgOverV15'><img src="http://imgstatic.10x10.co.kr/main/201711/698/vBrandStreet_68938_20171124204035.jpg" alt="[2015]브랜드스트리트"  /></p></a></li><li><a href="/street/street_brand_sub06.asp?makerid=LAFARE1789&gaparam=main_street_5"><p class='imgOverV15'><img src="http://imgstatic.10x10.co.kr/main/201711/698/vBrandStreet_68939_20171124204046.jpg" alt="[2015]브랜드스트리트"  /></p></a></li><li><a href="/street/street_brand_sub06.asp?makerid=atclip2016&gaparam=main_street_6"><p class='imgOverV15'><img src="http://imgstatic.10x10.co.kr/main/201711/698/vBrandStreet_68940_20171124204054.jpg" alt="[2015]브랜드스트리트"  /></p></a></li></ul><ul class='brandListV15'><li><a href="/street/street_brand_sub06.asp?makerid=tweetyey10&gaparam=main_street_7"><p class='imgOverV15'><img src="http://imgstatic.10x10.co.kr/main/201711/698/vBrandStreet_68941_20171124204101.jpg" alt="[2015]브랜드스트리트"  /></p></a></li><li><a href="/street/street_brand_sub06.asp?makerid=heeut&gaparam=main_street_8"><p class='imgOverV15'><img src="http://imgstatic.10x10.co.kr/main/201711/698/vBrandStreet_68942_20171124204222.jpg" alt="[2015]브랜드스트리트"  /></p></a></li><li><a href="/street/street_brand_sub06.asp?makerid=dailylike&gaparam=main_street_9"><p class='imgOverV15'><img src="http://imgstatic.10x10.co.kr/main/201711/698/vBrandStreet_68943_20171124204116.jpg" alt="[2015]브랜드스트리트"  /></p></a></li></ul>
 				</div>
 			</div>
 			
@@ -481,248 +424,9 @@ $(function() {
 			
 			<!--------------------------- roundBar 시작 -->
 				<div class="section roundBnrV15">
-				
-				<h2>드라마속 그거???????????</h2>
-				
-					<div class="roundSlideV15">
-					
-					
-					<!-- 이번생은 처음이라 -->
-					<li>
-					
-					<div class="left_blk" style="float:left; width:454px; margin-right:32px; top:100px;">
-					
-			<!-- 		<iframe class="clsVimeoPlayer" 
-				
-				src="https://player.vimeo.com/video/244298312?api=1&amp;title=0&amp;badge=0&amp;byline=0&amp;color=000&amp;portrait=0&amp;loop=0" width="454" height="265" 
-				frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="">
-				</iframe> -->
-				
-				<iframe width="454" height="265" src="https://www.youtube.com/embed/PKrVRVTCCYo" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
-				</div>
-				
-		
-			
-				
-				
-				<div class="right_blk" style="float:left; width:494px; height:256px;">
-			
-		                        <p class="sub_title">
-		                            <span class="thum">
-		                          
-		                            <img src="${path}/resource/img/이번생은처음이라.PNG" width="65" height="65" alt=""></span>
-		                            <a href="/events/vshop/vshop.html?f_search=이판사판&amp;f_bid=MM8101" class="desc">
-		                                <strong class="tit">이번생은 처음이라</strong>
-		                               
-		                            </a>
-	                                <a href="/events/vshop/vshop.html?f_search=이판사판&amp;f_bid=MM8102" class="btn_more">
-	                                  <!--   <img src="http://img.1300k.com/main/2015/ico_more.png" width="26" height="10" alt="V-SHOP 더보기"> -->
-	                                </a>
-		                        </p>
-		        	
-		                        <ul class="gds_list" >
-		            
-			                        <li>
-		                                <a href="http://www.1300k.com/shop/goodsDetail.html?f_goodsno=215023415973&amp;f_bid=MM8211" class="gds_info">
-		                                    <span class="gds_thum">
-		                                        <img src="http://img.1300k.com/goods/215023/41/215023415973_2.jpg" width="150" height="150" alt="">
-		                                    </span>
-		                                    <span class="gds_name">은은한 수국 LED 조명</span>
-		                                </a>
-		                            </li>
-	            		
-			                        <li>
-		                                <a href="http://www.1300k.com/shop/goodsDetail.html?f_goodsno=215023870278&amp;f_bid=MM8212" class="gds_info">
-		                                    <span class="gds_thum">
-		                                        <img src="http://img.1300k.com/goods/215023/87/215023870278_2.jpg" width="150" height="150" alt="">
-		                                    </span>
-		                                    <span class="gds_name">LED 조명 거울 13% SALE</span>
-		                                </a>
-		                            </li>
-	            		
-			                        <li>
-		                                <a href="http://www.1300k.com/shop/goodsDetail.html?f_goodsno=215023901107&amp;f_bid=MM8213" class="gds_info">
-		                                    <span class="gds_thum">
-		                                        <img src="http://img.1300k.com/goods/215023/90/215023901107_2.jpg" width="150" height="150" alt="">
-		                                    </span>
-		                                    <span class="gds_name">푹신한 리프 퀼팅 20% SALE</span>
-		                                </a>
-		                            </li>
-	            		
-								</ul>
-							
-				</div>
-				
-				
-				
-					</li>
-					
-					
-						<!-- 변혁의 사랑-->
-					
-								<li>
-								
-								
-					<div class="left_blk" style="float:left; width:454px; margin-right:32px; top:100px;">
-		<iframe width="454" height="265" src="https://www.youtube.com/embed/Nj8qFrz0_8k" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
-			</div>
-			
-				<div class="right_blk" style="float:left; width:494px; height:256px;">
-			
-		                     
-		                        <p class="sub_title">
-		                            <span class="thum">
-		                              <img src="${path}/resource/img/변혁의사랑.PNG" width="65" height="65" alt=""></span>
-		                            <a href="/events/vshop/vshop.html?f_search=사랑의 온도&amp;f_bid=MM8103" class="desc">
-		                                <strong class="tit">변혁의 사랑</strong>
-		                              
-		                            </a>
-	                                <a href="/events/vshop/vshop.html?f_search=사랑의 온도&amp;f_bid=MM8102" class="btn_more">
-	                                 <!--    <img src="http://img.1300k.com/main/2015/ico_more.png" width="26" height="10" alt="V-SHOP 더보기"> -->
-	                                </a>
-		                        </p>
-		        	
-		                        <ul class="gds_list">
-		            
-			                        <li>
-		                                <a href="http://www.1300k.com/shop/goodsDetail.html?f_goodsno=215023745524&amp;f_bid=MM8231" class="gds_info">
-		                                    <span class="gds_thum">
-		                                        <img src="http://img.1300k.com/goods/215023/74/215023745524_2.jpg" width="150" height="150" alt="">
-		                                    </span>
-		                                    <span class="gds_name">코튼향 섬유향수 41% SALE</span>
-		                                </a>
-		                            </li>
-	            		
-			                        <li>
-		                                <a href="http://www.1300k.com/shop/goodsDetail.html?f_goodsno=215023868737&amp;f_bid=MM8232" class="gds_info">
-		                                    <span class="gds_thum">
-		                                        <img src="http://img.1300k.com/goods/215023/86/215023868737_2.jpg" width="150" height="150" alt="">
-		                                    </span>
-		                                    <span class="gds_name">허니캐모마일 티 25% SALE</span>
-		                                </a>
-		                            </li>
-	            		
-			                        <li>
-		                                <a href="http://www.1300k.com/shop/goodsDetail.html?f_goodsno=215023550868&amp;f_bid=MM8233" class="gds_info">
-		                                    <span class="gds_thum">
-		                                        <img src="http://img.1300k.com/goods/215023/55/215023550868_2.jpg" width="150" height="150" alt="">
-		                                    </span>
-		                                    <span class="gds_name">티&amp;커피포트 세트 60% SALE</span>
-		                                </a>
-		                            </li>
-	            		
-								</ul>
-							
-							
-				</div>
-				
-				
-				
-					</li>
-					
-					
-					
-					
-									<!--수지 처음처럼  -->
-					
-								<li>
-								
-								
-					<div class="left_blk" style="float:left; width:454px; margin-right:32px; top:100px;">
-		
-			<iframe width="454" height="265" src="https://www.youtube.com/embed/pL-KC5Ja-x0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
-			
-			
-			</div>
-			
-				<div class="right_blk" style="float:left; width:494px; height:256px;">
-			
-		                     
-		                        <p class="sub_title">
-		                            <span class="thum">
-		                           <img src="${path}/resource/img/처음처럼.PNG" width="65" height="65" alt=""></span>
-		                            <a href="/events/vshop/vshop.html?f_search=사랑의 온도&amp;f_bid=MM8103" class="desc">
-		                                <strong class="tit">수지 처음처럼 광고</strong>
-		                               
-		                            </a>
-	                                <a href="/events/vshop/vshop.html?f_search=사랑의 온도&amp;f_bid=MM8102" class="btn_more">
-	                                   <!--  <img src="http://img.1300k.com/main/2015/ico_more.png" width="26" height="10" alt="V-SHOP 더보기"> -->
-	                                </a>
-		                        </p>
-		        	
-		                        <ul class="gds_list">
-		            
-			                        <li>
-		                                <a href="http://www.1300k.com/shop/goodsDetail.html?f_goodsno=215023745524&amp;f_bid=MM8231" class="gds_info">
-		                                    <span class="gds_thum">
-		                                        <img src="http://img.1300k.com/goods/215023/74/215023745524_2.jpg" width="150" height="150" alt="">
-		                                    </span>
-		                                    <span class="gds_name">코튼향 섬유향수 41% SALE</span>
-		                                </a>
-		                            </li>
-	            		
-			                        <li>
-		                                <a href="http://www.1300k.com/shop/goodsDetail.html?f_goodsno=215023868737&amp;f_bid=MM8232" class="gds_info">
-		                                    <span class="gds_thum">
-		                                        <img src="http://img.1300k.com/goods/215023/86/215023868737_2.jpg" width="150" height="150" alt="">
-		                                    </span>
-		                                    <span class="gds_name">허니캐모마일 티 25% SALE</span>
-		                                </a>
-		                            </li>
-	            		
-			                        <li>
-		                                <a href="http://www.1300k.com/shop/goodsDetail.html?f_goodsno=215023550868&amp;f_bid=MM8233" class="gds_info">
-		                                    <span class="gds_thum">
-		                                        <img src="http://img.1300k.com/goods/215023/55/215023550868_2.jpg" width="150" height="150" alt="">
-		                                    </span>
-		                                    <span class="gds_name">티&amp;커피포트 세트 60% SALE</span>
-		                                </a>
-		                            </li>
-	            		
-								</ul>
-							
-							
-				</div>
-				
-				
-				
-					</li>
-					
-					
-					
-					
-					
-					
-					
-				</div>
-		<!-- 		
-		
-		
-				<div class="right_blk" style="float:left; width:494px; height:256px;">
-				
-				</div>
-				 -->
-				
-				
-		<!-- 		<div class="clsBannerButton vshop_bnr_btn">
-            	                
-                    	
-                    	<a class="ico_banner" outclass="ico_banner" overclass="ico_banner_on" nbtnno="0"><span class="txt">이판사판</span><em class="bg_round"></em></a>
-                    	
-		        	
-                    	
-                    	<a class="ico_banner" outclass="ico_banner" overclass="ico_banner_on" nbtnno="1"><span class="txt">브라보 마이 라이프</span><em class="bg_round"></em></a>
-                    	
-		        	
-                    	
-                    	<a class="ico_banner_on" outclass="ico_banner" overclass="ico_banner_on" nbtnno="2"><span class="txt">사랑의 온도</span><em class="bg_round"></em></a>
-                    	
-		        	            </div> -->
-		
-				
-				<!-- <ul>
+				<ul>
 
-	 <li>
+	<li>
 		<div class="bnrBasicV15">
 		
 			<a href="/diarystory2018?gaparam=main_round_01">
@@ -766,7 +470,6 @@ $(function() {
 		</div>
 	</li>
 </ul>
-
 	<div class="bnrBasicV15 justDayLinkV15">
 		
 				<a href="/shopping/category_prd.asp?itemid=1745551&amp;gaparam=main_just1day_00">
@@ -779,7 +482,7 @@ $(function() {
 		</a>
 	</div>
 
-	div class="bnrBasicV15 justDayLinkV15">
+	<!--div class="bnrBasicV15 justDayLinkV15">
 		<a href="/shopping/category_prd.asp?itemid=1745551">
 			<p class="imgOverV15"><img src="http://imgstatic.10x10.co.kr/main/201711/689/vJust1Day_69039_20171130200119.jpg" alt="JUST 1 DAY" /></p>
 			
@@ -787,7 +490,7 @@ $(function() {
 			
 			<p></p>
 		</a>
-	</div  -->
+	</div-->
 
 			</div>
 			

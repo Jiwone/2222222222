@@ -107,7 +107,7 @@ public class BoardController {
 	}
 	
 	/*-------------- Tip 게시판 --------------*/
-	
+	/*
 	@RequestMapping("tip")
 	public String tip(@RequestParam(value = "p", defaultValue = "1") int page, @RequestParam(value = "q", defaultValue = "") String query, Model model) {
 		List<Tip> list = service.getTipList(page, query);
@@ -159,7 +159,7 @@ public class BoardController {
 		int nextId = service.getTipNextId();
 		String writerId = principal.getName();
 		System.out.println(writerId);
-/*
+
 		Calendar cal = Calendar.getInstance();
 		int year = cal.get(Calendar.YEAR);
 
@@ -189,7 +189,7 @@ public class BoardController {
 		fos.close();
 		fis.close();
 
-		String fileName = file.getOriginalFilename();*/
+		String fileName = file.getOriginalFilename();
 
 		service.tipInsert(tip.getTitle(), tip.getContent(), writerId);
 
@@ -202,7 +202,7 @@ public class BoardController {
 		service.tipDel(id);
 		
 		return "redirect:../../tip";
-	}
+	}*/
 	
 	/*-------------- Info 게시판 --------------*/
 	
@@ -254,6 +254,7 @@ public class BoardController {
 	return "redirect:../../info/{id}";	
 	}
 	
+	//패션뉴스 등록
 	@RequestMapping(value="info/reg", method=RequestMethod.GET)
     public String noticeReg() {
        return "admin.board.info.reg";
@@ -265,6 +266,38 @@ public class BoardController {
 		service.getInfoNextId();
 		String writerId = principal.getName();
 		service.infoInsert(info.getTitle(), info.getContent(), writerId);
+		
+		return "redirect:../info";
+	}
+	
+	//팁 등록
+	@RequestMapping(value="info/tipReg", method=RequestMethod.GET)
+    public String tipReg() {
+       return "admin.board.info.tipReg";
+    }
+	@RequestMapping(value="info/tipReg", method=RequestMethod.POST)
+	public String tipReg(Info info,MultipartFile file,HttpServletRequest request, Principal principal) {
+		
+		service.getInfoNextId();
+		String writerId = principal.getName();
+		service.infoTipInsert(info.getTitle(), info.getContent(), writerId);
+		
+		return "redirect:../info";
+		
+	}
+	
+	//드라마속 옷 등록
+	@RequestMapping(value="info/dramaReg", method=RequestMethod.GET)
+    public String dramaReg() {
+       return "admin.board.info.dramaReg";
+    }
+	
+	@RequestMapping(value="info/dramaReg", method=RequestMethod.POST)
+	public String dramaReg(Info info,MultipartFile file,HttpServletRequest request, Principal principal) {
+		
+		service.getInfoNextId();
+		String writerId = principal.getName();
+		service.infoDramaInsert(info.getTitle(), info.getContent(), writerId);
 		
 		return "redirect:../info";
 		

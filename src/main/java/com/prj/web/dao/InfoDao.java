@@ -6,8 +6,10 @@ import java.util.List;
 
 import org.apache.ibatis.annotations.Param;
 
+import com.prj.web.entity.Drama;
 import com.prj.web.entity.Imgview;
 import com.prj.web.entity.Info;
+import com.prj.web.entity.Tip;
 
 public interface InfoDao {
 	List<Info> getList(@Param("page") int page);
@@ -22,11 +24,21 @@ public interface InfoDao {
 	int updateHit(String id);
 	
 	int delete(String id);
-
+	
+	/*insert부분*/
 	int insert(String title, String content, String writerId);
+	
+	int tipInsert(String title, String content, String writerId);
+
+	int dramaInsert(String title, String content, String writerId);
 
 	int insert(Info info);
 
+	int tipInsert(Tip tip);
+
+	int dramaInsert(Drama drama);
+	/*
+	insert부분 끝*/
 	int getNextId();
 
 	int getInfoCount();
@@ -38,4 +50,8 @@ public interface InfoDao {
 	String getTitle2(String id);
 
 	int update2(String id, String content, String title);
+
+
+
+
 }

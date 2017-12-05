@@ -159,6 +159,17 @@ public class BoardService {
 		return InfoDao.insert(title, content, writerId);
 	}
 
+	public int infoTipInsert(String title, String content, String writerId) {
+		
+		return InfoDao.tipInsert(title, content, writerId);
+	}
+	
+	public int infoDramaInsert(String title, String content, String writerId) {
+		
+		return InfoDao.dramaInsert(title, content, writerId);
+	}
+
+	
 	public int getInfoNextId() {
 		return InfoDao.getNextId();
 	}
@@ -279,6 +290,9 @@ public class BoardService {
 	public List<Comment> getInfoUpdateCommentList(String freeId, String cId) {
 		return InfoCommentDao.getUpdateCommentList(freeId,cId);
 	}
+
+	
+
 
 
 
