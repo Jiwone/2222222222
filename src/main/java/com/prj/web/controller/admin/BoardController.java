@@ -29,6 +29,8 @@ import com.google.gson.Gson;
 import com.prj.web.entity.Advice;
 import com.prj.web.entity.Comment;
 import com.prj.web.entity.Drama;
+import com.prj.web.entity.DramaObject;
+import com.prj.web.entity.Dramaview;
 import com.prj.web.entity.Free;
 import com.prj.web.entity.Imgview;
 import com.prj.web.entity.Info;
@@ -223,7 +225,11 @@ public class BoardController {
           List<Tip> listTip = service.getTipList(page);
           model.addAttribute("tipList",listTip);
        
-          
+          //드라마 리스트
+          List<DramaObject> listdrama = service.getDramaList(page);
+          model.addAttribute("listdrama",listdrama);
+          List<Dramaview> DramaInfo = service.getdramaId();
+          model.addAttribute("dramaview", DramaInfo);
           return "admin.board.info.list";
 		
 	}
@@ -315,7 +321,7 @@ public class BoardController {
 		
 		service.getDramaNextId();
 		String writerId = principal.getName();
-		service.infoDramaInsert(drama.getName(), drama.getContent(), writerId);
+		service.infoDramaInsert(drama.getTitle(), drama.getContent(), writerId);
 		
 		return "redirect:../info";
 		

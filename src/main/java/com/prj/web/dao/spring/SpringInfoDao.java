@@ -13,6 +13,8 @@ import org.springframework.jdbc.core.JdbcTemplate;
 
 import com.prj.web.dao.InfoDao;
 import com.prj.web.entity.Drama;
+import com.prj.web.entity.DramaObject;
+import com.prj.web.entity.Dramaview;
 import com.prj.web.entity.Free;
 import com.prj.web.entity.Imgview;
 import com.prj.web.entity.Info;
@@ -146,20 +148,20 @@ public class SpringInfoDao implements InfoDao{
 	
 	@Override
 	public int dramaInsert(Drama drama) {
-		String sql = "insert into Drama(id, name, content, writerId) values(?, ?, ?, ?);";
+		String sql = "insert into Drama(id, title, content) values(?, ?, ?);";
 		
 		int insert = template.update(sql, 
 						getDramaNextId(), 
-						drama.getName(), 
-						drama.getContent(), 
-						drama.getWriterId());		
+						drama.getTitle(), 
+						drama.getContent()
+						);		
 				
 		return insert;
 	}
 	
 	@Override
-	public int dramaInsert(String name, String content, String writerId) {
-		return dramaInsert(new Drama(name, content, writerId));
+	public int dramaInsert(String title, String content, String writerId) {
+		return dramaInsert(new Drama(title, content, writerId));
 	}
 
 
@@ -271,6 +273,123 @@ public class SpringInfoDao implements InfoDao{
 		String sql = "select title from soonface2db.Info where id= ?";
 		String title = template.queryForObject(sql, new Object[] {id}, String.class);
 		return title;
+	}
+	
+	
+	
+	@Override
+	public List<Dramaview> getDramaId() {
+		
+
+		String sql = "select id from soonface2db.Drama";
+		
+		List<String> listdrama = template.queryForList(sql,String.class);
+		
+		for(int i=0; i<listdrama.size();i++) {
+			System.out.println("list"+listdrama.get(i));
+
+			System.out.println("img : "+ getdramaImgsrc(listdrama.get(i)));
+			System.out.println("title : " +getdramaTitle2(listdrama.get(i)));
+			
+			//insert
+			dramaupdate(listdrama.get(i),getdramaImgsrc(listdrama.get(i)),getdramaTitle2(listdrama.get(i)));
+
+		}
+
+		String sql2 = "select * from Dramaview";
+		List<Dramaview> Dramaviewlist = template.query(sql2,
+				BeanPropertyRowMapper.newInstance(Dramaview.class));
+		return Dramaviewlist;
+
+	}
+
+	@Override
+	public int dramaupdate(String id, String content, String title) {
+
+		String sql = "update Dramaview set id=?,content=?,title=? where id =? ";
+		return template.update(sql,
+								id,
+								content,
+								title,
+								id);
+	
+	}
+
+	@Override
+	public String getdramaImgsrc(String id) {
+		
+		//그럼 여기서 그 id랑 content랑 같이 list에 저장.
+		String sql = "select content from soonface2db.Drama where id= ?";
+		System.out.println("dao : ");
+		String next = template.queryForObject(sql, new Object[] {id}, String.class);
+		//content만 가꼬와서
+		 Pattern nonValidPattern = Pattern
+			  		.compile("<img[^>]*src=[\\\"']?([^>\\\"']+)[\\\"']?[^>]*>");
+			  		int imgCnt = 0;
+			  		String content = "";
+			  		Matcher matcher = nonValidPattern.matcher(next);
+			  		while (matcher.find()) {
+			  			content = matcher.group(1);
+			  			//System.out.println("img::"+matcher.group(1));
+			  			imgCnt++;
+			  			if(imgCnt == 1){
+			  		        break;                                  
+			  		    }
+			  		}
+			  		return content; 
+			  	}
+	
+	
+	@Override
+	public String getdramaTitle2(String id) {
+		String sql = "select title from soonface2db.Drama where id= ?";
+		String title = template.queryForObject(sql, new Object[] {id}, String.class);
+		return title;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	@Override
+	public List<DramaObject> getDramaList(int page) {
+	
+		String sql = "select * from DramaObject limit ?,10";
+
+		List<DramaObject> dramalist = template.query(sql, new Object[] { (page - 1) * 10 },
+				BeanPropertyRowMapper.newInstance(DramaObject.class));
+
+		return dramalist;
+		
+		
 	}
 
 

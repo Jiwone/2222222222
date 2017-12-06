@@ -4,7 +4,7 @@ import java.util.Date;
 
 public class Drama {
 	private int id;
-	private String name;
+	private String title;
 	private String content;
 	private String writerId;
 
@@ -24,8 +24,8 @@ public class Drama {
 		this.date = date;
 	}*/
 
-	public Drama(String name, String content, String writerId) {
-		this.name = name;
+	public Drama(String title, String content, String writerId) {
+		this.title = title;
 		this.content = content;
 		this.writerId = writerId;
 	}
@@ -38,12 +38,12 @@ public class Drama {
 		this.id = id;
 	}
 
-	public String getName() {
-		return name;
+	public String getTitle() {
+		return title;
 	}
 
-	public void setName(String name) {
-		this.name = name;
+	public void setTitle(String title) {
+		this.title = title;
 	}
 
 	public String getContent() {

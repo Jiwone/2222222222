@@ -7,6 +7,8 @@ import java.util.List;
 import org.apache.ibatis.annotations.Param;
 
 import com.prj.web.entity.Drama;
+import com.prj.web.entity.DramaObject;
+import com.prj.web.entity.Dramaview;
 import com.prj.web.entity.Imgview;
 import com.prj.web.entity.Info;
 import com.prj.web.entity.Tip;
@@ -16,7 +18,9 @@ public interface InfoDao {
 
 	List<Tip> getTipList(int page);
 
+	List<DramaObject> getDramaList(int page);
 
+	
 	
 	Info getInfo(String id);
 
@@ -54,11 +58,20 @@ public interface InfoDao {
 
 	List<Imgview> getId();
 	
+	List<Dramaview> getDramaId();
+
+	
 	String getImgsrc(String id);
 
 	String getTitle2(String id);
 
 	int update2(String id, String content, String title);
+
+	String getdramaImgsrc(String id);
+
+	String getdramaTitle2(String id);
+
+	int dramaupdate(String id, String content, String title);
 
 
 

@@ -497,16 +497,16 @@ $(function() {
 					
 				<a href="${path}/admin/board/info/dramaReg"><img src="${path}/resource/img/추가.PNG" style="height: 30px; width:30px; "/></a>
 				</h2>
-				<%-- 
+				
 					<div class="roundSlideV15">
 					<c:set var="drama" value="0" />
 					
-					<!-- 이번생은 처음이라 -->
+
 					
-						<c:forEach var="dramaList" items="${dramaList}" >
+						<c:forEach var="dramaList" items="${listdrama}" >
 						<li>
 							<div class="left_blk" style="float:left; width:454px; margin-right:32px; top:100px;">
-							${dramaList.iframe}
+						<iframe width="454" height="265" src="${dramaList.iframe}" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 							</div>
 						
 							<div class="right_blk" style="float:left; width:494px; height:256px;">
@@ -514,9 +514,9 @@ $(function() {
 			                        <p class="sub_title">
 			                            <span class="thum">
 			                          
-			                            <img src="${path}/resource/img/이번생은처음이라.PNG" width="65" height="65" alt=""></span>
+			                            <img src="${path}/${dramaList.src}" width="65" height="65" alt=""></span>
 			                            <a href="/events/vshop/vshop.html?f_search=이판사판&amp;f_bid=MM8101" class="desc">
-			                                <strong class="tit">이번생은 처음이라</strong>
+			                                <strong class="tit">${dramaList.name}</strong>
 			                               
 			                            </a>
 		                                <a href="/events/vshop/vshop.html?f_search=이판사판&amp;f_bid=MM8102" class="btn_more">
@@ -525,28 +525,29 @@ $(function() {
 			                        </p>
 			                     <ul class="gds_list" >     
 			       
-								  <c:forEach var="dramaList" items="${dramaList}" begin="${drama}" end="${drama+2}">  
+								  <c:forEach var="dramaList2" items="${dramaview}" begin="${drama}" end="${drama+2}">  
 								  		 <li>
-			                                <a href="http://www.1300k.com/shop/goodsDetail.html?f_goodsno=215023415973&amp;f_bid=MM8211" class="gds_info">
+			                                 <a href="info/drama/${dramaList2.id}">
 			                                    <span class="gds_thum">
-			                                        <img src="http://img.1300k.com/goods/215023/41/215023415973_2.jpg" width="150" height="150" alt="">
+			                                        <img src="${dramaList2.content}" width="150" height="150" alt="">
 			                                    </span>
-			                                    <span class="gds_name">은은한 수국 LED 조명</span>
+			                                    <span class="gds_name">${dramaList2.title}</span>
 			                                </a>
 			                            </li>
 								  
 								  	</c:forEach>
-								  		<c:set var="it" value="${drama+3}" />
+								  		<c:set var="drama" value="${drama+3}" />
 
 								</ul>
 								</div>
 								</li>
 						</c:forEach>
 						
-						</div> --%>
+						</div>
 						
 						
-					<div class="roundSlideV15">	
+				<%-- 	<div class="roundSlideV15">	
+										<!-- 이번생은 처음이라 -->
 					<li>
 					
 						<div class="left_blk" style="float:left; width:454px; margin-right:32px; top:100px;">
@@ -560,7 +561,7 @@ $(function() {
 			                        <p class="sub_title">
 			                            <span class="thum">
 			                          
-			                            <img src="${path}/resource/img/이번생은처음이라.PNG" width="65" height="65" alt=""></span>
+			                            <img src="${path}/resource/img/drama/이번생은처음이라.PNG" width="65" height="65" alt=""></span>
 			                            <a href="/events/vshop/vshop.html?f_search=이판사판&amp;f_bid=MM8101" class="desc">
 			                                <strong class="tit">이번생은 처음이라</strong>
 			                               
@@ -624,7 +625,7 @@ $(function() {
 		                     
 		                        <p class="sub_title">
 		                            <span class="thum">
-		                              <img src="${path}/resource/img/변혁의사랑.PNG" width="65" height="65" alt=""></span>
+		                              <img src="${path}/resource/img/drama/변혁의사랑.PNG" width="65" height="65" alt=""></span>
 		                            <a href="/events/vshop/vshop.html?f_search=사랑의 온도&amp;f_bid=MM8103" class="desc">
 		                                <strong class="tit">변혁의 사랑</strong>
 		                              
@@ -692,7 +693,7 @@ $(function() {
 		                     
 		                        <p class="sub_title">
 		                            <span class="thum">
-		                           <img src="${path}/resource/img/처음처럼.PNG" width="65" height="65" alt=""></span>
+		                           <img src="${path}/resource/img/drama/처음처럼.PNG" width="65" height="65" alt=""></span>
 		                            <a href="/events/vshop/vshop.html?f_search=사랑의 온도&amp;f_bid=MM8103" class="desc">
 		                                <strong class="tit">수지 처음처럼 광고</strong>
 		                               
@@ -746,7 +747,7 @@ $(function() {
 					
 					
 					
-				</div>
+				</div> --%>
 		<!-- 		
 		
 		

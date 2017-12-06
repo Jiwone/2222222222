@@ -16,6 +16,8 @@ import com.prj.web.dao.VotingDao;
 import com.prj.web.entity.Voting;
 import com.prj.web.entity.Advice;
 import com.prj.web.entity.Comment;
+import com.prj.web.entity.DramaObject;
+import com.prj.web.entity.Dramaview;
 import com.prj.web.entity.Free;
 import com.prj.web.entity.Imgview;
 import com.prj.web.entity.Info;
@@ -133,6 +135,11 @@ public class BoardService {
 		return InfoDao.getTipList(page);
 	}
 
+	public List<DramaObject> getDramaList(int page) {
+		
+		return InfoDao.getDramaList(page);
+	}
+
 	
 	
 	public Info getInfo(String id) {
@@ -149,6 +156,12 @@ public class BoardService {
 	public List<Imgview> getId() {
 		
 		return InfoDao.getId();
+	}
+
+	
+	public List<Dramaview> getdramaId() {
+		
+		return InfoDao.getDramaId();
 	}
 
 	
@@ -303,6 +316,8 @@ public class BoardService {
 	public List<Comment> getInfoUpdateCommentList(String freeId, String cId) {
 		return InfoCommentDao.getUpdateCommentList(freeId,cId);
 	}
+
+
 
 
 
