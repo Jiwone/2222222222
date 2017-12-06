@@ -28,6 +28,7 @@ import org.springframework.web.multipart.MultipartFile;
 import com.google.gson.Gson;
 import com.prj.web.entity.Advice;
 import com.prj.web.entity.Comment;
+import com.prj.web.entity.Drama;
 import com.prj.web.entity.Free;
 import com.prj.web.entity.Imgview;
 import com.prj.web.entity.Info;
@@ -211,13 +212,18 @@ public class BoardController {
 	
 		
 		  List<Info> listInfo = service.getInfoList(page);
+		
 		  List<Imgview> imgInfo = service.getId();
 		
           model.addAttribute("list", listInfo);
    
           model.addAttribute("list2", imgInfo);
-         //타이틀 받아오기
+         
+          //팁 리스트
+          List<Tip> listTip = service.getTipList(page);
+          model.addAttribute("tipList",listTip);
        
+          
           return "admin.board.info.list";
 		
 	}
@@ -235,6 +241,15 @@ public class BoardController {
 	  		model.addAttribute("infoCommentList",list);
 	         
 	    return "admin.board.info.detail";
+	}
+	
+	
+	@RequestMapping("info/tip/{id}")
+	public String tipDetail(@PathVariable("id") String id, Model model) {
+		
+	System.out.println("DDDDDDDDDD");
+	         
+	    return "admin.board.info.tipDetail";
 	}
 	
 	@RequestMapping(value="info/{id}/edit",method=RequestMethod.GET)
@@ -263,6 +278,7 @@ public class BoardController {
 	@RequestMapping(value="info/reg", method=RequestMethod.POST)
 	public String infoReg(Info info,MultipartFile file,HttpServletRequest request, Principal principal) {
 		
+		System.out.println("여기 인포당");
 		service.getInfoNextId();
 		String writerId = principal.getName();
 		service.infoInsert(info.getTitle(), info.getContent(), writerId);
@@ -275,12 +291,14 @@ public class BoardController {
     public String tipReg() {
        return "admin.board.info.tipReg";
     }
+	
 	@RequestMapping(value="info/tipReg", method=RequestMethod.POST)
-	public String tipReg(Info info,MultipartFile file,HttpServletRequest request, Principal principal) {
+	public String tipReg(Tip tip,MultipartFile file,HttpServletRequest request, Principal principal) {
 		
-		service.getInfoNextId();
+		System.out.println("여기 팁이당");
+		service.getTipNextId();
 		String writerId = principal.getName();
-		service.infoTipInsert(info.getTitle(), info.getContent(), writerId);
+		service.infoTipInsert(tip.getTitle(), tip.getContent(), writerId);
 		
 		return "redirect:../info";
 		
@@ -293,11 +311,11 @@ public class BoardController {
     }
 	
 	@RequestMapping(value="info/dramaReg", method=RequestMethod.POST)
-	public String dramaReg(Info info,MultipartFile file,HttpServletRequest request, Principal principal) {
+	public String dramaReg(Drama drama,MultipartFile file,HttpServletRequest request, Principal principal) {
 		
-		service.getInfoNextId();
+		service.getDramaNextId();
 		String writerId = principal.getName();
-		service.infoDramaInsert(info.getTitle(), info.getContent(), writerId);
+		service.infoDramaInsert(drama.getName(), drama.getContent(), writerId);
 		
 		return "redirect:../info";
 		

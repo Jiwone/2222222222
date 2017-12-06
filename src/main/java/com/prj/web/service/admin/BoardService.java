@@ -112,10 +112,7 @@ public class BoardService {
 		return TipDao.insert(title, content, writerId);
 	}
 
-	public int getTipNextId() {
-		return TipDao.getNextId();
-	}
-
+	
 	public int tipDel(String id) {
 		return TipDao.delete(id);
 	}
@@ -130,6 +127,14 @@ public class BoardService {
 		return InfoDao.getList(page);
 	}
 
+
+	public List<Tip> getTipList(int page) {
+		
+		return InfoDao.getTipList(page);
+	}
+
+	
+	
 	public Info getInfo(String id) {
 		return InfoDao.getInfo(id);
 	}
@@ -172,6 +177,14 @@ public class BoardService {
 	
 	public int getInfoNextId() {
 		return InfoDao.getNextId();
+	}
+	public int getDramaNextId() {
+		
+		return InfoDao.getDramaNextId();
+	}
+	
+	public int getTipNextId() {
+		return InfoDao.getTipNextId();
 	}
 
 	public int getInfoCount() {
@@ -290,6 +303,8 @@ public class BoardService {
 	public List<Comment> getInfoUpdateCommentList(String freeId, String cId) {
 		return InfoCommentDao.getUpdateCommentList(freeId,cId);
 	}
+
+
 
 	
 

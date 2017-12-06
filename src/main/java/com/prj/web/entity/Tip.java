@@ -9,11 +9,20 @@ public class Tip {
 	private int hit;
 	private Date date;
 	private String writerId;
+	private String src;
 	
+	public String getSrc() {
+		return src;
+	}
+
+	public void setSrc(String src) {
+		this.src = src;
+	}
+
 	public Tip() {
 	}
 	
-	public Tip(int id, String title, String content, int hit, Date date, String writerId) {
+	public Tip(int id, String title, String content, int hit, Date date, String writerId,String src) {
 		super();
 		this.id = id;
 		this.title = title;
@@ -21,11 +30,13 @@ public class Tip {
 		this.hit = hit;
 		this.date = date;
 		this.writerId = writerId;
+		this.src = src;
 	}
 	public Tip(String title, String content, String writerId) {
 		this.title = title;
 		this.content = content;
 		this.writerId = writerId;
+	
 	}
 
 	public int getId() {

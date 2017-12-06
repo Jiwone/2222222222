@@ -114,7 +114,7 @@ public class SpringInfoDao implements InfoDao{
 		String sql = "insert into Tip(id, title, content, writerId, hit) values(?, ?, ?, ?, 0);";
 		
 		int insert = template.update(sql, 
-						getNextId(), 
+						getTipNextId(), 
 						tip.getTitle(), 
 						tip.getContent(), 
 						tip.getWriterId());		
@@ -126,16 +126,30 @@ public class SpringInfoDao implements InfoDao{
 	@Override
 	public int tipInsert(String title, String content, String writerId) {
 		
-		return 0;
+		return tipInsert(new Tip(title, content, writerId));
 	}
 
+	@Override
+	public List<Tip> getTipList(int page) {
+		
+		
+		String sql = "select * from Tip order by date DESC limit ?,10";
+
+		List<Tip> tiplist = template.query(sql, new Object[] { (page - 1) * 10 },
+				BeanPropertyRowMapper.newInstance(Tip.class));
+
+		return tiplist;
+	}
+
+	
+	
 	
 	@Override
 	public int dramaInsert(Drama drama) {
 		String sql = "insert into Drama(id, name, content, writerId) values(?, ?, ?, ?);";
 		
 		int insert = template.update(sql, 
-						getNextId(), 
+						getDramaNextId(), 
 						drama.getName(), 
 						drama.getContent(), 
 						drama.getWriterId());		
@@ -144,9 +158,8 @@ public class SpringInfoDao implements InfoDao{
 	}
 	
 	@Override
-	public int dramaInsert(String title, String content, String writerId) {
-		
-		return 0;
+	public int dramaInsert(String name, String content, String writerId) {
+		return dramaInsert(new Drama(name, content, writerId));
 	}
 
 
@@ -169,6 +182,29 @@ public class SpringInfoDao implements InfoDao{
 		return nextId;
 	}
 
+	@Override
+	public int getDramaNextId() {
+	
+		String sql = "select ifnull(MAX(CAST(id as unsigned)),0)+1 from Drama";
+		
+		int nextId = template.queryForObject(sql, Integer.class);
+		System.out.println(nextId);
+		
+		return nextId;
+	}
+
+	@Override
+	public int getTipNextId() {
+		String sql = "select ifnull(MAX(CAST(id as unsigned)),0)+1 from Tip";
+		
+		int nextId = template.queryForObject(sql, Integer.class);
+		System.out.println(nextId);
+		
+		return nextId;
+	}
+
+	
+	
 
 	public List<Imgview> getId() {
 
@@ -236,6 +272,8 @@ public class SpringInfoDao implements InfoDao{
 		String title = template.queryForObject(sql, new Object[] {id}, String.class);
 		return title;
 	}
+
+
 
 
 

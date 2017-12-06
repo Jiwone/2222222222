@@ -14,6 +14,10 @@ import com.prj.web.entity.Tip;
 public interface InfoDao {
 	List<Info> getList(@Param("page") int page);
 
+	List<Tip> getTipList(int page);
+
+
+	
 	Info getInfo(String id);
 
 	Info getInfoPrev(String id);
@@ -40,6 +44,11 @@ public interface InfoDao {
 	/*
 	insertºÎºÐ ³¡*/
 	int getNextId();
+	
+	int getDramaNextId();
+
+	int getTipNextId();
+
 
 	int getInfoCount();
 
@@ -50,6 +59,7 @@ public interface InfoDao {
 	String getTitle2(String id);
 
 	int update2(String id, String content, String title);
+
 
 
 

@@ -101,7 +101,7 @@ $(function() {
 });
 </script>
 
-<form action="?${_csrf.parameterName}=${_csrf.token}" method="post"
+<form action="tipReg?${_csrf.parameterName}=${_csrf.token}" method="post"
 	enctype="multipart/form-data">
 	<table border="1">
 		<tbody>
